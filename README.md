@@ -1,12 +1,34 @@
-# React + Vite
+# KK Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my little corner of the internet where you can get to know me, check out what I’ve been working on, and explore my projects. Developed using **React** and **Vite**, it’s a showcase of my skills, experience, and all the cool stuff I’ve been up to.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast & optimized with Vite
+- Responsive & interactive UI
+- Project showcase & contact section
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Vite, Tailwind CSS
+- **Deployment**: Vercel / Netlify / GitHub Pages
+
+## 📦 Setup
+
+```sh
+git clone https://github.com/KrishnaKodali99/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+To build for production:
+
+```sh
+npm run build
+```
+
+## 📧 Contact
+
+- **LinkedIn**: [Profile](https://linkedin.com/in/KrishnaKodali9)
+- **GitHub**: [Repo](https://github.com/KrishnaKodali99)
