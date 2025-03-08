@@ -1,4 +1,11 @@
 :root {
+  --color-primary: #001c55;
+  --color-background: #dde9ee;
+  --color-1: #011338c6;
+
+  --background-1: rgba(180, 220, 240, 0.4);
+  --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   font-synthesis: none;
@@ -11,4 +18,30 @@ body {
   margin: 0;
   overflow-x: hidden;
   min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 #f0f0f0;
 }
