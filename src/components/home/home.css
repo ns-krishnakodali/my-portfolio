@@ -14,9 +14,8 @@
 }
 
 .home_details {
-  animation: slide-up 0.5s ease-out forwards;
+  animation: slide-left 0.65s ease-out forwards;
   opacity: 0;
-  transform: translateX(2rem);
   width: 35%;
   text-align: left;
   margin-top: -3rem;
@@ -47,7 +46,7 @@
 
 .about-me {
   font-size: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -55,6 +54,7 @@
 .logo-container {
   display: flex;
   gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .logo-link {
@@ -71,7 +71,7 @@
 }
 
 .logo-link::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -102,7 +102,7 @@
   }
 }
 
-@keyframes slide-up {
+@keyframes slide-left {
   0% {
     opacity: 0;
     transform: translateX(2rem);
@@ -118,14 +118,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -2rem;
   }
 
   .home_image {
     text-align: center;
   }
-  
+
   .home_details {
     width: 80%;
+    animation: slide-up 0.65s ease-out forwards;
   }
 
   .profile-image {
@@ -141,7 +143,7 @@
     color: var(--color-primary);
     text-align: center;
   }
-  
+
   .title {
     font-size: 1.5rem;
     letter-spacing: 0.5px;
@@ -153,7 +155,7 @@
 
   .about-me {
     font-size: 1rem;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
     text-align: center;
@@ -161,5 +163,16 @@
 
   .logo-container {
     justify-content: center;
+  }
+
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
