@@ -1,13 +1,22 @@
 :root {
   --color-primary: #001c55;
   --color-background: #dde9ee;
+  --color-border-1: #d1d5db;
+  --color-border-2: #66a5cf;
   --color-1: #011338c6;
   --color-2: #007bff;
+  --color-3: #0912298d;
+  --color-4: #35557b;
 
   --background-1: rgba(180, 220, 240, 0.4);
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
 
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-style-1: 600 18px / normal 'Nunito', sans-serif;
+  --font-style-2: 500 16px / normal 'Nunito', sans-serif;
+  --font--style-heading-1: 600 40px / normal 'Open sans', sans-serif;
+  --font--style-heading-2: bold 20px / normal 'Open sans', sans-serif;
+
+  font-family: 'Open sans', sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,4 +54,46 @@ body {
 * {
   scrollbar-width: thin;
   scrollbar-color: #c0c0c0 #f0f0f0;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

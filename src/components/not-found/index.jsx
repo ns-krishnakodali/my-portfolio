@@ -5,7 +5,7 @@ export const NotFound = () => {
     <div className="not-found">
       <h2 className="not-found__heading">
         Oops! Page Not Found
-        <img src="src/assets/sad-face-icon.svg" alt="Sad Face" className="not-found__icon" />
+        <img src="src/assets/icons/sad-face-icon.svg" alt="Sad Face" className="not-found__icon" />
       </h2>
       <p className="not-found__text">
         It looks like you've taken a wrong turn. The page you're looking for doesn’t exist or has

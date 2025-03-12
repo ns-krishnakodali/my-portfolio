@@ -27,10 +27,10 @@ export const Home = () => {
 
   return (
     <div id="home" className="home" style={{ height: `calc(100vh - ${navbarHeight}px)` }}>
-      <div className="home_image">
-        <img src="src/assets/profile-image.jpg" alt="Profile" className="profile-image" />
+      <div className="home__image">
+        <img src="src/assets/generic/profile-image.jpg" alt="Profile" className="profile-image" />
       </div>
-      <div className="home_details">
+      <div className="home__details">
         <h2 className="name">Krishna Kodali</h2>
         <h4 className="title">Software Engineer</h4>
         <p className="about-me">{HOME_ABOUT_ME}</p>

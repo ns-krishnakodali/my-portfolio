@@ -39,12 +39,16 @@ export const Navbar = () => {
   return (
     <nav id="navbar" className={cx('navbar', isScrolled && 'scrolled')}>
       <div className="navbar_menu" onClick={toggleMenu}>
-        <img src="src/assets/hamburger-icon.svg" alt="Hamburger Icon" className="navbar_icon" />
+        <img
+          src="src/assets/icons/hamburger-icon.svg"
+          alt="Hamburger Icon"
+          className="navbar_icon"
+        />
       </div>
       <div>
         {isMenuOpen && (
           <div className="close-menu" onClick={toggleMenu}>
-            <img src="src/assets/close-icon.svg" alt="Close Icon" className="navbar_icon" />
+            <img src="src/assets/icons/close-icon.svg" alt="Close Icon" className="navbar_icon" />
           </div>
         )}
         <ul className={cx(isMenuOpen && 'dropdown-menu')}>
@@ -64,7 +68,7 @@ export const Navbar = () => {
         <a href="/" className="navbar_link">
           Ask Cooper
           <img
-            src="src/assets/redirect-icon.png"
+            src="src/assets/icons/redirect-icon.png"
             alt="Redirect Icon"
             className={cx('navbar_icon', 'redirect-icon')}
           />

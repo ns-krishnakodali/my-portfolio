@@ -6,19 +6,19 @@
   overflow: hidden;
 }
 
-.home_image {
-  animation: fade-in 1s ease-out forwards;
+.home__image {
   text-align: right;
   width: 35%;
   margin-top: -3rem;
+  animation: fade-in 1s ease-out forwards;
 }
 
-.home_details {
-  animation: slide-left 0.65s ease-out forwards;
+.home__details {
   opacity: 0;
   width: 35%;
   text-align: left;
   margin-top: -3rem;
+  animation: slide-left 0.65s ease-out forwards;
 }
 
 .profile-image {
@@ -29,26 +29,27 @@
 }
 
 .name {
-  font-size: 3rem;
-  letter-spacing: 1px;
+  font-size: 2.5rem;
+  letter-spacing: 0.75px;
   margin: 0;
   margin-bottom: 8px;
   color: var(--color-primary);
 }
 
 .title {
-  font-size: 2rem;
-  letter-spacing: 0.5px;
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 0.75px;
   margin: 0;
   margin-bottom: 24px;
   color: var(--color-1);
 }
 
 .about-me {
-  font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 500;
+  font: var(--font-style-1);
+  letter-spacing: 0.8px;
+  line-height: 1.75rem;
+  color: var(--color-1);
 }
 
 .logo-container {
@@ -93,26 +94,6 @@
   height: 28px;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slide-left {
-  0% {
-    opacity: 0;
-    transform: translateX(2rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .home {
     display: flex;
@@ -121,11 +102,11 @@
     margin-top: -2rem;
   }
 
-  .home_image {
+  .home__image {
     text-align: center;
   }
 
-  .home_details {
+  .home__details {
     width: 80%;
     animation: slide-up 0.65s ease-out forwards;
   }
@@ -137,42 +118,19 @@
 
   .name {
     font-size: 2rem;
-    letter-spacing: 1px;
-    margin: 0;
-    margin-bottom: 8px;
-    color: var(--color-primary);
     text-align: center;
   }
 
   .title {
     font-size: 1.5rem;
-    letter-spacing: 0.5px;
-    margin: 0;
-    margin-bottom: 24px;
-    color: var(--color-1);
     text-align: center;
   }
 
   .about-me {
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 500;
     text-align: center;
   }
 
   .logo-container {
     justify-content: center;
-  }
-
-  @keyframes slide-up {
-    0% {
-      opacity: 0;
-      transform: translateY(1rem);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 }
