@@ -49,8 +49,11 @@
 }
 
 .experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 3rem;
-  padding-left: 2rem;
+  width: 100vw;
 }
 
 .experience__card {
@@ -141,13 +144,14 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-primary);
-  margin: 0;
+  margin: 0 0 0.25rem;
 }
 
 .company {
-  text-decoration: none;
   font: var(--font-style-2);
   margin: 0;
+  text-decoration: none;
+  color: var(--color-2);
   cursor: pointer;
 }
 
@@ -156,7 +160,7 @@
 }
 
 .company:visited {
-  color: black;
+  color: var(--color-2);
 }
 
 .experience__card-geotime {
@@ -183,4 +187,75 @@
 }
 
 @media screen and (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .experience__details {
+    width: 75vw;
+    margin-top: 1.25rem;
+    padding: 0;
+    animation: slide-up 0.65s ease-out forwards;
+  }
+
+  .experience__heading {
+    font-size: 30px;
+  }
+
+  .experience__content {
+    margin: 0.5rem 0 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    text-align: center;
+  }
+
+  .experience__card-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .experience__card-image {
+    width: fit-content;
+    animation: slide-up 0.5s ease-out forwards;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience__card-details {
+    width: 80vw;
+    padding: 0.5rem 1rem;
+    animation: slide-up 0.5s ease-out forwards;
+  }
+
+  .experience__company-details {
+    width: 50%;
+  }
+
+  .position {
+    font-size: 14px;
+    margin-bottom: 0.35rem;
+  }
+
+  .company {
+    font-size: 14px;
+  }
+
+  .experience__card-geotime {
+    width: 50%;
+  }
+
+  .experience__date {
+    font-size: 14px;
+  }
+
+  .experience__location {
+    font-size: 14px;
+  }
+
+  .experience__card-point {
+    font-size: 14px;
+    margin: 0 0 0.5rem;
+  }
 }

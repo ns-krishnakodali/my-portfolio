@@ -3,8 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  background-color: var(--color-background);
-  padding: 6px;
+  background-color: var(--color-background-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,10 +14,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-.navbar_menu {
+.navbar__menu {
   display: none;
-  cursor: pointer;
-  padding: 10px;
 }
 
 .close-menu {
@@ -29,17 +26,18 @@
 .navbar ul {
   display: flex;
   gap: 1rem;
+  padding: 0;
   list-style: none;
   justify-content: center;
   animation: drop-in 0.4s ease-out forwards;
 }
 
-.navbar_link {
+.navbar__link {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--color-primary);
-  padding: 8px 12px;
+  padding: 6px 12px;
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;
@@ -48,7 +46,7 @@
   transition: color 0.3s ease-in-out;
 }
 
-.navbar_link:hover::before {
+.navbar__link:hover::before {
   content: '';
   position: absolute;
   top: 0;
@@ -58,10 +56,9 @@
   background: var(--background-1);
   border-radius: 4px;
   z-index: -1;
-  transition: background 0.3s ease-in-out;
 }
 
-.navbar_link:hover,
+.navbar__link:hover,
 .selected {
   background: var(--background-gradient-1);
   background-clip: text;
@@ -70,7 +67,7 @@
   z-index: 1;
 }
 
-.navbar_icon {
+.navbar__icon {
   width: 20px;
   height: 20px;
 }
@@ -97,8 +94,14 @@
 
 @media screen and (max-width: 768px) {
   .navbar {
-    width: 95vw;
-    padding: 1.5rem 0.5rem 0;
+    position: fixed;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .navbar__menu {
+    display: block;
+    cursor: pointer;
   }
 
   .navbar ul {
@@ -129,13 +132,6 @@
     margin-top: 0;
   }
 
-  .navbar_menu {
-    position: absolute;
-    margin-top: 1rem;
-    left: 8px;
-    display: block;
-  }
-
   .close-menu {
     position: fixed;
     display: block;
@@ -143,19 +139,17 @@
     z-index: 2100;
   }
 
-  .navbar_link {
+  .navbar__link {
     font-size: 18px;
   }
 
-  .navbar_icon {
+  .navbar__icon {
     width: 24px;
     height: 24px;
   }
 
   .chatbot-link {
-    position: absolute;
-    margin-top: 1rem;
-    right: 0.25rem;
+    margin-right: 0.5rem;
   }
 
   @keyframes from-side {

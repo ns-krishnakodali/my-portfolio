@@ -34,6 +34,16 @@ export const Home = () => {
         <h2 className="name">Krishna Kodali</h2>
         <h4 className="title">Software Engineer</h4>
         <p className="about-me">{HOME_ABOUT_ME}</p>
+        <a className="about-link" href="/about">
+          Learn More
+          <img
+            src="src/assets/icons/right-arrow-icon.svg"
+            alt="Right Arrow"
+            className='home__right-arrow-icon'
+            width={16}
+            height={16}
+          />
+        </a>
         <div className="logo-container">
           {HOME_LOGO_DETAILS.map((logoDetails, index) => (
             <a

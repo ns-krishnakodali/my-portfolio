@@ -41,7 +41,7 @@
   font-weight: bold;
   letter-spacing: 0.75px;
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 1.25rem;
   color: var(--color-1);
 }
 
@@ -50,12 +50,34 @@
   letter-spacing: 0.8px;
   line-height: 1.75rem;
   color: var(--color-1);
+  margin: 0 0 1rem;
+}
+
+.about-link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font: var(--font-style-1);
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}
+
+.about-link:visited {
+  color: var(--color-2);
+}
+
+.home__right-arrow-icon {
+  margin-left: 0.25rem;
 }
 
 .logo-container {
   display: flex;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .logo-link {
@@ -99,14 +121,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -2rem;
   }
 
   .home__image {
+    width: 100%;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .home__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
     animation: slide-up 0.65s ease-out forwards;
   }
