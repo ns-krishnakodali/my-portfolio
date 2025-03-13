@@ -1,7 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-  <!-- Background Circle -->
-  <circle cx="400" cy="300" r="280" fill="#f5f5f5" opacity="0.7"/>
-  
   <!-- Floor/Ground line -->
   <line x1="150" y1="520" x2="650" y2="520" stroke="#333" stroke-width="3"/>
   
@@ -11,73 +8,132 @@
   
   <!-- Monitor -->
   <rect x="275" y="200" width="250" height="170" rx="5" ry="5" fill="#404254" stroke="#333" stroke-width="2"/>
-  <rect x="285" y="210" width="230" height="140" rx="2" ry="2" fill="#2d3e50"/>
+  <rect x="285" y="210" width="230" height="140" rx="2" ry="2" fill="#1e2638"/>
   
   <!-- Monitor Stand -->
   <path d="M375,370 L425,370 L415,400 L385,400" fill="#333" stroke="#222" stroke-width="1"/>
   
-  <!-- Code Blocks on Screen (instead of text) -->
-  <!-- Left Gutter/Line Numbers Area -->
-  <rect x="285" y="210" width="15" height="140" fill="#263238" opacity="0.5"/>
+  <!-- Software Development IDE on Screen -->
   
-  <!-- Code Blocks Row 1 -->
-  <rect x="305" y="220" width="45" height="10" rx="2" ry="2" fill="#f1c40f" opacity="0.9"/>
-  <rect x="355" y="220" width="60" height="10" rx="2" ry="2" fill="#3498db" opacity="0.9"/>
-  <rect x="420" y="220" width="75" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- IDE Window -->
+  <rect x="290" y="215" width="220" height="130" rx="2" ry="2" fill="#252a36"/>
   
-  <!-- Code Blocks Row 2 -->
-  <rect x="315" y="240" width="30" height="10" rx="2" ry="2" fill="#e74c3c" opacity="0.9"/>
-  <rect x="350" y="240" width="40" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- IDE Sidebar - File Explorer -->
+  <rect x="290" y="215" width="45" height="130" fill="#1e2326"/>
+  <rect x="295" y="225" width="35" height="8" rx="1" ry="1" fill="#3c4349" opacity="0.9"/>
+  <rect x="300" y="238" width="30" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="305" y="248" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
+  <rect x="305" y="258" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
+  <rect x="305" y="268" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
+  <rect x="300" y="278" width="30" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="305" y="288" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
+  <rect x="305" y="298" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
+  <rect x="300" y="308" width="30" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="305" y="318" width="25" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.5"/>
   
-  <!-- Code Blocks Row 3 -->
-  <rect x="325" y="260" width="40" height="10" rx="2" ry="2" fill="#2ecc71" opacity="0.9"/>
-  <rect x="370" y="260" width="10" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
-  <rect x="385" y="260" width="40" height="10" rx="2" ry="2" fill="#e67e22" opacity="0.9"/>
-  <rect x="430" y="260" width="10" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- IDE Top Bar -->
+  <rect x="335" y="215" width="175" height="20" fill="#1a1d24"/>
+  <rect x="345" y="221" width="30" height="8" rx="1" ry="1" fill="#546e7a" opacity="0.8"/>
+  <rect x="385" y="221" width="30" height="8" rx="1" ry="1" fill="#546e7a" opacity="0.8"/>
+  <rect x="425" y="221" width="30" height="8" rx="1" ry="1" fill="#546e7a" opacity="0.8"/>
   
-  <!-- Code Blocks Row 4 -->
-  <rect x="325" y="280" width="25" height="10" rx="2" ry="2" fill="#2ecc71" opacity="0.9"/>
-  <rect x="355" y="280" width="10" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
-  <rect x="370" y="280" width="50" height="10" rx="2" ry="2" fill="#f1c40f" opacity="0.9"/>
-  <rect x="425" y="280" width="30" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- IDE Code Area -->
+  <rect x="335" y="235" width="175" height="110" fill="#1c2334"/>
   
-  <!-- Code Blocks Row 5 -->
-  <rect x="335" y="300" width="35" height="10" rx="2" ry="2" fill="#e74c3c" opacity="0.9"/>
-  <rect x="375" y="300" width="65" height="10" rx="2" ry="2" fill="#3498db" opacity="0.9"/>
-  <rect x="445" y="300" width="50" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- Code Lines -->
+  <rect x="345" y="245" width="120" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="355" y="255" width="100" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="365" y="265" width="95" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="355" y="275" width="125" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="355" y="285" width="80" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="345" y="295" width="140" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="355" y="305" width="110" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="365" y="315" width="90" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
+  <rect x="345" y="325" width="60" height="6" rx="1" ry="1" fill="#546e7a" opacity="0.7"/>
   
-  <!-- Code Blocks Row 6 -->
-  <rect x="325" y="320" width="15" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- Syntax Highlighting Elements -->
+  <rect x="345" y="245" width="30" height="6" rx="1" ry="1" fill="#cf6a4c"/>
+  <rect x="355" y="255" width="25" height="6" rx="1" ry="1" fill="#8f9d6a"/>
+  <rect x="365" y="265" width="20" height="6" rx="1" ry="1" fill="#7587a6"/>
+  <rect x="395" y="265" width="25" height="6" rx="1" ry="1" fill="#cda869"/>
+  <rect x="355" y="275" width="40" height="6" rx="1" ry="1" fill="#cf6a4c"/>
+  <rect x="355" y="285" width="25" height="6" rx="1" ry="1" fill="#8f9d6a"/>
+  <rect x="345" y="295" width="15" height="6" rx="1" ry="1" fill="#7587a6"/>
+  <rect x="390" y="295" width="35" height="6" rx="1" ry="1" fill="#cda869"/>
+  <rect x="355" y="305" width="30" height="6" rx="1" ry="1" fill="#cf6a4c"/>
+  <rect x="395" y="315" width="20" height="6" rx="1" ry="1" fill="#8f9d6a"/>
+  <rect x="345" y="325" width="25" height="6" rx="1" ry="1" fill="#7587a6"/>
   
-  <!-- Code Blocks Row 7 -->
-  <rect x="315" y="340" width="20" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- Line Numbers -->
+  <rect x="335" y="245" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="255" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="265" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="275" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="285" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="295" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="305" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="315" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
+  <rect x="335" y="325" width="8" height="6" rx="1" ry="1" fill="#515a5c" opacity="0.7"/>
   
-  <!-- Code Blocks Row 8 -->
-  <rect x="315" y="360" width="35" height="10" rx="2" ry="2" fill="#e74c3c" opacity="0.9"/>
-  <rect x="355" y="360" width="40" height="10" rx="2" ry="2" fill="#ecf0f1" opacity="0.5"/>
+  <!-- Floating Elements (Software Development themed) -->
   
-  <!-- Floating Code Elements (decorative) -->
-  <rect x="170" y="230" width="55" height="8" rx="2" ry="2" fill="#e74c3c" opacity="0.7"/>
-  <rect x="230" y="230" width="30" height="8" rx="2" ry="2" fill="#e74c3c" opacity="0.7"/>
+  <!-- Version Control / Git Branch Visualization -->
+  <circle cx="180" cy="240" r="5" fill="#4078c0" opacity="0.9"/>
+  <circle cx="180" cy="270" r="5" fill="#4078c0" opacity="0.9"/>
+  <circle cx="180" cy="300" r="5" fill="#4078c0" opacity="0.9"/>
+  <circle cx="210" cy="240" r="5" fill="#4078c0" opacity="0.9"/>
+  <circle cx="210" cy="270" r="5" fill="#4078c0" opacity="0.9"/>
+  <line x1="180" y1="240" x2="180" y2="270" stroke="#4078c0" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="270" x2="180" y2="300" stroke="#4078c0" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="240" x2="210" y2="240" stroke="#4078c0" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="270" x2="210" y2="270" stroke="#4078c0" stroke-width="2" opacity="0.7"/>
   
-  <rect x="150" y="250" width="80" height="8" rx="2" ry="2" fill="#f1c40f" opacity="0.7"/>
-  <rect x="160" y="265" width="40" height="8" rx="2" ry="2" fill="#f1c40f" opacity="0.7"/>
+  <!-- UML Class Diagram (simplified) -->
+  <rect x="550" y="230" width="100" height="70" fill="#f5f5f5" stroke="#666" stroke-width="1" opacity="0.85" rx="2" ry="2"/>
+  <rect x="550" y="230" width="100" height="15" fill="#e6e6e6" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+  <line x1="550" y1="260" x2="650" y2="260" stroke="#666" stroke-width="1"/>
+  <rect x="555" y="238" width="90" height="8" rx="1" ry="1" fill="#333" opacity="0.3"/>
+  <rect x="555" y="268" width="40" height="6" rx="1" ry="1" fill="#333" opacity="0.3"/>
+  <rect x="555" y="278" width="70" height="6" rx="1" ry="1" fill="#333" opacity="0.3"/>
+  <rect x="555" y="288" width="50" height="6" rx="1" ry="1" fill="#333" opacity="0.3"/>
   
-  <rect x="170" y="290" width="60" height="8" rx="2" ry="2" fill="#2ecc71" opacity="0.7"/>
-  <rect x="190" y="305" width="30" height="8" rx="2" ry="2" fill="#2ecc71" opacity="0.7"/>
+  <!-- CI/CD Pipeline (simplified) -->
+  <rect x="550" y="310" width="28" height="15" rx="2" ry="2" fill="#4caf50" stroke="#388e3c" stroke-width="1" opacity="0.85"/>
+  <rect x="585" y="310" width="28" height="15" rx="2" ry="2" fill="#f44336" stroke="#d32f2f" stroke-width="1" opacity="0.85"/>
+  <rect x="620" y="310" width="28" height="15" rx="2" ry="2" fill="#2196f3" stroke="#1976d2" stroke-width="1" opacity="0.85"/>
+  <line x1="578" y1="317" x2="585" y2="317" stroke="#666" stroke-width="1"/>
+  <line x1="613" y1="317" x2="620" y2="317" stroke="#666" stroke-width="1"/>
   
-  <rect x="580" y="250" width="70" height="8" rx="2" ry="2" fill="#3498db" opacity="0.7"/>
-  <rect x="620" y="265" width="40" height="8" rx="2" ry="2" fill="#3498db" opacity="0.7"/>
-  <rect x="590" y="280" width="60" height="8" rx="2" ry="2" fill="#3498db" opacity="0.7"/>
+  <!-- Database Schema (simplified) -->
+  <rect x="560" y="340" width="80" height="40" rx="2" ry="2" fill="#f5f5f5" stroke="#666" stroke-width="1" opacity="0.85"/>
+  <rect x="560" y="340" width="80" height="10" rx="2" ry="2" fill="#e6e6e6" stroke="#666" stroke-width="1"/>
+  <line x1="560" y1="360" x2="640" y2="360" stroke="#666" stroke-width="1"/>
+  <rect x="565" y="347" width="70" height="4" rx="1" ry="1" fill="#333" opacity="0.3"/>
+  <rect x="565" y="365" width="50" height="4" rx="1" ry="1" fill="#333" opacity="0.3"/>
+  <rect x="565" y="373" width="60" height="4" rx="1" ry="1" fill="#333" opacity="0.3"/>
   
-  <rect x="560" y="310" width="50" height="8" rx="2" ry="2" fill="#e67e22" opacity="0.7"/>
-  <rect x="570" y="325" width="70" height="8" rx="2" ry="2" fill="#e67e22" opacity="0.7"/>
+  <!-- Secondary Monitor (for debugging/terminal) -->
+  <rect x="160" y="320" width="120" height="70" rx="3" ry="3" fill="#333" stroke="#222" stroke-width="1.5"/>
+  <rect x="165" y="325" width="110" height="60" rx="2" ry="2" fill="#0c0c0c"/>
+  <rect x="170" y="330" width="90" height="5" rx="1" ry="1" fill="#0f0" opacity="0.5"/>
+  <rect x="170" y="340" width="60" height="5" rx="1" ry="1" fill="#0f0" opacity="0.5"/>
+  <rect x="170" y="350" width="80" height="5" rx="1" ry="1" fill="#0f0" opacity="0.5"/>
+  <rect x="170" y="360" width="70" height="5" rx="1" ry="1" fill="#0f0" opacity="0.5"/>
+  <rect x="170" y="370" width="50" height="5" rx="1" ry="1" fill="#0f0" opacity="0.5"/>
   
   <!-- Keyboard -->
   <rect x="350" y="410" width="100" height="20" rx="3" ry="3" fill="#444" stroke="#333" stroke-width="1"/>
   
-  <!-- Steam from coffee -->
-  <path d="M510,403 Q513,398 510,393 Q507,388 510,383" stroke="#ddd" stroke-width="1" fill="none" opacity="0.7">
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/>
-  </path>
+  <!-- Mouse -->
+  <path d="M470,410 L470,424 C470,430 480,430 480,424 L480,410 C480,406 476,406 475,406 474,406 470,406 470,410 Z" fill="#333" stroke="#222" stroke-width="1"/>
+  <line x1="470" y1="415" x2="480" y2="415" stroke="#444" stroke-width="1"/>
+  <ellipse cx="475" cy="411" rx="4" ry="2" fill="#444" opacity="0.3"/>
+  
+  <!-- Notebook -->
+  <rect x="220" y="410" width="70" height="50" fill="#2c3e50" stroke="#1a2530" stroke-width="1" rx="2" ry="2"/>
+  <rect x="220" y="410" width="70" height="4" fill="#1a2530"/>
+  <line x1="230" y1="420" x2="280" y2="420" stroke="#eee" stroke-width="0.5" opacity="0.7"/>
+  <line x1="230" y1="430" x2="280" y2="430" stroke="#eee" stroke-width="0.5" opacity="0.7"/>
+  <line x1="230" y1="440" x2="260" y2="440" stroke="#eee" stroke-width="0.5" opacity="0.7"/>
+  <line x1="230" y1="450" x2="270" y2="450" stroke="#eee" stroke-width="0.5" opacity="0.7"/>
 </svg>

@@ -1,14 +1,14 @@
-.experience {
-  padding: 2rem 0;
+.education {
+  padding: 4rem 0;
 }
 
-.experience-container {
+.education-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.experience__image-container {
+.education__image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,12 +16,12 @@
   animation: fade-in 0.65s ease-out forwards;
 }
 
-.experience__landing-image {
-  width: 20rem;
+.education__landing-image {
+  width: 29.5rem;
   height: 20rem;
 }
 
-.experience__details {
+.education__details {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,14 +32,14 @@
   margin-right: calc(-1 * (100vw - 100%));
 }
 
-.experience__heading {
+.education__heading {
   font: var(--font--style-heading-1);
   letter-spacing: 0.75px;
   margin: 0;
   color: var(--color-primary);
 }
 
-.experience__content {
+.education__content {
   margin: 1rem 0 0;
   font: var(--font-style-1);
   letter-spacing: 0.8px;
@@ -48,70 +48,50 @@
   color: var(--color-1);
 }
 
-.experiences {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-  width: 100vw;
-}
-
-.experience__card {
+.education__degrees {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin-bottom: 1.5rem;
+  margin-top: 3rem;
 }
 
-.experience__card-title-container {
+.degrees-heading {
+  margin-bottom: 2rem;
+}
+
+.education__degrees-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education__degree-card {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  width: 85vw;
-  cursor: pointer;
-  user-select: none;
-  padding: 0.5rem;
-  border: 1px solid var(--color-border-2);
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  margin-bottom: 2rem;
 }
 
-.experience__card-title-container:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-.experience__card-title {
-  font: var(--font--style-heading-2);
-  letter-spacing: 0.75px;
-  margin: 0;
-  margin-right: 4px;
-  color: var(--color-primary);
-}
-
-.experience__cards {
-  margin-top: 2rem;
-}
-
-.experience__card-container {
+.education__degree-card-image {
+  width: 7.5rem;
+  height: 7.5rem;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
-}
-
-.experience__card-image {
-  text-align: center;
-  width: 12vw;
+  border: 1px solid var(--color-border-1);
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px var(--color-border-1);
   animation: slide-right 0.5s ease-out forwards;
 }
 
-.experience__card-details {
-  margin-left: 4px;
+.education__degree-card-details {
+  display: flex;
+  flex-direction: column;
   width: 75vw;
+  margin: 0 0 0 1rem;
   padding: 1rem 1.5rem;
-  border: 1px solid var(--color-border-1);
+  border: 1.5px solid var(--color-border-1);
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition:
@@ -120,76 +100,80 @@
   animation: slide-left 0.5s ease-out forwards;
 }
 
-.experience__card-details:hover {
+.education__degree-card-details:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   transform: translateY(-3px);
 }
 
-.experience__card-headings {
+.education__degree-card-headings {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-  margin-bottom: 1rem;
 }
 
-.experience__company-details {
+.education__degree-headings {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
 }
 
-.position {
-  font-size: 1rem;
-  font-weight: 600;
+.university-name {
+  font: var(--font--style-heading-2);
   color: var(--color-primary);
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.35rem;
 }
 
-.company {
-  font: var(--font-style-2);
-  font-weight: 600;
+.degree-name {
+  color: var(--color-primary);
   margin: 0;
-  color: var(--color-primary);
 }
 
-.experience__card-geotime {
+.education__degree-date {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
-.experience__geotime-point {
+.education__degree-date-details {
   font: var(--font-style-2);
   margin: 0;
   color: var(--color-4);
 }
 
-.experience__card-point {
+.education__degree-coursework {
+  margin: 1rem 0;
   font: var(--font-style-2);
-  margin: 0 0 0.5rem;
+  color: var(--color-primary);
+}
+
+.degree-detail {
+  margin: 0 0 1rem;
 }
 
 @media screen and (max-width: 768px) {
-  .experience-container {
+  .education-container {
     flex-direction: column;
     justify-content: center;
   }
 
-  .experience__details {
+  .education__landing-image {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 13.5rem;
+  }
+
+  .education__details {
     width: 75vw;
     margin-top: 1.75rem;
     padding: 0;
     animation: slide-up 0.65s ease-out forwards;
   }
 
-  .experience__heading {
+  .education__heading {
     font-size: 30px;
   }
 
-  .experience__content {
+  .education__content {
     margin: 0.5rem 0 0;
     font-size: 14px;
     letter-spacing: 0.5px;
@@ -197,53 +181,40 @@
     text-align: center;
   }
 
-  .experience__card-container {
+  .education__degree-card {
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
   }
 
-  .experience__card-image {
-    width: fit-content;
+  .education__degree-card-image {
     animation: slide-up 0.5s ease-out forwards;
-    margin-bottom: 0.5rem;
   }
 
-  .experience__card-details {
+  .education__degree-card-details {
     width: 80vw;
     padding: 1rem;
+    margin: 1rem 0 0;
     animation: slide-up 0.5s ease-out forwards;
   }
 
-  .experience__card-headings {
+  .education__degree-card-headings {
     flex-direction: column;
+    width: 100%;
   }
 
-  .experience__company-details {
+  .education__degree-headings {
     width: 100%;
     margin-bottom: 0.5rem;
   }
 
-  .position {
-    font-size: 14px;
-    margin-bottom: 0.35rem;
+  .university-name {
+    font-size: 16px;
   }
 
-  .company {
-    font-size: 14px;
-  }
-
-  .experience__card-geotime {
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .experience__geotime-point {
+  .degree-name {
     font-size: 14px;
   }
 
-  .experience__card-point {
+  .education__degree-date-details {
     font-size: 14px;
-    margin: 0 0 0.5rem;
   }
 }

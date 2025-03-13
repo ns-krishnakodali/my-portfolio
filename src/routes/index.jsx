@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, Experience, Home, NotFound } from '../components';
+import { About, Education, Experience, Home, NotFound } from '../components';
 
 export const AppRoutes = () => {
   return (
@@ -8,6 +8,7 @@ export const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/experience" element={<Experience />} />
+      <Route path="/education" element={<Education />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

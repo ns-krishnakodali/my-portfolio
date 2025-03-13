@@ -10,7 +10,7 @@
   text-align: right;
   width: 35%;
   margin-top: -3rem;
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in 0.65s ease-out forwards;
 }
 
 .home__details {

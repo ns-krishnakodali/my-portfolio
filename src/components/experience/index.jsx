@@ -10,11 +10,11 @@ export const Experience = () => {
   return (
     <div className="experience">
       <div className="experience-container">
-        <div className="experience__logo">
+        <div className="experience__image-container">
           <img
-            src="src/assets/generic/person-working.png"
-            alt="Person Working"
-            className="person-working"
+            src="src/assets/generic/experience-image.png"
+            alt="Experience Image"
+            className="experience__landing-image"
           />
         </div>
         <div className="experience__details">

@@ -39,7 +39,7 @@ export const Home = () => {
           <img
             src="src/assets/icons/right-arrow-icon.svg"
             alt="Right Arrow"
-            className='home__right-arrow-icon'
+            className="home__right-arrow-icon"
             width={16}
             height={16}
           />

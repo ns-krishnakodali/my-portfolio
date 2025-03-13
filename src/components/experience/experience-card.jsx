@@ -36,29 +36,24 @@ export const ExperienceCard = ({ title, details }) => {
           {details.map((detail, index) => (
             <div key={index} className="experience__card-container">
               <div className="experience__card-image">
-                <img
-                  src={detail.imageSrc}
-                  alt={detail.imageAlt}
-                  width={detail.imageWidth}
-                  height={36}
-                />
+                <a target="_blank" rel="noopener noreferrer" href={detail.companyURL}>
+                  <img
+                    src={detail.imageSrc}
+                    alt={detail.imageAlt}
+                    width={detail.imageWidth}
+                    height={36}
+                  />
+                </a>
               </div>
               <div className="experience__card-details">
                 <div className="experience__card-headings">
                   <div className="experience__company-details">
                     <h3 className="position">{detail.position}</h3>
-                    <a
-                      className="company"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={detail.companyURL}
-                    >
-                      {detail.company}
-                    </a>
+                    <p className="company">{detail.company}</p>
                   </div>
                   <div className="experience__card-geotime">
-                    <p className="experience__date">{detail.date}</p>
-                    <p className="experience__location">{detail.location}</p>
+                    <p className="experience__geotime-point">{detail.date}</p>
+                    <p className="experience__geotime-point">{detail.location}</p>
                   </div>
                 </div>
                 <div className="experience__card-points">
