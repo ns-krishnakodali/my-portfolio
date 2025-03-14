@@ -34,7 +34,7 @@ export const APP_SECTIONS = [
   },
 ];
 
-export const HOME_LOGO_DETAILS = [
+export const LOGO_DETAILS = [
   {
     href: 'https://www.linkedin.com/in/krishnakodali9/',
     src: 'src/assets/logos/linkedin-logo.png',

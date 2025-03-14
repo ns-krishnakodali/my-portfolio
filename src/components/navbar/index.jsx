@@ -66,7 +66,7 @@ export const Navbar = () => {
       </div>
       <div className="chatbot-link">
         <a href="/" className="navbar__link">
-          Ask Cooper
+          Ask Veritas
           <img
             src="src/assets/icons/redirect-icon.png"
             alt="Redirect Icon"

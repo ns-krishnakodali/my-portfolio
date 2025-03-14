@@ -2,7 +2,8 @@ import './home.css';
 
 import { useEffect, useState } from 'react';
 
-import { HOME_ABOUT_ME, HOME_LOGO_DETAILS } from '../../constants';
+import { HOME_ABOUT_ME } from '../../constants';
+import { LogoDetails } from '../../shared-ui';
 
 export const Home = () => {
   const [navbarHeight, setNavbarHeight] = useState(0);
@@ -44,19 +45,7 @@ export const Home = () => {
             height={16}
           />
         </a>
-        <div className="logo-container">
-          {HOME_LOGO_DETAILS.map((logoDetails, index) => (
-            <a
-              key={index}
-              className="logo-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={logoDetails.href}
-            >
-              <img src={logoDetails.src} alt={logoDetails.alt} className="logo" />
-            </a>
-          ))}
-        </div>
+        <LogoDetails />
       </div>
     </div>
   );
