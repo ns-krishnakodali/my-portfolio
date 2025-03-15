@@ -1,6 +1,7 @@
 :root {
   --color-primary: #001c55;
-  --color-background-light: #dde9ee;
+  --color-background: #dde9ee;
+  --color-background-1: rgba(180, 220, 240, 0.4);
   --color-border-1: #d1d5db;
   --color-border-2: #66a5cf;
   --color-border-3: #4a90e2;
@@ -11,7 +12,6 @@
   --color-5: #0d4283;
   --color-6: #999999;
 
-  --background-1: rgba(180, 220, 240, 0.4);
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
 
   --font-style-1: 600 18px / normal 'Nunito', sans-serif;
@@ -31,32 +31,27 @@ body {
   margin: 0;
   overflow-x: hidden;
   min-height: 100vh;
-  background-color: var(--color-background-light);
+  background-color: var(--color-background);
 }
 
-::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
-::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background: #c0c0c0;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
 
-::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
   background: #a0a0a0;
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #c0c0c0 #f0f0f0;
 }
 
 @keyframes fade-in {

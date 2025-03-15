@@ -7,6 +7,8 @@ export const MY_EXPERIENCE =
 export const EDUCATION_SUMMARY =
   'I specialize in developing scalable, high-performance systems with a strong focus on software design and architecture. I have led architectural transformations to enhance scalability and efficiency. Proficient in the full development lifecycle, I also build responsive, accessible user interfaces for seamless experiences. I am dedicated to creating resilient, adaptable solutions through system design and performance optimization.';
 
+export const MY_EMAIL = 'krishnakodali81@gmail.com';
+
 export const APP_SECTIONS = [
   {
     path: '/',
@@ -51,7 +53,7 @@ export const LOGO_DETAILS = [
     alt: 'Medium Logo',
   },
   {
-    href: 'mailto:krishnakodali81@gmail.com',
+    href: `mailto:${MY_EMAIL}`,
     src: 'src/assets/logos/gmail-logo.png',
     alt: 'Gmail Logo',
   },
@@ -96,7 +98,7 @@ export const EXPERIENCE_DETAILS = [
       {
         imageSrc: 'src/assets/logos/gep-worldwide-logo.png',
         imageAlt: 'GEP Worldwide Logo',
-        imageWidth: 80,
+        imageWidth: 90,
         position: 'Technology Intern',
         company: 'GEP Worldwide',
         companyURL: 'https://www.gep.com/',
