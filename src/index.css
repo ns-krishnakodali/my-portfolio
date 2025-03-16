@@ -5,14 +5,18 @@
   --color-border-1: #d1d5db;
   --color-border-2: #66a5cf;
   --color-border-3: #4a90e2;
+  --color-white: #ffffff;
   --color-1: #011338c6;
   --color-2: #007bffbe;
   --color-3: #0912298d;
   --color-4: #35557b;
   --color-5: #0d4283;
-  --color-6: #999999;
+  --color-6: #94a3b8;
 
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
+  --background-gradient-2: linear-gradient(90deg, #3b82f6, #06b6d4);
+
+  --text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 
   --font-style-1: 600 18px / normal 'Nunito', sans-serif;
   --font-style-2: 500 16px / normal 'Nunito', sans-serif;
@@ -40,18 +44,18 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: #f0f0f0;
+  background: #e6e6e6;
   border-radius: 8px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #c0c0c0;
+  background: #8e9cb0b5;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #a0a0a0;
+  background: #8e9cb0;
 }
 
 @keyframes fade-in {

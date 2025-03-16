@@ -3,11 +3,14 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { Navbar } from './components';
+import { Navbar, SplashScreen } from './components';
 import { AppRoutes } from './routes';
 
 const App = () => {
   const [showScroll, setShowScroll] = useState(false);
+  const [loadSplashScreen, setLoadSplashScreen] = useState(
+    !sessionStorage.getItem('splashScreenShown')
+  );
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
@@ -22,20 +25,35 @@ const App = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (loadSplashScreen) {
+      setTimeout(() => {
+        sessionStorage.setItem('splashScreenShown', true);
+        setLoadSplashScreen(false);
+      }, 1900);
+    }
+  }, [loadSplashScreen]);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
-    <Router>
-      <Navbar />
-      <AppRoutes />
-      {showScroll && (
-        <button className="scroll-to-top" onClick={scrollToTop}>
-          <img src="src/assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
-        </button>
+    <>
+      {loadSplashScreen ? (
+        <SplashScreen />
+      ) : (
+        <Router>
+          <Navbar />
+          <AppRoutes />
+          {showScroll && (
+            <button className="scroll-to-top" onClick={scrollToTop}>
+              <img src="src/assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
+            </button>
+          )}
+        </Router>
       )}
-    </Router>
+    </>
   );
 };
 
