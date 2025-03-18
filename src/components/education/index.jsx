@@ -14,6 +14,7 @@ export const Education = () => {
             src="src/assets/generic/education-image.png"
             alt="Education Image"
             className="education__landing-image"
+            loading="eager"
           />
         </div>
         <div className="education__details">

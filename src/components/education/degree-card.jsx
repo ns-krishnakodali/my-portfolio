@@ -8,6 +8,7 @@ export const DegreeCard = ({ details }) => {
             alt={details.imageAlt}
             width={details.imageWidth}
             height={details?.imageHeight || 36}
+            loading="eager"
           />
         </a>
       </div>

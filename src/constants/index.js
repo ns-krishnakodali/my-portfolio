@@ -1,7 +1,7 @@
 export const HOME_ABOUT_ME =
-  'A Computer Science major focused on Machine Learning, AI, and building end-to-end Software systems that drive reliability, scalability, and meaningful impact.';
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';
 
-export const MY_EXPERIENCE =
+  export const MY_EXPERIENCE =
   'I specialize in developing scalable, high-performance systems with a strong focus on software design and architecture. I have led architectural transformations to enhance scalability and efficiency. Proficient in the full development lifecycle, I also build responsive, accessible user interfaces for seamless experiences. I am dedicated to creating resilient, adaptable solutions through system design and performance optimization.';
 
 export const EDUCATION_SUMMARY =
@@ -43,7 +43,7 @@ export const LOGO_DETAILS = [
     alt: 'LinkedIn Logo',
   },
   {
-    href: 'https://github.com/KrishnaKodali99',
+    href: 'https://github.com/ns-krishnakodali',
     src: 'src/assets/logos/github-logo.svg',
     alt: 'GitHub Logo',
   },

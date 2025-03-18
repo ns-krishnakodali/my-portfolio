@@ -13,7 +13,7 @@ export const LogoDetails = () => {
           rel="noopener noreferrer"
           href={logoDetails.href}
         >
-          <img src={logoDetails.src} alt={logoDetails.alt} className="logo" />
+          <img src={logoDetails.src} alt={logoDetails.alt} className="logo" loading="eager" />
         </a>
       ))}
     </div>

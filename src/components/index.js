@@ -5,4 +5,5 @@ export * from './experience';
 export * from './home';
 export * from './navbar';
 export * from './not-found';
+export * from './projects';
 export * from './splash-screen';

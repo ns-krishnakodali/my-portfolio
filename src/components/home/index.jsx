@@ -27,16 +27,21 @@ export const Home = () => {
   }, []);
 
   return (
-    <div id="home" className="home" style={{ height: `calc(100vh - ${navbarHeight}px)` }}>
+    <div id="home" className="home-container" style={{ height: `calc(100vh - ${navbarHeight}px)` }}>
       <div className="home__image">
-        <img src="src/assets/generic/profile-image.jpg" alt="Profile" className="profile-image" />
+        <img
+          src="src/assets/generic/profile-image.jpg"
+          alt="Profile"
+          className="profile-image"
+          loading="eager"
+        />
       </div>
       <div className="home__details">
-        <h2 className="name">Krishna Kodali</h2>
-        <h4 className="title">Software Engineer</h4>
+        <h2 className="home__name">Hi, I'm Krishna</h2>
+        <h4 className="home__title">Software Engineer | AI/ML Enthusiast</h4>
         <p className="about-me">{HOME_ABOUT_ME}</p>
         <a className="about-link" href="/about">
-          Learn More
+          Know More
           <img
             src="src/assets/icons/right-arrow-icon.svg"
             alt="Right Arrow"

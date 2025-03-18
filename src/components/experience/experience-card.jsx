@@ -42,6 +42,7 @@ export const ExperienceCard = ({ title, details }) => {
                     alt={detail.imageAlt}
                     width={detail.imageWidth}
                     height={36}
+                    loading="eager"
                   />
                 </a>
               </div>

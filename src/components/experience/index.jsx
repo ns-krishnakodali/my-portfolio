@@ -15,6 +15,7 @@ export const Experience = () => {
             src="src/assets/generic/experience-image.png"
             alt="Experience Image"
             className="experience__landing-image"
+            loading="eager"
           />
         </div>
         <div className="experience__details">

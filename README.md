@@ -11,12 +11,11 @@ This is my little corner of the internet where you can get to know me, check out
 ## 🛠 Tech Stack
 
 - **Frontend**: React, Vite, Tailwind CSS
-- **Deployment**: Vercel / Netlify / GitHub Pages
 
 ## 📦 Setup
 
 ```sh
-git clone https://github.com/KrishnaKodali99/my-portfolio.git
+git clone https://github.com/ns-krishnakodali/my-portfolio.git
 cd my-portfolio
 npm install
 npm run dev
@@ -27,8 +26,3 @@ To build for production:
 ```sh
 npm run build
 ```
-
-## 📧 Contact
-
-- **LinkedIn**: [Profile](https://linkedin.com/in/KrishnaKodali9)
-- **GitHub**: [Repo](https://github.com/KrishnaKodali99)
