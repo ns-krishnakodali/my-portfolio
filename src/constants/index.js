@@ -7,7 +7,7 @@ export const HOME_ABOUT_ME =
 export const EDUCATION_SUMMARY =
   'I specialize in developing scalable, high-performance systems with a strong focus on software design and architecture. I have led architectural transformations to enhance scalability and efficiency. Proficient in the full development lifecycle, I also build responsive, accessible user interfaces for seamless experiences. I am dedicated to creating resilient, adaptable solutions through system design and performance optimization.';
 
-export const MY_EMAIL = 'krishnakodali81@gmail.com';
+export const MY_EMAIL = 'nskrishnakodali@gmail.com';
 
 export const APP_SECTIONS = [
   {
