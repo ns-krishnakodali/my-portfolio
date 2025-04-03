@@ -27,6 +27,7 @@ export const ExperienceCard = ({ title, details }) => {
         <h2 className="experience__card-title">{title}</h2>
         <img
           src={`src/assets/icons/${expandCard ? 'minus' : 'plus'}-icon.svg`}
+          alt={`${expandCard ? 'collapse' : 'expand'}`}
           width={12}
           height={12}
         />
@@ -50,7 +51,7 @@ export const ExperienceCard = ({ title, details }) => {
                 <div className="experience__card-headings">
                   <div className="experience__company-details">
                     <h3 className="position">{detail.position}</h3>
-                    <p className="company">{detail.company}</p>
+                    <h4 className="company">{detail.company}</h4>
                   </div>
                   <div className="experience__card-geotime">
                     <p className="experience__geotime-point">{detail.date}</p>

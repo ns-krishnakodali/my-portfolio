@@ -33,7 +33,7 @@
 }
 
 .education__heading {
-  font: var(--font--style-heading-1);
+  font: var(--font--style-heading);
   letter-spacing: 0.75px;
   margin: 0;
   color: var(--color-primary);
@@ -101,7 +101,7 @@
 }
 
 .education__degree-card-details:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shadow);
   transform: translateY(-3px);
 }
 
@@ -117,12 +117,13 @@
 }
 
 .university-name {
-  font: var(--font--style-heading-2);
+  font: var(--font--style-heading-3);
   color: var(--color-primary);
   margin: 0 0 0.35rem;
 }
 
 .degree-name {
+  font: var(--font--style-heading-4);
   color: var(--color-primary);
   margin: 0;
 }

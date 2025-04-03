@@ -1,17 +1,21 @@
 :root {
-  --color-primary: #001c55;
+  --color-primary: #11295e;
   --color-background: #cddbe0;
-  --color-background-1: rgba(180, 220, 240, 0.4);
+  --color-background-1: rgba(205, 219, 224, 0.3);
+  --color-background-project-card: #9bcdefd7;
   --color-border-1: #b3b6b96b;
   --color-border-2: #66a5cf;
   --color-border-3: #4a90e2;
+  --color-black: #000000;
   --color-white: #ffffff;
-  --color-1: #011338c6;
+  --color-1: #11295ec6;
   --color-2: #007bffbe;
   --color-3: #0912298d;
   --color-4: #35557b;
   --color-5: #0d4283;
   --color-6: #94a3b8;
+
+  --box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
   --background-gradient-2: linear-gradient(90deg, #3b82f6, #06b6d4);
@@ -20,8 +24,12 @@
 
   --font-style-1: 600 18px / normal 'Nunito', sans-serif;
   --font-style-2: 500 16px / normal 'Nunito', sans-serif;
-  --font--style-heading-1: 600 40px / normal 'Open sans', sans-serif;
+  --font-style-3: 500 14px / normal 'Nunito', sans-serif;
+  --font--style-heading: 600 40px / normal 'Open sans', sans-serif;
+  --font--style-heading-1: bold 24px / normal 'Open sans', sans-serif;
   --font--style-heading-2: bold 20px / normal 'Open sans', sans-serif;
+  --font--style-heading-3: bold 18px / normal 'Open sans', sans-serif;
+  --font--style-heading-4: bold 16px / normal 'Open sans', sans-serif;
 
   font-family: 'Open sans', sans-serif;
 

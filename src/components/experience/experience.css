@@ -33,7 +33,7 @@
 }
 
 .experience__heading {
-  font: var(--font--style-heading-1);
+  font: var(--font--style-heading);
   letter-spacing: 0.75px;
   margin: 0;
   color: var(--color-primary);
@@ -121,7 +121,7 @@
 }
 
 .experience__card-details:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shadow);
   transform: translateY(-3px);
 }
 
@@ -141,15 +141,13 @@
 }
 
 .position {
-  font-size: 1rem;
-  font-weight: 600;
+  font: var(--font--style-heading-3);
   color: var(--color-primary);
   margin: 0 0 0.25rem;
 }
 
 .company {
-  font: var(--font-style-2);
-  font-weight: 600;
+  font: var(--font--style-heading-4);
   margin: 0;
   color: var(--color-primary);
 }
