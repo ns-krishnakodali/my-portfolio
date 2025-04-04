@@ -1,50 +1,51 @@
+export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
+
+export const MY_PROJECT_DESCRIPTION =
+  'My projects span areas of Software Engineering, AI/ML, Optimization, and Frontend Development, focusing on scalable, impactful solutions. They integrate intelligent models, responsive interfaces, and robust backends—many deployed as fully functional web applications that blend data-driven insights with real-world usability.';
+
+export const PROJECT_CATEGORIES = ['All', 'SE', 'AI/ML', 'FE'];
+
 export const PROJECTS_DETAILS = [
   {
     title: 'Capital Vantage',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
+    description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Next.js', 'Spring', 'Python'],
-    githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'se',
+    githubLink: 'https://github.com/ns-krishnakodali/capital-vantage',
+    categories: ['se', 'aiml'],
   },
   {
-    title: 'Fin Risk Optimization',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
+    title: 'Risk Optimization',
+    description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Python'],
-    githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'ml',
+    githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
+    categories: ['aiml'],
+  },
+  {
+    title: 'Veritas AI',
+    description: 'This is a placeholder for project description. Will be replacing soon.',
+    techstack: ['ReactJS', 'Python'],
+    githubLink: 'https://github.com/ns-krishnakodali/veritas-ai',
+    categories: ['aiml', 'fe'],
   },
   {
     title: 'Gator Marketplace',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
-    techstack: ['Angular', 'Golang'],
+    description: 'This is a placeholder for project description. Will be replacing soon.',
+    techstack: ['Angular', 'Golang', 'Postgres'],
     githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'se',
+    categories: 'se',
   },
   {
-    title: 'Project-1',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
-    techstack: ['Java', 'Golang'],
+    title: 'Q-File-Share',
+    description: 'This is a placeholder for project description. Will be replacing soon.',
+    techstack: ['Next.js', 'Python', 'Postgres'],
     githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'se',
+    categories: 'se',
   },
   {
-    title: 'Project-1',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
-    techstack: ['Java', 'Golang'],
-    githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'se',
-  },
-  {
-    title: 'Project-1',
-    description:
-      'This is a sample description of the project and this is a good This is a sample description.',
-    techstack: ['Java', 'Golang'],
-    githubLink: 'https://github.com/ns-krishnakodali/my-portfolio',
-    category: 'se',
+    title: 'Gator Ticket Master',
+    description: 'This is a placeholder for project description. Will be replacing soon.',
+    techstack: ['Java'],
+    githubLink: 'https://github.com/ns-krishnakodali/gator-ticket-master',
+    categories: 'se',
   },
 ];

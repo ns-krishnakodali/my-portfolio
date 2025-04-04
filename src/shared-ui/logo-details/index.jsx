@@ -9,9 +9,9 @@ export const LogoDetails = () => {
         <a
           key={index}
           className="logo-link"
+          href={logoDetails.href}
           target="_blank"
           rel="noopener noreferrer"
-          href={logoDetails.href}
         >
           <img src={logoDetails.src} alt={logoDetails.alt} className="logo" loading="eager" />
         </a>

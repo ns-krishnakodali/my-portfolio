@@ -2,7 +2,7 @@ export const DegreeCard = ({ details }) => {
   return (
     <div className="education__degree-card">
       <div className="education__degree-card-image">
-        <a target="_blank" rel="noopener noreferrer" href={details.websiteURL}>
+        <a href={details.websiteURL} target="_blank" rel="noopener noreferrer">
           <img
             src={details.imageSrc}
             alt={details.imageAlt}

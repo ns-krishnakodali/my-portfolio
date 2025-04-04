@@ -37,7 +37,7 @@ export const ExperienceCard = ({ title, details }) => {
           {details.map((detail, index) => (
             <div key={index} className="experience__card-container">
               <div className="experience__card-image">
-                <a target="_blank" rel="noopener noreferrer" href={detail.companyURL}>
+                <a href={detail.companyURL} target="_blank" rel="noopener noreferrer">
                   <img
                     src={detail.imageSrc}
                     alt={detail.imageAlt}
