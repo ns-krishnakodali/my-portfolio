@@ -2,7 +2,7 @@ import './navbar.css';
 import cx from 'classnames';
 
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 import { APP_SECTIONS } from '../../constants';
 
@@ -54,18 +54,19 @@ export const Navbar = () => {
         <ul className={cx(isMenuOpen && 'dropdown-menu')}>
           {APP_SECTIONS.map((section, index) => (
             <li key={index}>
-              <a
-                href={section.path}
+              <Link
+                to={section.path}
                 className={cx('navbar__link', section.path === selectedSection && 'selected')}
+                onClick={() => isMenuOpen && toggleMenu()}
               >
                 {section.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
       </div>
       <div className="chatbot-link">
-        <a href="/" className="navbar__link">
+        <a href="/" target="_blank" className="navbar__link">
           Ask Veritas
           <img
             src="src/assets/icons/redirect-icon.png"

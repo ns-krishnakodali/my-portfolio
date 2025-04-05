@@ -10,7 +10,7 @@ import {
   MY_PROJECT_DESCRIPTION,
   PROJECT_CATEGORIES,
 } from '../../constants/';
-import { LinkButton } from '../../shared-ui';
+import { IntroSection, LinkButton } from '../../shared-ui';
 import { removeNonAlphabets } from '../../utils';
 
 export const Projects = () => {
@@ -18,20 +18,13 @@ export const Projects = () => {
 
   return (
     <div className="project">
-      <div className="project-container">
-        <div className="project__image-container">
-          <img
-            src="src/assets/generic/experience-image.png"
-            alt="Project Image"
-            className="project__landing-image"
-            loading="eager"
-          />
-        </div>
-        <div className="project__details">
-          <h1 className="project__heading">My Projects</h1>
-          <p className="project__content">{MY_PROJECT_DESCRIPTION}</p>
-        </div>
-      </div>
+      <IntroSection
+        imageSrc="src/assets/generic/experience-image.png"
+        imageAlt="Project Image"
+        imageClass="project__landing-image"
+        introHeading="My Projects"
+        introContent={MY_PROJECT_DESCRIPTION}
+      />
       <div className="project__filter">
         <div className="project__filter-categories">
           {PROJECT_CATEGORIES.map((category, index) => (
