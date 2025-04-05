@@ -36,7 +36,7 @@
   margin-bottom: 1.25rem;
   border: 1px solid var(--color-border-1);
   border-radius: 8px;
-  color: #333333;
+  color: var(--color-gray);
   transition: border-color 0.3s ease;
 }
 
@@ -57,7 +57,7 @@
 
 .contact-me__send-button {
   background-color: var(--color-5);
-  color: white;
+  color: var(--color-white);
   font: var(--font-style-2);
   font-size: 16px;
   padding: 0.75rem 1.5rem;

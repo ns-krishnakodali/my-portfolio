@@ -101,7 +101,7 @@
 }
 
 .education__degree-card-details:hover {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-1);
   transform: translateY(-3px);
 }
 

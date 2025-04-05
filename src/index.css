@@ -8,14 +8,17 @@
   --color-border-3: #4a90e2;
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-gray: #333333;
   --color-1: #11295ec6;
   --color-2: #007bffbe;
+  --color-2-light: #007bff20;
   --color-3: #0912298d;
   --color-4: #35557b;
   --color-5: #0d4283;
   --color-6: #94a3b8;
 
-  --box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  --box-shadow-1: 0 6px 12px rgba(0, 0, 0, 0.1);
+  --box-shadow-2: 0 2px 12px rgba(0, 0, 0, 0.08);
 
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
   --background-gradient-2: linear-gradient(90deg, #3b82f6, #06b6d4);

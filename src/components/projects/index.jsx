@@ -1,5 +1,7 @@
 import './projects.css';
 
+import { useState } from 'react';
+
 import { ProjectCard } from './project-card';
 
 import {
@@ -8,10 +10,12 @@ import {
   MY_PROJECT_DESCRIPTION,
   PROJECT_CATEGORIES,
 } from '../../constants/';
-
 import { LinkButton } from '../../shared-ui';
+import { removeNonAlphabets } from '../../utils';
 
 export const Projects = () => {
+  const [projectCategory, setProjectCategory] = useState('all');
+
   return (
     <div className="project">
       <div className="project-container">
@@ -28,15 +32,29 @@ export const Projects = () => {
           <p className="project__content">{MY_PROJECT_DESCRIPTION}</p>
         </div>
       </div>
-      <div className="project__categories-container">
-        <div className="project__categories">
+      <div className="project__filter">
+        <div className="project__filter-categories">
           {PROJECT_CATEGORIES.map((category, index) => (
-            <button key={index}>{category}</button>
+            <button
+              key={index}
+              className={`project__filter-button ${
+                projectCategory === removeNonAlphabets(category)
+                  ? 'project__filter-button--active'
+                  : ''
+              }`}
+              onClick={() => setProjectCategory(removeNonAlphabets(category))}
+              aria-pressed={projectCategory === removeNonAlphabets(category)}
+            >
+              {category}
+            </button>
           ))}
         </div>
       </div>
       <div className="project__details-container">
-        {PROJECTS_DETAILS.map((projectDetails, index) => (
+        {PROJECTS_DETAILS.filter(
+          (projectDetails) =>
+            projectCategory === 'all' || projectDetails.categories.includes(projectCategory)
+        ).map((projectDetails, index) => (
           <ProjectCard key={index} details={projectDetails} />
         ))}
       </div>
