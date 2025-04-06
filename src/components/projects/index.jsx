@@ -19,7 +19,7 @@ export const Projects = () => {
   return (
     <div className="project">
       <IntroSection
-        imageSrc="src/assets/generic/experience-image.png"
+        imageSrc="src/assets/generic/projects-image.png"
         imageAlt="Project Image"
         imageClass="project__landing-image"
         introHeading="My Projects"

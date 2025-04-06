@@ -3,8 +3,8 @@
 }
 
 .project__landing-image {
-  width: 20rem;
-  height: 20rem;
+  width: 23rem;
+  height: 23rem;
 }
 
 .project__filter {
@@ -165,6 +165,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .project__landing-image {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+  }
+
   .project__filter-categories {
     gap: 0.75rem;
     padding: 0.75rem 1rem;

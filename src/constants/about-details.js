@@ -1,0 +1,2 @@
+export const MY_BACKGROUND =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';

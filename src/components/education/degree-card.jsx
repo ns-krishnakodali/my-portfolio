@@ -24,7 +24,12 @@ export const DegreeCard = ({ details }) => {
         </div>
         <div className="education__degree-details">
           <p className="education__degree-coursework">
-            <b>Key Coursework:</b> {details.courses.join(', ')}
+            <b>Key Coursework:</b>
+            {details.courses.map((course, index) => (
+              <span key={index} className="education__degree-course">
+                {course}
+              </span>
+            ))}
           </p>
           {details.dPoints?.map((detail, index) => (
             <p key={index} className="degree-detail">

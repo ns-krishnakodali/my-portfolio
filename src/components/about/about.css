@@ -1,0 +1,19 @@
+.about {
+  padding: 2rem 0;
+}
+
+.about__heading {
+  color: var(--color-primary);
+  font: var(--font--style-heading);
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin: 1.5rem 0 1rem;
+}
+
+.about__landing-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+}

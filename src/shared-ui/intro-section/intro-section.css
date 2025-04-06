@@ -1,7 +1,7 @@
 .section-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .section__image-container {
@@ -17,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   width: 50vw;
-  padding-top: 1.25rem;
+  padding-top: 2rem;
   padding-right: 4rem;
   animation: slide-left 0.65s ease-out forwards;
   margin-right: calc(-1 * (100vw - 100%));
@@ -43,6 +43,7 @@
   .section-container {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .section__details {
@@ -58,7 +59,7 @@
 
   .section__content {
     margin: 0.5rem 0 0;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 1.5em;
     text-align: center;

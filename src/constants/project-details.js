@@ -1,7 +1,7 @@
 export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
 
 export const MY_PROJECT_DESCRIPTION =
-  'My projects span areas of Software Engineering, AI/ML, Optimization, and Frontend Development, focusing on scalable, impactful solutions. They integrate intelligent models, responsive interfaces, and robust backends—many deployed as fully functional web applications that blend data-driven insights with real-world usability.';
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';
 
 export const PROJECT_CATEGORIES = ['All', 'SE', 'AI/ML', 'FE'];
 

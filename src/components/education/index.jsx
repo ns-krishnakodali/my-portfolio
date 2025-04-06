@@ -1,5 +1,4 @@
 import './education.css';
-import cx from 'classnames';
 
 import { DegreeCard } from './degree-card';
 
@@ -17,7 +16,7 @@ export const Education = () => {
         introContent={EDUCATION_SUMMARY}
       />
       <div className="education__degrees">
-        <h1 className={cx('degrees-heading', 'education__heading')}>Degrees</h1>
+        <h1 className="education__degrees-heading">Degrees</h1>
         <div className="education__degrees-container">
           {DEGREES_DETAILS.map((degreeDetails, index) => (
             <DegreeCard key={index} details={degreeDetails} />
