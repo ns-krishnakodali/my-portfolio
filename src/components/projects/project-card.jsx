@@ -1,6 +1,4 @@
-import { LinkButton } from '../../shared-ui';
-
-import { cleanString } from '../../utils';
+import { LinkButton, TechnologyIcon } from '../../shared-ui';
 
 export const ProjectCard = ({ details }) => {
   return (
@@ -9,18 +7,7 @@ export const ProjectCard = ({ details }) => {
       <p className="project__card-description">{details.description}</p>
       <div className="project__logos-container">
         {details.techstack.map((technology, index) => (
-          <div
-            key={index}
-            className="project__technology-icon-container"
-            data-technology={technology}
-          >
-            <img
-              src={`src/assets/technology/${cleanString(technology)}-logo.svg`}
-              width={32}
-              height={32}
-            />
-            <span className="project__technology-mobile-label">{technology}</span>
-          </div>
+          <TechnologyIcon key={index} technology={technology} />
         ))}
       </div>
       <LinkButton id="project-link" link={details.githubLink} text="View Project" />

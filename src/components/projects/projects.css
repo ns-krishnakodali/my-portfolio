@@ -119,45 +119,6 @@
   margin-bottom: 1rem;
 }
 
-.project__technology-icon-container {
-  position: relative;
-  display: inline-block;
-}
-
-.project__technology-icon-container img {
-  display: block;
-}
-
-.project__technology-icon-container::after {
-  content: attr(data-technology);
-  position: absolute;
-  top: calc(-1 * 1.6rem);
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: var(--color-white);
-  font: var(--font-style-3);
-  font-weight: bold;
-  padding: 0.25rem;
-  border-radius: 6px;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transition:
-    opacity 0.3s,
-    visibility 0.3s;
-  pointer-events: none;
-}
-
-.project__technology-icon-container:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.project__technology-mobile-label {
-  display: none;
-}
-
 .more-projects {
   display: flex;
   justify-content: center;
@@ -191,25 +152,5 @@
   .project__card-description {
     text-align: center;
     margin-bottom: 1rem;
-  }
-}
-
-@media (hover: none) {
-  .project__technology-icon-container:active::after,
-  .project__technology-icon-container:focus::after {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .project__technology-icon-container {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .project__technology-mobile-label {
-    display: block;
-    font-size: 10px;
-    text-align: center;
-    margin-top: 4px;
   }
 }

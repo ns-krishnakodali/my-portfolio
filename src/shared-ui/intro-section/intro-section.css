@@ -17,10 +17,9 @@
   flex-direction: column;
   align-items: center;
   width: 50vw;
-  padding-top: 2rem;
-  padding-right: 4rem;
-  animation: slide-left 0.65s ease-out forwards;
   margin-right: calc(-1 * (100vw - 100%));
+  padding: 2rem 4rem 0 0;
+  animation: slide-left 0.65s ease-out forwards;
 }
 
 .section__heading {
@@ -59,7 +58,7 @@
 
   .section__content {
     margin: 0.5rem 0 0;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 1.5em;
     text-align: center;
