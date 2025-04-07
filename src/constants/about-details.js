@@ -9,7 +9,7 @@ export const SKILLS_OVERVIEW = [
     skillDetails: ['Experienced in building scalable applications using development.'],
     technologies: [
       'Java',
-      'Typescript',
+      'Javascript',
       'Golang',
       'C',
       'Spring',
@@ -38,7 +38,16 @@ export const SKILLS_OVERVIEW = [
 export const TECHNICAL_SKILLS = [
   {
     category: 'Programming Languages',
-    skills: ['Java', 'JavaScript/TypeScript', 'Python', 'Golang', 'C/C++', 'Julia', 'Perl', 'PHP'],
+    skills: [
+      'Java',
+      'JavaScript / TypeScript',
+      'Python',
+      'Golang',
+      'C / C++',
+      'Julia',
+      'Perl',
+      'PHP',
+    ],
   },
   {
     category: 'Development',

@@ -19,7 +19,7 @@ export const About = () => {
           ))}
         </div>
       </div>
-      <div>
+      <div className="technical__skills">
         <h1 className="about__heading">Technical Skills</h1>
         <div className="technical__skills-container">
           {TECHNICAL_SKILLS.map((tSkills, index) => (

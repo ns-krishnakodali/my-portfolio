@@ -1,12 +1,13 @@
 import './App.css';
 
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import { Navbar, SplashScreen } from './components';
 import { AppRoutes } from './routes';
 
 const App = () => {
+  const location = useLocation();
   const [showScroll, setShowScroll] = useState(false);
   const [loadSplashScreen, setLoadSplashScreen] = useState(
     !sessionStorage.getItem('splashScreenShown')
@@ -19,6 +20,10 @@ const App = () => {
       setShowScroll(false);
     }
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -43,7 +48,7 @@ const App = () => {
       {loadSplashScreen ? (
         <SplashScreen />
       ) : (
-        <Router>
+        <>
           <Navbar />
           <AppRoutes />
           {showScroll && (
@@ -51,7 +56,7 @@ const App = () => {
               <img src="src/assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
             </button>
           )}
-        </Router>
+        </>
       )}
     </>
   );

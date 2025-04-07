@@ -99,12 +99,17 @@
   gap: 1rem;
 }
 
+.technical__skills {
+  margin-top: 1rem;
+}
+
 .technical__skills-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  animation: slide-up 0.65s ease-out forwards;
 }
 
 .technical__skills-category-container {

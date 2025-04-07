@@ -9,14 +9,14 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Capital Vantage',
     description: 'This is a placeholder for project description. Will be replacing soon.',
-    techstack: ['Next.js', 'Spring', 'Python'],
+    techstack: ['Typescript', 'Next.js', 'Spring', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/capital-vantage',
     categories: ['se', 'mlai'],
   },
   {
     title: 'Risk Optimization',
     description: 'This is a placeholder for project description. Will be replacing soon.',
-    techstack: ['Python'],
+    techstack: ['Python', 'Tensorflow'],
     githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
     categories: ['mlai'],
   },
@@ -30,7 +30,7 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Veritas AI',
     description: 'This is a placeholder for project description. Will be replacing soon.',
-    techstack: ['NextJS', 'Python'],
+    techstack: ['Typescript', 'NextJS', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/veritas-ai',
     categories: ['se', 'mlai'],
   },
