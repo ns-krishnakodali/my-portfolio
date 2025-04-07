@@ -28,11 +28,11 @@
   --font-style-1: 600 18px / normal 'Nunito', sans-serif;
   --font-style-2: 500 16px / normal 'Nunito', sans-serif;
   --font-style-3: 500 14px / normal 'Nunito', sans-serif;
-  --font--style-heading: 600 40px / normal 'Open sans', sans-serif;
-  --font--style-heading-1: bold 24px / normal 'Open sans', sans-serif;
-  --font--style-heading-2: bold 20px / normal 'Open sans', sans-serif;
-  --font--style-heading-3: bold 18px / normal 'Open sans', sans-serif;
-  --font--style-heading-4: bold 16px / normal 'Open sans', sans-serif;
+  --font-style-heading: 600 40px / normal 'Open sans', sans-serif;
+  --font-style-heading-1: bold 24px / normal 'Open sans', sans-serif;
+  --font-style-heading-2: bold 20px / normal 'Open sans', sans-serif;
+  --font-style-heading-3: bold 18px / normal 'Open sans', sans-serif;
+  --font-style-heading-4: bold 16px / normal 'Open sans', sans-serif;
 
   font-family: 'Open sans', sans-serif;
 

@@ -18,7 +18,7 @@
 
 .education__degrees-heading {
   color: var(--color-primary);
-  font: var(--font--style-heading);
+  font: var(--font-style-heading);
   margin: 0 0 2rem;
   letter-spacing: 0.75px;
 }
@@ -80,13 +80,13 @@
 }
 
 .university-name {
-  font: var(--font--style-heading-3);
+  font: var(--font-style-heading-3);
   color: var(--color-primary);
   margin: 0 0 0.35rem;
 }
 
 .degree-name {
-  font: var(--font--style-heading-4);
+  font: var(--font-style-heading-4);
   color: var(--color-primary);
   margin: 0;
 }

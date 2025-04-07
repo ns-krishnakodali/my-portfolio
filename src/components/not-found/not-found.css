@@ -42,7 +42,6 @@
 
 @media screen and (max-width: 768px) {
   .not-found__text {
-    /* width: 65%; */
     padding: 0rem 3rem;
   }
 }

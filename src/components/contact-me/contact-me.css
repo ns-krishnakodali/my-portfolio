@@ -8,14 +8,14 @@
 }
 
 .contact-me__heading {
-  font: var(--font--style-heading);
+  font: var(--font-style-heading);
   letter-spacing: 0.75px;
   margin: 0;
   color: var(--color-primary);
 }
 
 .contact-me__message {
-  font: var(--font--style-heading-2);
+  font: var(--font-style-heading-2);
   letter-spacing: 0.75px;
   margin: 0 0 1.25rem;
   color: var(--color-1);

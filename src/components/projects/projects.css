@@ -100,7 +100,7 @@
 }
 
 .project__card-title {
-  font: var(--font--style-heading-2);
+  font: var(--font-style-heading-2);
   color: var(--color-primary);
   margin: 0 0 1rem 0;
 }

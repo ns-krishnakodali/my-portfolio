@@ -11,6 +11,7 @@ export const SKILLS_OVERVIEW = [
       'Java',
       'Typescript',
       'Golang',
+      'C',
       'Spring',
       'Next.js',
       'Angular',
@@ -31,5 +32,58 @@ export const SKILLS_OVERVIEW = [
     techDomain: 'Cloud Infra & DevOps',
     skillDetails: ['Proficient in building ML models using Python, TensorFlow, and Scikit-learn.'],
     technologies: ['AWS', 'Azure', 'GCP', 'Terraform', 'Docker'],
+  },
+];
+
+export const TECHNICAL_SKILLS = [
+  {
+    category: 'Programming Languages',
+    skills: ['Java', 'JavaScript/TypeScript', 'Python', 'Golang', 'C/C++', 'Julia', 'Perl', 'PHP'],
+  },
+  {
+    category: 'Development',
+    skills: [
+      'ReactJS',
+      'HTML',
+      'CSS',
+      'jQuery',
+      'Bash',
+      'SQL',
+      'Redis',
+      'Redux',
+      'REST',
+      'GraphQL',
+    ],
+  },
+  {
+    category: 'Frameworks',
+    skills: [
+      'Spring',
+      'Next.js',
+      'Angular',
+      'FastAPI',
+      'Gin',
+      'Flask',
+      'Bootstrap',
+      'Tailwind CSS',
+    ],
+  },
+  {
+    category: 'Software Tools',
+    skills: [
+      'Linux',
+      'Git',
+      'MATLAB',
+      'RabbitMQ',
+      'Kafka',
+      'Jenkins',
+      'JMeter',
+      'Gatling',
+      'Datadog',
+    ],
+  },
+  {
+    category: 'Cloud Technologies',
+    skills: ['AWS (EC2, S3, RDS)', 'GCP', 'Azure', 'Terraform', 'Docker', 'Kubernetes'],
   },
 ];

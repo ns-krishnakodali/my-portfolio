@@ -23,7 +23,7 @@
 }
 
 .section__heading {
-  font: var(--font--style-heading);
+  font: var(--font-style-heading);
   letter-spacing: 0.75px;
   margin: 0;
   color: var(--color-primary);

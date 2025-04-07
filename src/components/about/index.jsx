@@ -2,7 +2,7 @@ import './about.css';
 
 import { SkillsOverview } from './skills-overview';
 
-import { MY_BACKGROUND, SKILLS_OVERVIEW } from '../../constants';
+import { MY_BACKGROUND, SKILLS_OVERVIEW, TECHNICAL_SKILLS } from '../../constants';
 
 export const About = () => {
   return (
@@ -21,7 +21,20 @@ export const About = () => {
       </div>
       <div>
         <h1 className="about__heading">Technical Skills</h1>
-        <div></div>
+        <div className="technical__skills-container">
+          {TECHNICAL_SKILLS.map((tSkills, index) => (
+            <div key={index} className="technical__skills-category-container">
+              <h3 className="technical__skill-category">{tSkills.category}</h3>
+              <div className="skills-container">
+                {tSkills.skills.map((skill, sIndex) => (
+                  <div key={sIndex} className="skill-box">
+                    {skill}
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
