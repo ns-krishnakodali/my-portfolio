@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
   animation: slide-up 0.65s ease-out forwards;
 }
 
@@ -74,8 +74,7 @@
 
 @media screen and (max-width: 768px) {
   .contact-me {
-    height: 80vh;
-    padding: 3rem 0;
+    height: 85vh;
   }
 
   .contact-me__heading {
@@ -90,5 +89,11 @@
 
   .contact-me__send-button {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .contact-me {
+    height: 100vh;
   }
 }

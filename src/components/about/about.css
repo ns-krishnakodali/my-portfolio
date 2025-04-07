@@ -7,7 +7,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
   animation: slide-up 0.65s ease-out forwards;
 }
 
@@ -16,29 +17,39 @@
   font: var(--font--style-heading);
   letter-spacing: 0.75px;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0;
+  animation: fade-in 0.65s ease-out forwards;
 }
 
 .about__background {
-  margin: 0;
+  margin: 1rem 0;
   font: var(--font-style-1);
   letter-spacing: 0.8px;
   line-height: 1.75rem;
   text-align: left;
   color: var(--color-1);
-  width: 85%;
+  width: 75%;
+}
+
+.about__skills-overview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-overview-container {
   display: flex;
-  align-items: flex-start;
-  padding: 1rem 2rem;
-  margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
 }
 
 .skills-overview__image-container {
-  border: 1px solid red;
-  margin-right: 3rem;
+  padding-right: 1rem;
+  animation: fade-in 0.65s ease-out forwards;
 }
 
 .skills-overview__image {
@@ -47,22 +58,45 @@
 }
 
 .skills-overview__details-container {
-  width: 65%;
-  padding: 1rem 1rem 0;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 42vw;
+  border-radius: 12px;
+  border: 2px solid var(--color-2-light);
+  animation: slide-left 0.65s ease-out forwards;
 }
 
 .skills-overview__heading {
   text-align: center;
-  margin: 0 0 0.5rem;
-  font: var(--font--style-heading-1);
+  padding-bottom: 0.25rem;
   color: var(--color-primary);
+  background-color: var(--color-2-light);
+  font: var(--font--style-heading-1);
+  margin: 0 0 1rem;
+  padding: 0.75rem 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.skills-overview__description-container {
+  max-width: 100%;
+  padding: 0 1rem;
+  font: var(--font-style-2);
+  margin-bottom: 1rem;
 }
 
 .skills-overview__description {
-  margin: 0 0 1rem;
-  border: 1px solid red;
-  font: var(--font-style-2);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.3px;
+}
+
+.skills-overview__technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--color-2-light);
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {

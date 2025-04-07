@@ -3,7 +3,7 @@ export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repos
 export const MY_PROJECT_DESCRIPTION =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';
 
-export const PROJECT_CATEGORIES = ['All', 'SE', 'AI/ML', 'FE'];
+export const PROJECT_CATEGORIES = ['All', 'SE', 'ML / AI', 'FE'];
 
 export const PROJECTS_DETAILS = [
   {
@@ -11,14 +11,14 @@ export const PROJECTS_DETAILS = [
     description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Next.js', 'Spring', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/capital-vantage',
-    categories: ['se', 'aiml'],
+    categories: ['se', 'mlai'],
   },
   {
     title: 'Risk Optimization',
     description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Python'],
     githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
-    categories: ['aiml'],
+    categories: ['mlai'],
   },
   {
     title: 'Gator Marketplace',
@@ -32,7 +32,7 @@ export const PROJECTS_DETAILS = [
     description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['NextJS', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/veritas-ai',
-    categories: ['se', 'aiml'],
+    categories: ['se', 'mlai'],
   },
   {
     title: 'My Portfolio',
