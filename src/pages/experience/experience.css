@@ -58,7 +58,7 @@
 .experience__card-container {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .experience__card-image {
@@ -68,8 +68,8 @@
 }
 
 .experience__card-details {
-  margin-left: 4px;
   width: 70vw;
+  margin-left: 4px;
   padding: 1rem 1.5rem;
   border: 1px solid var(--color-border-1);
   border-radius: 1rem;

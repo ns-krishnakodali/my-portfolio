@@ -152,7 +152,7 @@
   border-radius: 6px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .about {
     padding-top: 4rem;
   }
@@ -199,5 +199,27 @@
 
   .skills-overview__technologies-container {
     padding: 0.65rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about__heading {
+    font-size: 36px;
+  }
+
+  .about__background {
+    font-size: 18px;
+  }
+
+  .skills-overview__heading {
+    font-size: 22px;
+  }
+
+  .skills-overview__details-container {
+    width: 100%;
+  }
+
+  .skills-overview__description-container {
+    font-size: 16px;
   }
 }

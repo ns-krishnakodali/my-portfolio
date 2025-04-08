@@ -38,7 +38,7 @@
   color: var(--color-1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .section-container {
     flex-direction: column;
     justify-content: center;
@@ -62,5 +62,19 @@
     letter-spacing: 0.5px;
     line-height: 1.5em;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-container {
+    padding-top: 2rem;
+  }
+
+  .section__heading {
+    font-size: 36px;
+  }
+
+  .section__content {
+    font-size: 18px;
   }
 }

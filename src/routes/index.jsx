@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, ContactMe, Education, Experience, Home, NotFound, Projects } from '../components';
+import { About, ContactMe, Education, Experience, Home, NotFound, Projects } from '../pages';
 
 export const AppRoutes = () => {
   return (

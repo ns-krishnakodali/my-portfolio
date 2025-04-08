@@ -9,7 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 0.5rem;
+  font: var(--font-style-heading-1);
+  color: var(--color-primary);
+  margin: 0 0 1rem;
 }
 
 .not-found__icon {
@@ -18,19 +21,19 @@
 }
 
 .not-found__text {
-  font-size: 16px;
-  color: #555;
-  margin-top: 1rem;
+  font: var(--font-style-1);
+  color: var(--color-1);
+  margin: 0 0 1rem;
 }
 
 .not-found__links {
   list-style: none;
   padding: 0;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 }
 
 .not-found__links li {
-  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .not-found__links a {

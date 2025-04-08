@@ -3,8 +3,9 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { Navbar, SplashScreen } from './components';
+import { SplashScreen } from './pages';
 import { AppRoutes } from './routes';
+import { Navbar } from './shared-ui';
 
 const App = () => {
   const location = useLocation();

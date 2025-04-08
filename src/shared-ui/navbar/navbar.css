@@ -83,18 +83,7 @@
   margin-left: 4px;
 }
 
-@keyframes drop-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-6px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     position: fixed;
     justify-content: space-between;
@@ -156,21 +145,32 @@
   .chatbot-link {
     margin-right: 0.5rem;
   }
-
-  @keyframes from-side {
-    0% {
-      opacity: 0;
-      transform: translateX(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 }
 
 @supports not (backdrop-filter: blur(120px)) {
   .navbar ul.dropdown-menu {
     background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes drop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes from-side {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
