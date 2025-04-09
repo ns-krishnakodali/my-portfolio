@@ -44,12 +44,14 @@ export const Projects = () => {
         </div>
       </div>
       <div className="project__details-container">
-        {PROJECTS_DETAILS.filter(
-          (projectDetails) =>
-            projectCategory === 'all' || projectDetails.categories.includes(projectCategory)
-        ).map((projectDetails, index) => (
-          <ProjectCard key={index} details={projectDetails} />
-        ))}
+        <div className="project__details-inner-container">
+          {PROJECTS_DETAILS.filter(
+            (projectDetails) =>
+              projectCategory === 'all' || projectDetails.categories.includes(projectCategory)
+          ).map((projectDetails, index) => (
+            <ProjectCard key={index} details={projectDetails} />
+          ))}
+        </div>
       </div>
       <div className="more-projects">
         <LinkButton

@@ -51,7 +51,7 @@
 .education__degree-card-details {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 70vw;
   margin: 0 0 0 1rem;
   padding: 1rem 1.5rem;
   border: 1.5px solid var(--color-border-1);
@@ -180,5 +180,11 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .education__degrees-heading {
     font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .education__degree-card-details {
+    width: 55vw;
   }
 }

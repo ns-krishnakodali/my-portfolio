@@ -72,6 +72,11 @@
 }
 
 .project__details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project__details-inner-container {
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -79,7 +84,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem 0;
-  width: 100%;
+  width: 90%;
 }
 
 .project__card-container {
@@ -152,5 +157,11 @@
   .project__card-description {
     text-align: center;
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .project__details-inner-container {
+    width: 75%;
   }
 }

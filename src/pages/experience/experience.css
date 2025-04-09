@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85vw;
+  width: 80vw;
   cursor: pointer;
   user-select: none;
   padding: 0.5rem;
@@ -44,11 +44,11 @@
 }
 
 .experience__card-title {
+  color: var(--color-primary);
   font: var(--font-style-heading-2);
   letter-spacing: 0.75px;
   margin: 0;
   margin-right: 4px;
-  color: var(--color-primary);
 }
 
 .experience__cards {
@@ -63,13 +63,13 @@
 
 .experience__card-image {
   text-align: center;
-  width: 12vw;
+  width: 10vw;
   animation: slide-right 0.5s ease-out forwards;
 }
 
 .experience__card-details {
-  width: 70vw;
-  margin-left: 4px;
+  width: 68vw;
+  margin-left: 0.25rem;
   padding: 1rem 1.5rem;
   border: 1px solid var(--color-border-1);
   border-radius: 1rem;
@@ -178,5 +178,19 @@
   .experience__card-point {
     font-size: 14px;
     margin: 0 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .experience__card-title-container {
+    width: 55vw;
+  }
+
+  .experience__card-image {
+    width: 8vw;
+  }
+
+  .experience__card-details {
+    width: 45vw;
   }
 }
