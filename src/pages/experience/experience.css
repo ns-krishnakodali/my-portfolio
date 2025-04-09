@@ -52,13 +52,13 @@
 }
 
 .experience__cards {
-  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .experience__card-container {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .experience__card-image {
