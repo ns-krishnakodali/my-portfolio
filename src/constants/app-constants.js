@@ -57,3 +57,10 @@ export const LOGO_DETAILS = [
     alt: 'X Logo',
   },
 ];
+
+export const CONTACT_SUCCESS_NOTIFICATION = 'Thanks for reaching out! I’ll get back to you soon';
+
+export const CONTACT_FAILURE_NOTIFICATION =
+  'Something went wrong while sending your message. Please try again';
+
+export const CONTACT_ME_SAME_MAIL_NOTIFICATION = 'Please don’t use my email directly';

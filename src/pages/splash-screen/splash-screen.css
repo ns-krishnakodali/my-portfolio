@@ -14,7 +14,7 @@
   animation: splash-screen__fade-out 1.5s ease-in-out forwards;
 }
 
-.splash-screen__container {
+.splash-screen-container {
   position: relative;
   padding: 1rem;
   text-align: center;

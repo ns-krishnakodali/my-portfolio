@@ -17,6 +17,14 @@
   --color-5: #0d4283;
   --color-6: #94a3b8;
 
+  /* Notification Colors */
+  --color-nbc-success: #e8f5e9;
+  --color-nb-success: #4caf50;
+  --color-nt-success: #2e7d32;
+  --color-nbc-failure: #ffebee;
+  --color-nb-failure: #f44336;
+  --color-nt-failure: #c62828;
+
   --box-shadow-1: 0 6px 12px rgba(0, 0, 0, 0.1);
   --box-shadow-2: 0 2px 12px rgba(0, 0, 0, 0.08);
 
@@ -55,7 +63,7 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--color-background);
+  background: #8e9cb037;
   border-radius: 8px;
 }
 

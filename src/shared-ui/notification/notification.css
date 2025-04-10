@@ -1,0 +1,53 @@
+.notification-container {
+  position: fixed;
+  top: 1.25rem;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18.75rem;
+  max-width: 80%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+.notification-success {
+  background-color: var(--color-nbc-success);
+  border-left: 4px solid var(--color-nb-success);
+  color: var(--color-nt-success);
+}
+
+.notification-failure {
+  background-color: var(--color-nbc-failure);
+  border-left: 4px solid var(--color-nb-failure);
+  color: var(--color-nt-failure);
+}
+
+.notification__text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate(-50%, -20px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .notification-container {
+    width: 90%;
+  }
+}

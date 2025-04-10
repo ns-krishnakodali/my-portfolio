@@ -2,9 +2,13 @@ import cx from 'classnames';
 
 import { useState } from 'react';
 
-import { MY_EMAIL } from '../../constants';
+import {
+  CONTACT_ME_SAME_MAIL_NOTIFICATION,
+  CONTACT_SUCCESS_NOTIFICATION,
+  MY_EMAIL,
+} from '../../constants';
 
-export const ContactMeForm = () => {
+export const ContactMeForm = ({ displayNotification }) => {
   const [phone, setPhone] = useState('');
 
   const formatPhoneNumber = (number) => {
@@ -30,10 +34,11 @@ export const ContactMeForm = () => {
     const formData = new FormData(event.target);
     const values = Object.fromEntries(formData.entries());
     if (values?.email === MY_EMAIL) {
-      // Replace with Notifications
-      alert('Not my email');
+      displayNotification('failure', CONTACT_ME_SAME_MAIL_NOTIFICATION);
+      return;
     }
-    console.log(values);
+
+    displayNotification('success', CONTACT_SUCCESS_NOTIFICATION);
   };
 
   return (
