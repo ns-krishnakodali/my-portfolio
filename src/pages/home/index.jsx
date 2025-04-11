@@ -34,7 +34,7 @@ export const Home = () => {
     >
       <div className="home__image">
         <img
-          src="src/assets/generic/profile-image.jpg"
+          src="assets/generic/profile-image.jpg"
           alt="Profile"
           className="profile-image"
           loading="eager"
@@ -47,7 +47,7 @@ export const Home = () => {
         <a className="about-link" href="/about">
           Know More
           <img
-            src="src/assets/icons/right-arrow-icon.svg"
+            src="assets/icons/right-arrow-icon.svg"
             alt="Right Arrow"
             className="home__right-arrow-icon"
             width={16}

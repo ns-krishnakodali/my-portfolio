@@ -5,9 +5,9 @@ export const EXPERIENCE_DETAILS = [
   {
     'Full Time': [
       {
-        imageSrc: 'src/assets/logos/algosec-logo.png',
+        imageSrc: 'assets/logos/algosec-logo.png',
         imageAlt: 'Algosec Logo',
-        imageWidth: 106.05,
+        imageWidth: 90.05,
         position: 'Software Engineer',
         company: 'AlgoSec',
         companyURL: 'https://www.algosec.com/',
@@ -18,9 +18,10 @@ export const EXPERIENCE_DETAILS = [
         location: 'Gurugram, India',
       },
       {
-        imageSrc: 'src/assets/logos/publicis-sapient-logo.png',
+        imageSrc: 'assets/logos/publicis-sapient-logo.png',
         imageAlt: 'Publicis Sapient Logo',
-        imageWidth: 66.25,
+        imageWidth: 70,
+        imageHeight: 38,
         position: 'Associate Software Development Engineer 2',
         company: 'Publicis Sapient',
         companyURL: 'https://www.publicissapient.com/',
@@ -33,9 +34,10 @@ export const EXPERIENCE_DETAILS = [
     ],
     Internship: [
       {
-        imageSrc: 'src/assets/logos/gep-worldwide-logo.png',
+        imageSrc: 'assets/logos/gep-worldwide-logo.svg',
         imageAlt: 'GEP Worldwide Logo',
         imageWidth: 90,
+        imageHeight: 30,
         position: 'Technology Intern',
         company: 'GEP Worldwide',
         companyURL: 'https://www.gep.com/',
@@ -48,7 +50,7 @@ export const EXPERIENCE_DETAILS = [
     ],
     Research: [
       {
-        imageSrc: 'src/assets/logos/ieee-logo.png',
+        imageSrc: 'assets/logos/ieee-logo.png',
         imageAlt: 'IEEE Logo',
         imageWidth: 90,
         position: 'LiPI: Lightweight Privacy-Preserving Data Aggregation in IoT',

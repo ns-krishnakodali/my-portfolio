@@ -9,7 +9,7 @@ export const Education = () => {
   return (
     <div className="education">
       <IntroSection
-        imageSrc="src/assets/generic/education-image.png"
+        imageSrc="assets/generic/education-image.png"
         imageAlt="Degree Image"
         imageClass="education__landing-image"
         introHeading="Education"

@@ -11,7 +11,7 @@ export const Experience = () => {
   return (
     <div className="experience">
       <IntroSection
-        imageSrc="src/assets/generic/experience-image.png"
+        imageSrc="assets/generic/experience-image.png"
         imageAlt="Experience Image"
         imageClass="experience__landing-image"
         introHeading="Experience"

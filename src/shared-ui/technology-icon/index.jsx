@@ -6,7 +6,7 @@ export const TechnologyIcon = ({ technology, iconWidth = 32, iconHeight = 32 }) 
   return (
     <div className="technology-icon-container" data-technology={technology}>
       <img
-        src={`src/assets/technology/${cleanString(technology)}-logo.svg`}
+        src={`assets/technology/${cleanString(technology)}-logo.svg`}
         alt={technology}
         width={iconWidth}
         height={iconHeight}

@@ -54,7 +54,7 @@ const App = () => {
           <AppRoutes />
           {showScroll && (
             <button className="scroll-to-top" onClick={scrollToTop}>
-              <img src="src/assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
+              <img src="assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
             </button>
           )}
         </>

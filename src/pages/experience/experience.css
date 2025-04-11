@@ -62,9 +62,17 @@
 }
 
 .experience__card-image {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
   width: 10vw;
   animation: slide-right 0.5s ease-out forwards;
+}
+
+.website-redirect {
+  width: 0.625rem;
+  height: 0.625rem;
+  cursor: pointer;
 }
 
 .experience__card-details {

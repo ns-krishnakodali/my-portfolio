@@ -3,7 +3,7 @@ export const EDUCATION_SUMMARY =
 
 export const DEGREES_DETAILS = [
   {
-    imageSrc: 'src/assets/logos/university-of-florida-logo.png',
+    imageSrc: 'assets/logos/university-of-florida-logo.png',
     imageAlt: 'University of Florida Logo',
     imageWidth: 71,
     imageHeight: 70,
@@ -21,7 +21,7 @@ export const DEGREES_DETAILS = [
     date: '08/2024 - 05/2026',
   },
   {
-    imageSrc: 'src/assets/logos/iit-bbs-logo.png',
+    imageSrc: 'assets/logos/iit-bbs-logo.png',
     imageAlt: 'IIT Bhubaneswar Logo',
     imageWidth: 86,
     imageHeight: 80,

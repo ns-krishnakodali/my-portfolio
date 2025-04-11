@@ -26,7 +26,7 @@ export const ExperienceCard = ({ title, details }) => {
       >
         <h2 className="experience__card-title">{title}</h2>
         <img
-          src={`src/assets/icons/${expandCard ? 'minus' : 'plus'}-icon.svg`}
+          src={`assets/icons/${expandCard ? 'minus' : 'plus'}-icon.svg`}
           alt={`${expandCard ? 'collapse' : 'expand'}`}
           width={12}
           height={12}
@@ -42,10 +42,15 @@ export const ExperienceCard = ({ title, details }) => {
                     src={detail.imageSrc}
                     alt={detail.imageAlt}
                     width={detail.imageWidth}
-                    height={36}
+                    height={detail?.imageHeight || 36}
                     loading="eager"
                   />
                 </a>
+                <img
+                  src="assets/icons/redirect-icon.png"
+                  alt="Website Redirect"
+                  className="website-redirect"
+                />
               </div>
               <div className="experience__card-details">
                 <div className="experience__card-headings">
