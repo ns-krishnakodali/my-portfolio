@@ -32,7 +32,7 @@ export const SKILLS_OVERVIEW = [
     imageAlt: 'Cloud Infra & DevOps',
     techDomain: 'Cloud Infra & DevOps',
     skillDetails: ['Proficient in building ML models using Python, TensorFlow, and Scikit-learn.'],
-    technologies: ['AWS', 'Azure', 'GCP', 'Terraform', 'Docker'],
+    technologies: ['AWS', 'Azure', 'GCP', 'Terraform', 'Docker', 'Jenkins'],
   },
 ];
 
