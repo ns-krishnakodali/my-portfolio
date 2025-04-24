@@ -1,4 +1,4 @@
-import { LinkButton, TechnologyIcon } from '../../shared-ui';
+import { ButtonLink, TechnologyIcon } from '../../shared-ui';
 
 export const ProjectCard = ({ details }) => {
   return (
@@ -10,7 +10,7 @@ export const ProjectCard = ({ details }) => {
           <TechnologyIcon key={index} technology={technology} />
         ))}
       </div>
-      <LinkButton id="project-link" link={details.githubLink} text="View Project" />
+      <ButtonLink id="project-link" link={details.githubLink} text="View Project" />
     </div>
   );
 };

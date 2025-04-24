@@ -10,7 +10,7 @@ import {
   MY_PROJECT_DESCRIPTION,
   PROJECT_CATEGORIES,
 } from '../../constants/';
-import { IntroSection, LinkButton } from '../../shared-ui';
+import { IntroSection, ButtonLink } from '../../shared-ui';
 import { removeNonAlphabets } from '../../utils';
 
 export const Projects = () => {
@@ -54,7 +54,7 @@ export const Projects = () => {
         </div>
       </div>
       <div className="more-projects">
-        <LinkButton
+        <ButtonLink
           id="project-link"
           link={PROJECTS_REPO_LINK}
           text="More Projects"

@@ -1,6 +1,6 @@
-import './link-button.css';
+import './button-link.css';
 
-export const LinkButton = (props) => {
+export const ButtonLink = (props) => {
   const { id, type = 'button', link, text, displayGithub = true } = props;
 
   return (
