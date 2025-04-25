@@ -53,27 +53,6 @@
   margin: 0 0 1rem;
 }
 
-.about-link {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  font: var(--font-style-1);
-  color: var(--color-2);
-  text-decoration: none;
-}
-
-.about-link:hover {
-  text-decoration: underline;
-}
-
-.about-link:visited {
-  color: var(--color-2);
-}
-
-.home__right-arrow-icon {
-  margin-left: 0.25rem;
-}
-
 @media screen and (max-width: 768px) {
   .home-container {
     display: flex;

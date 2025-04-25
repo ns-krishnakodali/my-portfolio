@@ -1,0 +1,20 @@
+.section-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  font: var(--font-style-1);
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.section-link:visited {
+  color: var(--color-2);
+}
+
+.section-link__right-arrow-icon {
+  margin-left: 0.25rem;
+}

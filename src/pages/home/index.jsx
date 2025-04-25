@@ -3,7 +3,7 @@ import './home.css';
 import { useEffect, useState } from 'react';
 
 import { HOME_ABOUT_ME } from '../../constants';
-import { LogoDetails } from '../../shared-ui';
+import { LogoDetails, SectionLink } from '../../shared-ui';
 
 export const Home = () => {
   const [navbarHeight, setNavbarHeight] = useState(0);
@@ -44,16 +44,7 @@ export const Home = () => {
         <h2 className="home__name">Hi, I'm Krishna</h2>
         <h4 className="home__title">Software Engineer | AI/ML Enthusiast</h4>
         <p className="about-me">{HOME_ABOUT_ME}</p>
-        <a className="about-link" href="/about">
-          Know More
-          <img
-            src="assets/icons/right-arrow-icon.svg"
-            alt="Right Arrow"
-            className="home__right-arrow-icon"
-            width={16}
-            height={16}
-          />
-        </a>
+        <SectionLink text="Know More" />
         <LogoDetails />
       </div>
     </div>
