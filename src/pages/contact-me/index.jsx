@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import { ContactMeForm } from './contact-me-form';
 
-import { LogoDetails, Notification } from '../../shared-ui';
+import { LogoDetails, Notification, SectionHeading } from '../../shared-ui';
 
 export const ContactMe = () => {
   const [notification, setNotification] = useState({});
@@ -21,7 +21,7 @@ export const ContactMe = () => {
     <>
       {notification?.text && <Notification {...notification} />}
       <div className="contact-me">
-        <h1 className="contact-me__heading">Let's get in touch</h1>
+        <SectionHeading heading="Let's get in touch" />
         <h3 className="contact-me__message">Drop a message here</h3>
         <ContactMeForm displayNotification={displayNotification} />
         <LogoDetails />

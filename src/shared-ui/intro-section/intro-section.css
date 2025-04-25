@@ -1,10 +1,10 @@
-.section-container {
+.intro-section-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.section__image-container {
+.intro-section__image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
   animation: fade-in 0.65s ease-out forwards;
 }
 
-.section__details {
+.intro-section__details {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,41 +22,32 @@
   animation: slide-left 0.65s ease-out forwards;
 }
 
-.section__heading {
-  font: var(--font-style-heading);
-  letter-spacing: 0.75px;
-  margin: 0;
-  color: var(--color-primary);
-}
-
-.section__content {
-  margin: 1rem 0 0;
+.intro-section__content {
+  color: var(--color-1);
   font: var(--font-style-1);
+  text-align: justify;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  margin: 1rem 0 0;
   letter-spacing: 0.8px;
   line-height: 1.75rem;
-  text-align: left;
-  color: var(--color-1);
 }
 
 @media screen and (max-width: 1024px) {
-  .section-container {
+  .intro-section-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .section__details {
+  .intro-section__details {
     width: 75vw;
     margin-top: 1.75rem;
     padding: 0;
     animation: slide-up 0.65s ease-out forwards;
   }
 
-  .section__heading {
-    font-size: 32px;
-  }
-
-  .section__content {
+  .intro-section__content {
     margin: 0.5rem 0 0;
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -66,29 +57,25 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .section-container {
+  .intro-section-container {
     padding-top: 2rem;
   }
 
-  .section__heading {
-    font-size: 36px;
-  }
-
-  .section__content {
+  .intro-section__content {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .section-container {
+  .intro-section-container {
     justify-content: center;
   }
 
-  .section__image-container {
+  .intro-section__image-container {
     width: 35vw;
   }
 
-  .section__details {
+  .intro-section__details {
     width: 35vw;
   }
 }

@@ -3,7 +3,7 @@ import './education.css';
 import { DegreeCard } from './degree-card';
 
 import { DEGREES_DETAILS, EDUCATION_SUMMARY } from '../../constants';
-import { IntroSection } from '../../shared-ui';
+import { IntroSection, SectionHeading } from '../../shared-ui';
 
 export const Education = () => {
   return (
@@ -16,7 +16,7 @@ export const Education = () => {
         introContent={EDUCATION_SUMMARY}
       />
       <div className="education__degrees">
-        <h1 className="education__degrees-heading">Degrees</h1>
+        <SectionHeading className="education__degrees-heading" heading="Degrees" />
         <div className="education__degrees-container">
           {DEGREES_DETAILS.map((degreeDetails, index) => (
             <DegreeCard key={index} details={degreeDetails} />

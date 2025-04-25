@@ -7,13 +7,6 @@
   animation: slide-up 0.65s ease-out forwards;
 }
 
-.contact-me__heading {
-  font: var(--font-style-heading);
-  letter-spacing: 0.75px;
-  margin: 0;
-  color: var(--color-primary);
-}
-
 .contact-me__message {
   font: var(--font-style-heading-2);
   letter-spacing: 0.75px;
@@ -75,10 +68,6 @@
 @media screen and (max-width: 768px) {
   .contact-me {
     height: 85vh;
-  }
-
-  .contact-me__heading {
-    font-size: 32px;
   }
 
   .contact-me__form-input {

@@ -29,28 +29,26 @@
 }
 
 .home__name {
-  font-size: 36px;
-  letter-spacing: 0.75px;
-  margin: 0;
-  margin-bottom: 8px;
   color: var(--color-primary);
+  font-size: 36px;
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.75px;
 }
 
 .home__title {
+  color: var(--color-1);
   font-size: 24px;
   font-weight: bold;
+  margin: 0 0 1.25rem;
   letter-spacing: 0.75px;
-  margin: 0;
-  margin-bottom: 1.25rem;
-  color: var(--color-1);
 }
 
 .about-me {
+  color: var(--color-1);
   font: var(--font-style-1);
+  margin: 0 0 1rem;
   letter-spacing: 0.8px;
   line-height: 1.75rem;
-  color: var(--color-1);
-  margin: 0 0 1rem;
 }
 
 @media screen and (max-width: 768px) {

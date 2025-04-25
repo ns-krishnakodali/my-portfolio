@@ -9,25 +9,22 @@
   justify-content: center;
   padding-top: 1rem;
   margin-bottom: 2rem;
-  animation: slide-up 0.65s ease-out forwards;
+  animation: fade-in 0.65s ease-out forwards;
 }
 
 .about__heading {
-  color: var(--color-primary);
-  font: var(--font-style-heading);
-  letter-spacing: 0.75px;
-  text-align: center;
-  margin: 0;
   animation: fade-in 0.65s ease-out forwards;
 }
 
 .about__background {
-  margin: 1rem 0;
+  color: var(--color-1);
   font: var(--font-style-1);
+  text-align: justify;
+  hyphens: auto;
+  overflow-wrap: break-word;
   letter-spacing: 0.8px;
   line-height: 1.75rem;
-  text-align: left;
-  color: var(--color-1);
+  margin: 1rem 0;
   width: 75%;
 }
 
@@ -68,10 +65,10 @@
 }
 
 .skills-overview__heading {
-  text-align: center;
-  padding-bottom: 0.25rem;
   color: var(--color-primary);
   background-color: var(--color-2-light);
+  text-align: center;
+  padding-bottom: 0.25rem;
   font: var(--font-style-heading-1);
   margin: 0 0 1rem;
   padding: 0.75rem 0;
@@ -157,16 +154,11 @@
     padding-top: 4rem;
   }
 
-  .about__heading {
-    font-size: 32px;
-  }
-
   .about__background {
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 1.5em;
-    width: 90%;
-    text-align: center;
+    width: 85%;
   }
 
   .skills-overview-container {
@@ -203,10 +195,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .about__heading {
-    font-size: 36px;
-  }
-
   .about__background {
     font-size: 18px;
   }
