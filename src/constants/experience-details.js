@@ -3,7 +3,7 @@ export const MY_EXPERIENCE =
 
 export const EXPERIENCE_DETAILS = [
   {
-    'Full Time': [
+    'Full-Time': [
       {
         imageSrc: 'assets/logos/algosec-logo.png',
         imageAlt: 'Algosec Logo',
@@ -28,7 +28,7 @@ export const EXPERIENCE_DETAILS = [
         ePoints: [
           'Working as an Associate Software Development Engineer, I developed software solutions for clients, contributing to both front-end and back-end development. I created responsive user interfaces for a Health & Wellness application and designed libraries for efficient data querying, improving processing time and system efficiency. I also developed scalable frameworks for data management and enhanced system performance and reliability.',
         ],
-        date: '06/2021 - 09/2022',
+        date: '06/2021 - 08/2022',
         location: 'Bengaluru, India',
       },
     ],

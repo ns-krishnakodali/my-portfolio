@@ -5,7 +5,7 @@ import React from 'react';
 import { ExperienceCard } from './experience-card';
 
 import { EXPERIENCE_DETAILS, MY_EXPERIENCE } from '../../constants';
-import { IntroSection, SectionHeading } from '../../shared-ui';
+import { IntroSection } from '../../shared-ui';
 
 export const Experience = () => {
   return (
@@ -23,9 +23,6 @@ export const Experience = () => {
             <ExperienceCard key={index} title={title} details={details} />
           ))
         )}
-      </div>
-      <div className="work__experiences">
-        <SectionHeading heading="Work" />
       </div>
     </div>
   );

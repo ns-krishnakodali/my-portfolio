@@ -1,16 +1,20 @@
 import './section-link.css';
 
-export const SectionLink = ({ text }) => {
+import { Link } from 'react-router-dom';
+
+export const SectionLink = ({ path, text, showArrow = false }) => {
   return (
-    <a className="section-link" href="/about">
+    <Link className="section-link" to={path}>
       {text}
-      <img
-        src="assets/icons/right-arrow-icon.svg"
-        alt="Right Arrow"
-        className="section-link__right-arrow-icon"
-        width={16}
-        height={16}
-      />
-    </a>
+      {showArrow && (
+        <img
+          src="assets/icons/right-arrow-icon.svg"
+          alt="Right Arrow"
+          className="section-link__right-arrow-icon"
+          width={16}
+          height={16}
+        />
+      )}
+    </Link>
   );
 };

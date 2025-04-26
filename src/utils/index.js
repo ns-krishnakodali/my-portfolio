@@ -9,3 +9,5 @@ export const removeNonAlphabets = (str) => {
 
   return str.replace(/[^a-zA-Z-]/g, '').toLowerCase();
 };
+
+export const formatText = (text) => text.split(/(<[A-Za-z]+>)/g).filter(Boolean);

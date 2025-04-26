@@ -1,5 +1,6 @@
 export * from './button-link';
 export * from './intro-section';
+export * from './loader';
 export * from './logo-details';
 export * from './navbar';
 export * from './notification';

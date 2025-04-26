@@ -44,7 +44,7 @@ export const Home = () => {
         <h1 className="home__name">Hi, I'm Krishna</h1>
         <h3 className="home__title">Software Engineer | AI/ML Enthusiast</h3>
         <p className="about-me">{HOME_ABOUT_ME}</p>
-        <SectionLink text="Know More" />
+        <SectionLink path="/about" text="Know More" showArrow />
         <LogoDetails />
       </div>
     </div>

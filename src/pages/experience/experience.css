@@ -117,7 +117,7 @@
 .company {
   font: var(--font-style-heading-4);
   margin: 0;
-  color: var(--color-primary);
+  color: var(--color-1);
 }
 
 .experience__card-geotime {
