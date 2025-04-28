@@ -23,13 +23,13 @@
 }
 
 .intro-section__content {
-  color: var(--color-1);
-  font: var(--font-style-1);
   text-align: justify;
   hyphens: auto;
   overflow-wrap: break-word;
+  color: var(--color-1);
+  font: var(--font-style-1);
   margin: 1rem 0 0;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.1px;
   line-height: 1.75rem;
 }
 

@@ -1,7 +1,5 @@
 import './experience.css';
 
-import React from 'react';
-
 import { ExperienceCard } from './experience-card';
 
 import { EXPERIENCE_DETAILS, MY_EXPERIENCE } from '../../constants';

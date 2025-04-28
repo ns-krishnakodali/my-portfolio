@@ -76,7 +76,7 @@
 }
 
 .experience__card-details {
-  width: 68vw;
+  width: 66vw;
   margin-left: 0.25rem;
   padding: 1rem 1.5rem;
   border: 1px solid var(--color-border-1);
@@ -134,7 +134,10 @@
 }
 
 .experience__card-point {
+  text-align: justify;
+  color: var(--color-text);
   font: var(--font-style-2);
+  letter-spacing: 0.15px;
   margin: 0 0 0.5rem;
 }
 

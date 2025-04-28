@@ -17,12 +17,11 @@
 }
 
 .about__background {
-  color: var(--color-1);
-  font: var(--font-style-1);
   text-align: justify;
   hyphens: auto;
   overflow-wrap: break-word;
-  letter-spacing: 0.8px;
+  color: var(--color-1);
+  font: var(--font-style-1);
   line-height: 1.75rem;
   margin: 1rem 0;
   width: 75%;
@@ -83,8 +82,10 @@
 }
 
 .skills-overview__description {
+  color: var(--color-text);
+  font: var(--font-style-2);
+  letter-spacing: 0.15px;
   margin: 0 0 0.5rem;
-  letter-spacing: 0.3px;
 }
 
 .skills-overview__technologies-container {
@@ -158,7 +159,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 1.5em;
-    width: 85%;
+    width: 70%;
   }
 
   .skills-overview-container {

@@ -122,8 +122,10 @@
 }
 
 .degree-detail {
+  text-align: justify;
+  color: var(--color-text);
   font: var(--font-style-2);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25px;
   margin: 0 0 1rem;
 }
 

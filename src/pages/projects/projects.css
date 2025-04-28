@@ -111,6 +111,7 @@
 }
 
 .project__card-description {
+  color: var(--color-text);
   font: var(--font-style-2);
   margin: 0 0 0.5rem 0;
 }

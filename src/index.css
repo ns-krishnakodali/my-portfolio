@@ -6,6 +6,7 @@
   --color-border-1: #b3b6b96b;
   --color-border-2: #66a5cf;
   --color-border-3: #4a90e2;
+  --color-text: #0a1f44;
   --color-black: #000000;
   --color-white: #ffffff;
   --color-gray: #333333;
@@ -33,7 +34,7 @@
 
   --text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 
-  --font-style-1: 600 18px / normal 'Nunito', sans-serif;
+  --font-style-1: 650 18px / normal 'Nunito', sans-serif;
   --font-style-2: 500 16px / normal 'Nunito', sans-serif;
   --font-style-3: 500 14px / normal 'Nunito', sans-serif;
   --font-style-heading: 600 40px / normal 'Open sans', sans-serif;
@@ -43,9 +44,9 @@
   --font-style-heading-4: bold 16px / normal 'Open sans', sans-serif;
 
   font-family: 'Open sans', sans-serif;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
