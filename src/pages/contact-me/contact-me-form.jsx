@@ -3,25 +3,16 @@ import cx from 'classnames';
 import { useState } from 'react';
 
 import {
+  CONTACT_FAILURE_NOTIFICATION,
   CONTACT_ME_SAME_MAIL_NOTIFICATION,
   CONTACT_SUCCESS_NOTIFICATION,
   MY_EMAIL,
 } from '../../constants';
+import { formatPhoneNumber } from '../../utils';
 
 export const ContactMeForm = ({ displayNotification }) => {
   const [phone, setPhone] = useState('');
-
-  const formatPhoneNumber = (number) => {
-    const numbers = number.replace(/\D/g, '');
-
-    if (numbers.length <= 3) {
-      return numbers;
-    } else if (numbers.length <= 6) {
-      return `${numbers.slice(0, 3)}-${numbers.slice(3)}`;
-    } else {
-      return `${numbers.slice(0, 3)}-${numbers.slice(3, 6)}-${numbers.slice(6, 10)}`;
-    }
-  };
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleNumberChange = (e) => {
     const formattedNumber = formatPhoneNumber(e.target.value);
@@ -38,7 +29,35 @@ export const ContactMeForm = ({ displayNotification }) => {
       return;
     }
 
-    displayNotification('success', CONTACT_SUCCESS_NOTIFICATION);
+    setIsLoading(true);
+    fetch(import.meta.env.VITE_CONTACT_ME_API, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userName: values.name,
+        userEmail: values.email,
+        mobile: values.number,
+        message: values.message,
+      }),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return;
+      })
+      .then(() => {
+        displayNotification('success', CONTACT_SUCCESS_NOTIFICATION);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        displayNotification('failure', CONTACT_FAILURE_NOTIFICATION);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   };
 
   return (
@@ -62,7 +81,7 @@ export const ContactMeForm = ({ displayNotification }) => {
         />
         <input
           id="mobile-number"
-          name="number"
+          name="mobile"
           className="contact-me__form-input"
           placeholder="Mobile Number"
           type="tel"
@@ -78,9 +97,17 @@ export const ContactMeForm = ({ displayNotification }) => {
           placeholder="Your Message"
           required
         />
-        <button id="submit" type="submit" className="contact-me__send-button">
-          Send
-        </button>
+        {isLoading ? (
+          <img
+            src="assets/generic/spinner.svg"
+            alt="Loading Spinner"
+            className="contact-me__loader"
+          />
+        ) : (
+          <button id="submit" type="submit" className="contact-me__send-button">
+            Send
+          </button>
+        )}
       </div>
     </form>
   );

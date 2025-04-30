@@ -53,6 +53,8 @@
   color: var(--color-white);
   font: var(--font-style-2);
   font-size: 16px;
+  width: fit-content;
+  height: 3rem;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 8px;
@@ -63,6 +65,11 @@
 .contact-me__send-button:hover {
   background-color: var(--color-2);
   transform: translateY(-2px);
+}
+
+.contact-me__loader {
+  width: 3rem;
+  height: 3rem;
 }
 
 @media screen and (max-width: 768px) {

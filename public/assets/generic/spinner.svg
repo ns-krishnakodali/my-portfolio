@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="circleGradient" cx="0.66" fx="0.66" cy="0.3125" fy="0.3125" gradientTransform="scale(1.5)">
+      <stop offset="0" stop-color="#11295E" />
+      <stop offset="0.3" stop-color="#11295E" stop-opacity="0.9" />
+      <stop offset="0.6" stop-color="#11295E" stop-opacity="0.6" />
+      <stop offset="0.8" stop-color="#11295E" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#11295E" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      @keyframes spin {
+        from {
+          transform: rotate(360deg);
+        }
+
+        to {
+          transform: rotate(0deg);
+        }
+      }
+
+      .spinning-circle {
+        transform-origin: center;
+        animation: spin 0.8s linear infinite;
+      }
+    </style>
+  </defs>
+  <circle class="spinning-circle" fill="none" stroke="url(#circleGradient)" stroke-width="20" stroke-linecap="round" stroke-dasharray="200 1000" stroke-dashoffset="0" cx="100" cy="100" r="70" />
+  <circle fill="none" opacity="0.2" stroke="#11295E" stroke-width="20" stroke-linecap="round" cx="100" cy="100" r="70" />
+</svg>
