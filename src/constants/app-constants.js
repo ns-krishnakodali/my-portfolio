@@ -1,7 +1,7 @@
 export const MY_EMAIL = 'nskrishnakodali@gmail.com';
 
 export const HOME_ABOUT_ME =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';
+  'I design systems, train models, and sometimes wonder if machines are judging me. Passionate about building scalable, intelligent solutions with a focus on core AI/ML applications.';
 
 export const APP_SECTIONS = [
   {
@@ -17,12 +17,12 @@ export const APP_SECTIONS = [
     name: 'Experience',
   },
   {
-    path: '/education',
-    name: 'Education',
-  },
-  {
     path: '/projects',
     name: 'Projects',
+  },
+  {
+    path: '/education',
+    name: 'Education',
   },
   {
     path: '/contact-me',

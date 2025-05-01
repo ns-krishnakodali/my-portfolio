@@ -1,12 +1,17 @@
 export const ABOUT_MYSELF =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. <Education>';
+  "I'm always seeking new challenges and opportunities to apply technology to real-world problems. Currently, I'm deeply immersed in the intersection of finance and AI/ML, actively working on <Projects> that explore how these technologies can drive smarter financial systems. With hands-on <Experience> in software engineering and a strong academic foundation in Computer Science with a focus on Machine Learning, I'm focused on building innovative solutions in the finance domain, solving complex problems, and continuously expanding my expertise in both software engineering and applied AI/ML.";
 
 export const SKILLS_OVERVIEW = [
   {
     imageSrc: 'assets/generic/software-development.svg',
     imageAlt: 'Software Development',
     techDomain: 'Software Development',
-    skillDetails: ['Experienced in building scalable applications using development.'],
+    skillDetails: [
+      'Proficient in developing end-to-end systems, specializing in scalable web apps',
+      'Designing scalable, high-performance distributed systems with a focus on reliability',
+      'Building scalable backend systems with Java, Spring Boot, and Golang',
+      'Developing responsive user interfaces with React, Next.js, and Angular',
+    ],
     technologies: [
       'Java',
       'Javascript',
@@ -24,14 +29,22 @@ export const SKILLS_OVERVIEW = [
     imageSrc: 'assets/generic/ai-ml.svg',
     imageAlt: 'Machine Learning & AI',
     techDomain: 'Machine Learning & AI',
-    skillDetails: ['Proficient in building ML models using Python, TensorFlow, and Scikit-learn.'],
+    skillDetails: [
+      'Implementing optimization techniques and statistical modeling for machine learning tasks using Python',
+      'Applying statistical methods and probabilistic models to financial data analysis',
+      'Developing scalable models for deep learning and large-scale data processing using TensorFlow and Keras',
+    ],
     technologies: ['Python', 'Julia', 'PyTorch', 'TensorFlow', 'Keras', 'Hugging Face'],
   },
   {
     imageSrc: 'assets/generic/cloud-infra-devops.svg',
     imageAlt: 'Cloud Infra & DevOps',
     techDomain: 'Cloud Infra & DevOps',
-    skillDetails: ['Proficient in building ML models using Python, TensorFlow, and Scikit-learn.'],
+    skillDetails: [
+      'Experienced with multiple cloud platforms for deploying services and ML models',
+      'Designing and deploying scalable cloud infrastructure on AWS, GCP, and Azure',
+      'Automating CI/CD pipelines with Docker, Terraform, and Jenkins',
+    ],
     technologies: ['AWS', 'Azure', 'GCP', 'Terraform', 'Docker', 'Jenkins'],
   },
 ];

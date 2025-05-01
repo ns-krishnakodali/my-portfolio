@@ -98,7 +98,7 @@
   justify-content: space-between;
   align-items: stretch;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .experience__company-details {
@@ -133,12 +133,35 @@
   color: var(--color-4);
 }
 
-.experience__card-point {
-  text-align: justify;
+.experience__card-info {
   color: var(--color-text);
   font: var(--font-style-2);
+  font-weight: 600;
   letter-spacing: 0.15px;
-  margin: 0 0 0.5rem;
+}
+
+.experience__card-summary {
+  text-align: justify;
+  padding: 0 0 0.75rem;
+  margin: 0 0 0.75rem;
+  border-bottom: 1px solid var(--color-border-1);
+}
+
+.experience__card-techologies {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0 0 0.25rem;
+}
+
+.experience__card-skill-box {
+  display: flex;
+  width: fit-content;
+  background-color: var(--color-2-light);
+  font-weight: 600;
+  padding: 0.375rem 0.5rem;
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 768px) {
@@ -186,9 +209,12 @@
     font-size: 14px;
   }
 
-  .experience__card-point {
-    font-size: 14px;
-    margin: 0 0 0.5rem;
+  .experience__card-info {
+    font-size: 15px;
+  }
+
+  .experience__card-summary {
+    text-align: left;
   }
 }
 

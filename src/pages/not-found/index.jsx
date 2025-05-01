@@ -13,10 +13,10 @@ export const NotFound = () => {
       </p>
       <ul className="not-found__links">
         <li>
-          🔹 Go back to <a href="/">Home</a>
+          🔹Go back to <a href="/">Home</a>
         </li>
         <li>
-          🔹 Get in touch <a href="/contact-me">Contact Me</a>
+          🔹Get in touch <a href="/contact-me">Contact Me</a>
         </li>
       </ul>
     </div>

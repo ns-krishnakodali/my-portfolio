@@ -1,9 +1,9 @@
 export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
 
 export const MY_PROJECT_DESCRIPTION =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lacinia scelerisque. In sagittis lectus eget faucibus finibus. Nullam sit amet nunc.';
+  'Projects are where I experiment with ideas and apply what I learn. They span core software engineering, machine learning, and finance, often blending disciplines to solve practical, real-world challenges. These projects showcase my ability to design and develop efficient applications using technologies like Java, JavaScript, Python, and Go and deploy them using cloud infrastructure and DevOps practices.';
 
-export const PROJECT_CATEGORIES = ['All', 'SE', 'AI / ML', 'FE'];
+export const PROJECT_CATEGORIES = ['All', 'SE', 'AI / ML', 'Finance'];
 
 export const PROJECTS_DETAILS = [
   {
@@ -11,14 +11,14 @@ export const PROJECTS_DETAILS = [
     description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Typescript', 'Next.js', 'Spring', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/capital-vantage',
-    categories: ['se', 'aiml'],
+    categories: ['se', 'aiml', 'finance'],
   },
   {
     title: 'Risk Optimization',
     description: 'This is a placeholder for project description. Will be replacing soon.',
     techstack: ['Python', 'Tensorflow'],
     githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
-    categories: ['aiml'],
+    categories: ['aiml', 'finance'],
   },
   {
     title: 'Gator Marketplace',

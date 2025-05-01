@@ -1,5 +1,5 @@
 export const EDUCATION_SUMMARY =
-  'I specialize in developing scalable, high-performance systems with a strong focus on software design and architecture. I have led architectural transformations to enhance scalability and efficiency. Proficient in the full development lifecycle, I also build responsive, accessible user interfaces for seamless experiences. I am dedicated to creating resilient, adaptable solutions through system design and performance optimization.';
+  "I hold a strong academic foundation in Computer Science (CS), with a Master's degree from the University of Florida focused on Applied Machine Learning, and a Bachelor's in CSE from IIT Bhubaneswar. My education covered core CS fundamentals like Data Structures, OS, and DBMS, along with advanced topics such as ML, Optimization, and high-performance systems. This background has equipped me with the skills to solve complex, real-world challenges.";
 
 export const DEGREES_DETAILS = [
   {
@@ -17,7 +17,11 @@ export const DEGREES_DETAILS = [
       'NLP',
       'Advanced Data Structures',
     ],
-    dPoints: ['Point1', 'Point2'],
+    dPoints: [
+      "Pursuing a Master's in Computer Science at UF, specializing in Machine Learning with a focus on practical and theoretical aspects.",
+      'Exploring financial engineering fundamentals, with ML and quantitative modeling.',
+      'Active member of the UF Open Source Club, contributing to collaborative tech projects.',
+    ],
     date: '08/2024 - 05/2026',
   },
   {
@@ -35,7 +39,11 @@ export const DEGREES_DETAILS = [
       'Database Systems',
       'Compiler Design',
     ],
-    dPoints: ['Point1', 'Point2'],
+    dPoints: [
+      'Graduated with a Bachelor of Technology in Computer Science and Engineering from IIT Bhubaneswar, with a strong focus on core CS areas like Algorithms, OS, and Databases',
+      'Contributed to the Decentralized and Smart Systems Research Group (DSSRG), gaining experience in IOT/WSN technologies.',
+      'As a core head in the Sponsorship Team for Entrepreneurship Summit, IIT Bhubaneswar, secured key partnerships and ensured its success.',
+    ],
     date: '07/2017 - 05/2021',
   },
 ];

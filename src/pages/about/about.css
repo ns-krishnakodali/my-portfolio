@@ -77,13 +77,13 @@
 .skills-overview__description-container {
   max-width: 100%;
   padding: 0 1rem;
-  font: var(--font-style-2);
   margin-bottom: 1rem;
 }
 
 .skills-overview__description {
   color: var(--color-text);
   font: var(--font-style-2);
+  font-weight: 600 !important;
   letter-spacing: 0.15px;
   margin: 0 0 0.5rem;
 }
@@ -159,7 +159,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 1.5em;
-    width: 70%;
+    width: 80%;
   }
 
   .skills-overview-container {
@@ -205,7 +205,7 @@
   }
 
   .skills-overview__details-container {
-    width: 100%;
+    width: 80vw;
   }
 
   .skills-overview__description-container {

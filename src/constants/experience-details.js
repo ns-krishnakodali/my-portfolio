@@ -1,5 +1,5 @@
 export const MY_EXPERIENCE =
-  'I specialize in developing scalable, high-performance systems with a strong focus on software design and architecture. I have led architectural transformations to enhance scalability and efficiency. Proficient in the full development lifecycle, I also build responsive, accessible user interfaces for seamless experiences. I am dedicated to creating resilient, adaptable solutions through system design and performance optimization.';
+  "I have 3.5 years of professional experience as a Software Engineer in both fast-paced startups and established companies. My work spans designing scalable backends, developing responsive web apps, and building robust infrastructure. I've modernized legacy systems into fault-tolerant services, optimized data workflows, and enhanced system performance to align solutions with customer needs and business goals.";
 
 export const EXPERIENCE_DETAILS = [
   {
@@ -11,9 +11,9 @@ export const EXPERIENCE_DETAILS = [
         position: 'Software Engineer',
         company: 'AlgoSec',
         companyURL: 'https://www.algosec.com/',
-        ePoints: [
-          'As a Software Engineer in the Customer Focus R&D Team, they designed and built scalable, high-performance systems tailored to meet customer needs. They modernized legacy systems by converting them into reliable, fault-tolerant microservices, improving efficiency and scalability. Additionally, they optimized cloud-based components to streamline deployments and minimize downtime, delivering customized solutions that enhanced system reliability and reduced issue resolution time.',
-        ],
+        summary:
+          'In my role as a Software Engineer in the Customer Focus R&D Team, I designed and built scalable, high-performance systems, migrated legacy services to Spring Boot microservices, and optimized deployments and network integrations to improve reliability and efficiency. I also implemented onboarding services for cloud-based devices using Spring Boot and AngularJS, streamlining customer setup processes and contributing to improved experience and a 5% increase in revenue.',
+        technologies: ['Java', 'Spring', 'Angular', 'Linux', 'Perl', 'PostgreSQL', 'Microservices'],
         date: '09/2022 - 08/2024',
         location: 'Gurugram, India',
       },
@@ -25,8 +25,16 @@ export const EXPERIENCE_DETAILS = [
         position: 'Associate Software Development Engineer 2',
         company: 'Publicis Sapient',
         companyURL: 'https://www.publicissapient.com/',
-        ePoints: [
-          'Working as an Associate Software Development Engineer, I developed software solutions for clients, contributing to both front-end and back-end development. I created responsive user interfaces for a Health & Wellness application and designed libraries for efficient data querying, improving processing time and system efficiency. I also developed scalable frameworks for data management and enhanced system performance and reliability.',
+        summary:
+          'As an ASDE-2, collaborated with Albertsons to build scalable backend systems and responsive UIs for Albertsons platforms, aligned with Web Accessibility standards. Engineered a Redis-based querying framework using Spring Boot, reducing API latency by 80%, and built a custom charting library that lowered bundle size by 45%. Contributed to core platform components, enhancing system performance, reliability, and delivering measurable business outcomes.',
+        technologies: [
+          'Java',
+          'Javascript',
+          'Spring',
+          'Next.js',
+          'GraphQL',
+          'Microservices',
+          'Kubernetes',
         ],
         date: '06/2021 - 08/2022',
         location: 'Bengaluru, India',
@@ -41,9 +49,9 @@ export const EXPERIENCE_DETAILS = [
         position: 'Technology Intern',
         company: 'GEP Worldwide',
         companyURL: 'https://www.gep.com/',
-        ePoints: [
-          'I focused on improving system reliability and efficiency by building modules to forecast application outages. My responsibilities included automating the extraction, processing, and classification of event logs, streamlining log management workflows. I also designed and developed a mobile application for encoding and scanning QR codes with secure data handling, in line with internal requirements.',
-        ],
+        summary:
+          'My responsibilities as an intern included building Python modules for service outage forecasting using custom kernel-based models, achieving 95% accuracy. I also automated the extraction and classification of over 100,000 event logs per cycle using Python and Bash, improving operational efficiency by 30%. Additionally, I developed a secure Android app for QR code generation and scanning, which won an internal hackathon.',
+        technologies: ['Python', 'Bash', 'Scikit-Learn', 'Java', 'Android Studio'],
         date: '05/2020 - 07/2020',
         location: 'Navi Mumbai, India',
       },
@@ -56,9 +64,9 @@ export const EXPERIENCE_DETAILS = [
         position: 'LiPI: Lightweight Privacy-Preserving Data Aggregation in IoT',
         company: 'DSSRG, IIT Bhubaneswar',
         companyURL: 'https://ieeexplore.ieee.org/document/10538564',
-        ePoints: [
-          "I co-developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar, and co-authored the research paper, which was published at IEEE TrustCom 2023. I also optimized LiPI's performance in D-Cube by implementing concurrent programming techniques and advanced IoT/WSN data segmentation and de-segmentation mechanisms.",
-        ],
+        summary:
+          "I co-developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar. Also, co-authored the research paper detailing this work and published at IEEE TrustCom 2023. Additionally, I optimized LiPI's performance by implementing advanced data segmentation and de-segmentation methods in C++, achieving a 51% performance improvement.",
+        technologies: ['C++', 'Contiki OS', 'Minicast', 'Python'],
         date: '01/2021 - 08/2023',
         location: 'Bhubaneswar, India',
       },

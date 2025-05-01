@@ -63,12 +63,16 @@ export const ExperienceCard = ({ title, details }) => {
                     <p className="experience__geotime-point">{detail.location}</p>
                   </div>
                 </div>
-                <div className="experience__card-points">
-                  {detail.ePoints?.map((ePoint, index) => (
-                    <p key={index} className="experience__card-point">
-                      {ePoint}
-                    </p>
-                  ))}
+                <div className="experience__card-info">
+                  <p className="experience__card-summary">{detail.summary}</p>
+                  <div className="experience__card-techologies">
+                    Key Technologies:
+                    {detail?.technologies?.map((tech, index) => (
+                      <span key={index} className="experience__card-skill-box">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
