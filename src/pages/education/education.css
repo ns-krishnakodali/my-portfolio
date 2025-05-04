@@ -187,3 +187,14 @@
     width: 45vw;
   }
 }
+
+@media print {
+  .education__degree-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .education__degree-card-details {
+    width: 90vw;
+  }
+}

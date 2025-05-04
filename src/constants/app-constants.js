@@ -64,3 +64,6 @@ export const CONTACT_FAILURE_NOTIFICATION =
   'Something went wrong while sending your message. Please try again';
 
 export const CONTACT_ME_SAME_MAIL_NOTIFICATION = 'Please don’t use my email directly';
+
+export const PRINT_BACKGROUND_GRAPHICS_NOTIFICATION =
+  "To view full styling, please enable 'Print Background Graphics' in your browser's print settings.";

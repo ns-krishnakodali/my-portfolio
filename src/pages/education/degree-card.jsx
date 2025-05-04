@@ -1,6 +1,6 @@
 export const DegreeCard = ({ details }) => {
   return (
-    <div className="education__degree-card">
+    <div className="education__degree-card no-break">
       <div className="education__degree-card-image">
         <a href={details.websiteURL} target="_blank" rel="noopener noreferrer">
           <img

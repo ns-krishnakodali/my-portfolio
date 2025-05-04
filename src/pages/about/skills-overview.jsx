@@ -6,7 +6,7 @@ export const SkillsOverview = ({ imageSrc, imageAlt, techDomain, skillDetails, t
       <div className="skills-overview__image-container">
         <img src={imageSrc} alt={imageAlt} className="skills-overview__image" loading="eager" />
       </div>
-      <div className="skills-overview__details-container">
+      <div className="skills-overview__details-container no-break">
         <div>
           <h2 className="skills-overview__heading">{techDomain}</h2>
           <div className="skills-overview__description-container">

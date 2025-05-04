@@ -2,7 +2,7 @@ import { ButtonLink, TechnologyIcon } from '../../shared-ui';
 
 export const ProjectCard = ({ details }) => {
   return (
-    <div className="project__card-container">
+    <div className="project__card-container no-break">
       <h3 className="project__card-title">{details.title}</h3>
       <p className="project__card-description">{details.description}</p>
       <div className="project__logos-container">

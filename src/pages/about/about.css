@@ -222,3 +222,20 @@
     width: 30vw;
   }
 }
+
+@media print {
+  .skills-overview-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .skills-overview__image {
+    width: 15rem;
+    height: 11.25rem;
+  }
+
+  .skills-overview__details-container {
+    width: 85vw;
+  }
+}

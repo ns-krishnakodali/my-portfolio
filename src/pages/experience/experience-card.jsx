@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export const ExperienceCard = ({ title, details }) => {
   const [expandCard, setExpandCard] = useState(false);
@@ -14,8 +14,19 @@ export const ExperienceCard = ({ title, details }) => {
     }, 0);
   };
 
+  useEffect(() => {
+    const onBeforePrint = () => {
+      setExpandCard(true);
+    };
+
+    window.addEventListener('beforeprint', onBeforePrint);
+    return () => {
+      window.removeEventListener('beforeprint', onBeforePrint);
+    };
+  }, []);
+
   return (
-    <div className="experience__card">
+    <div className="experience__card no-break">
       <div
         className="experience__card-title-container"
         onClick={toggleExpandCard}

@@ -22,14 +22,22 @@ const App = () => {
     }
   };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location.pathname]);
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+
+    // Cleanup on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (loadSplashScreen) {
@@ -40,10 +48,6 @@ const App = () => {
     }
   }, [loadSplashScreen]);
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <>
       {loadSplashScreen ? (
@@ -53,7 +57,7 @@ const App = () => {
           <Navbar />
           <AppRoutes />
           {showScroll && (
-            <button className="scroll-to-top" onClick={scrollToTop}>
+            <button className="scroll-to-top no-print" onClick={scrollToTop}>
               <img src="assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
             </button>
           )}

@@ -52,7 +52,7 @@ export const About = () => {
               ))}
             </div>
           </div>
-          <div className="technical__skills">
+          <div className="page-break technical__skills">
             <SectionHeading className="about__heading" heading="Technical Skills" />
             <TechnicalSkills />
           </div>

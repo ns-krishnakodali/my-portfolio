@@ -62,7 +62,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="chatbot-link">
-        <a href="/" target="_blank" className="navbar__link">
+        <a href={import.meta.env.VITE_VERITAS_API} target="_blank" className="navbar__link">
           Ask Veritas
           <img
             src="assets/icons/redirect-icon.png"

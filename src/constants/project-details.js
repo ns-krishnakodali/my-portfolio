@@ -1,7 +1,7 @@
 export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
 
 export const MY_PROJECT_DESCRIPTION =
-  'Projects are where I experiment with ideas and apply what I learn. They span core software engineering, machine learning, and finance, often blending disciplines to solve practical, real-world challenges. These projects showcase my ability to design and develop efficient applications using technologies like Java, JavaScript, Python, and Go and deploy them using cloud infrastructure and DevOps practices.';
+  'My projects are where I experiment with ideas and apply what I learn. They span core software engineering, machine learning, and finance, often blending disciplines to solve practical, real-world challenges. These projects showcase my ability to design and develop efficient applications using key technologies like Java, JavaScript, Python, and Go and deploy them using cloud infrastructure and DevOps practices.';
 
 export const PROJECT_CATEGORIES = ['All', 'SE', 'AI / ML', 'Finance'];
 

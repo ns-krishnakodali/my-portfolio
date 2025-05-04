@@ -25,7 +25,7 @@ export const Projects = () => {
         introHeading="My Projects"
         introContent={MY_PROJECT_DESCRIPTION}
       />
-      <div className="project__filter">
+      <div className="project__filter no-print">
         <div className="project__filter-categories">
           {PROJECT_CATEGORIES.map((category, index) => (
             <button
@@ -53,7 +53,7 @@ export const Projects = () => {
           ))}
         </div>
       </div>
-      <div className="more-projects">
+      <div className="more-projects no-print">
         <ButtonLink
           id="project-link"
           link={PROJECTS_REPO_LINK}

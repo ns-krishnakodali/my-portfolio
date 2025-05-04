@@ -15,7 +15,7 @@ export const Education = () => {
         introHeading="Education"
         introContent={EDUCATION_SUMMARY}
       />
-      <div className="education__degrees">
+      <div className="education__degrees page-break">
         <SectionHeading className="education__degrees-heading" heading="Degrees" />
         <div className="education__degrees-container">
           {DEGREES_DETAILS.map((degreeDetails, index) => (
