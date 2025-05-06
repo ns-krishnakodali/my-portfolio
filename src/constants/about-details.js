@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I'm always seeking new challenges and opportunities to apply technology to real-world problems. Currently, I'm deeply immersed in the intersection of finance and AI/ML, actively working on <Projects> that explore how these technologies can drive smarter financial systems. With hands-on <Experience> in software engineering and a strong academic foundation in Computer Science with a focus on Machine Learning, I'm focused on building innovative solutions in the finance domain, solving complex problems, and continuously expanding my expertise in both software engineering and applied AI/ML.";
+  "I’m a passionate and results-oriented professional driven by a curiosity to learn and create. I thrive on solving complex problems and building innovative solutions that make a real impact. My journey in tech has been shaped by continuous hands-on experience, a strong <Education> in Computer Science, and a deep interest in applied AI/ML and software engineering. Currently, I’m exploring the intersection of finance, software, and AI/ML, and constantly learning new tools and techniques to stay ahead in this ever-evolving field. My <Projects> reflect this mindset, blending core engineering with intelligent systems to solve practical challenges.";
 
 export const SKILLS_OVERVIEW = [
   {
