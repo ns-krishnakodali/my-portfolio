@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I’m a passionate and results-oriented professional driven by a curiosity to learn and create. I thrive on solving complex problems and building innovative solutions that make a real impact. My journey in tech has been shaped by continuous hands-on experience, a strong <Education> in Computer Science, and a deep interest in applied AI/ML and software engineering. Currently, I’m exploring the intersection of finance, software, and AI/ML, and constantly learning new tools and techniques to stay ahead in this ever-evolving field. My <Projects> reflect this mindset, blending core engineering with intelligent systems to solve practical challenges.";
+  "I'm a passionate and results-oriented professional driven by a curiosity to learn and create. I thrive on solving complex problems and building innovative solutions that make a real impact. My journey in tech has been shaped by continuous hands-on experience, a strong <Education> in Computer Science, and a deep interest in applied AI/ML and software engineering. Currently, I'm exploring the intersection of finance, software, and AI/ML, and constantly learning new tools and techniques to stay ahead in this ever-evolving field. My <Projects> reflect this mindset, blending core engineering with intelligent systems to solve practical challenges.";
 
 export const SKILLS_OVERVIEW = [
   {

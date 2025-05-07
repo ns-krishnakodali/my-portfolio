@@ -21,7 +21,7 @@
   animation: slide-left 0.65s ease-out forwards;
 }
 
-.profile-image {
+.display-image {
   width: 18.75rem;
   height: 18.75rem;
   border-radius: 50%;
@@ -36,11 +36,16 @@
 }
 
 .home__title {
+  display: flex;
   color: var(--color-1);
   font-size: 24px;
   font-weight: bold;
   margin: 0 0 1.25rem;
   letter-spacing: 0.75px;
+}
+
+.home__divider {
+  margin: 0 0.25rem;
 }
 
 .about-me {
@@ -74,7 +79,7 @@
     animation: slide-up 0.65s ease-out forwards;
   }
 
-  .profile-image {
+  .display-image {
     width: 10rem;
     height: 10rem;
   }
@@ -86,13 +91,29 @@
   }
 
   .home__title {
+    flex-direction: column;
+    text-align: center;
     font-size: 24px;
     letter-spacing: 0.5px;
-    text-align: center;
+  }
+
+  .home__divider {
+    display: none;
   }
 
   .about-me {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .home__title {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .home__divider {
+    display: none;
   }
 }
 

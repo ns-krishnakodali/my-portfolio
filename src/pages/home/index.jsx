@@ -34,15 +34,19 @@ export const Home = () => {
     >
       <div className="home__image">
         <img
-          src="assets/generic/profile-image.jpg"
-          alt="Profile"
-          className="profile-image"
+          src="assets/generic/display-image.jpeg"
+          alt="Display Image"
+          className="display-image"
           loading="eager"
         />
       </div>
       <div className="home__details">
         <h1 className="home__name">Hi, I'm Krishna</h1>
-        <h3 className="home__title">Software Engineer | AI/ML Enthusiast</h3>
+        <h3 className="home__title">
+          <span>Software Engineer</span>
+          <span className="home__divider">|</span>
+          <span>AI/ML Enthusiast</span>
+        </h3>
         <p className="about-me">{HOME_ABOUT_ME}</p>
         <SectionLink path="/about" text="Know More" showArrow />
         <LogoDetails />

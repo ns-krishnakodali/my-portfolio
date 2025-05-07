@@ -1,5 +1,7 @@
 import './not-found.css';
 
+import { NOT_FOUND_PAGE_INFO } from '../../constants';
+
 export const NotFound = () => {
   return (
     <div className="not-found">
@@ -7,10 +9,7 @@ export const NotFound = () => {
         Oops! Page Not Found
         <img src="assets/icons/sad-face-icon.svg" alt="Sad Face" className="not-found__icon" />
       </h2>
-      <p className="not-found__text">
-        It looks like you've taken a wrong turn. The page you're looking for doesn’t exist or has
-        been moved.
-      </p>
+      <p className="not-found__text">{NOT_FOUND_PAGE_INFO}</p>
       <ul className="not-found__links">
         <li>
           🔹Go back to <a href="/">Home</a>

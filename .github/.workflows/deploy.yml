@@ -1,4 +1,4 @@
-name: Build React + Vite Application
+name: Build My Portfolio (React + Vite) Application
 
 on:
   push:

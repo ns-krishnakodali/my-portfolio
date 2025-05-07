@@ -58,12 +58,15 @@ export const LOGO_DETAILS = [
   },
 ];
 
-export const CONTACT_SUCCESS_NOTIFICATION = 'Thanks for reaching out! I’ll get back to you soon';
+export const CONTACT_SUCCESS_NOTIFICATION = "Thanks for reaching out! I'll get back to you soon";
 
 export const CONTACT_FAILURE_NOTIFICATION =
   'Something went wrong while sending your message. Please try again';
 
-export const CONTACT_ME_SAME_MAIL_NOTIFICATION = 'Please don’t use my email directly';
+export const CONTACT_ME_SAME_MAIL_NOTIFICATION = "Please don't use my email directly";
 
 export const PRINT_BACKGROUND_GRAPHICS_NOTIFICATION =
   "To view full styling, please enable 'Print Background Graphics' in your browser's print settings.";
+
+export const NOT_FOUND_PAGE_INFO =
+  "It looks like you've taken a wrong turn. The page you're looking for doesn't exist or has been moved.";
