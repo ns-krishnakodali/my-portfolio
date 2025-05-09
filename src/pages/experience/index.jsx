@@ -9,7 +9,7 @@ export const Experience = () => {
   return (
     <div className="experience">
       <IntroSection
-        imageSrc="assets/generic/experience-image.png"
+        imageSrc="assets/generic/experience-image.webp"
         imageAlt="Experience Image"
         imageClass="experience__landing-image"
         introHeading="Experience"

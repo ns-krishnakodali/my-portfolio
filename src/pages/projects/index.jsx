@@ -19,7 +19,7 @@ export const Projects = () => {
   return (
     <div className="project">
       <IntroSection
-        imageSrc="assets/generic/projects-image.png"
+        imageSrc="assets/generic/projects-image.webp"
         imageAlt="Project Image"
         imageClass="project__landing-image"
         introHeading="My Projects"

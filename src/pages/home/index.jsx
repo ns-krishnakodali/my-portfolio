@@ -35,9 +35,10 @@ export const Home = () => {
       >
         <div className="home__image">
           <img
-            src="assets/generic/display-image.jpeg"
+            src="assets/generic/display-image.webp"
             alt="Display Image"
             className="display-image"
+            fetchPriority="high"
             loading="eager"
           />
         </div>
