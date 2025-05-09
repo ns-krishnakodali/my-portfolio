@@ -32,7 +32,7 @@ export const APP_SECTIONS = [
 
 export const LOGO_DETAILS = [
   {
-    href: 'https://www.linkedin.com/in/krishnakodali9/',
+    href: 'https://www.linkedin.com/in/nskrishnakodali/',
     src: 'assets/logos/linkedin-logo.png',
     alt: 'LinkedIn Logo',
   },

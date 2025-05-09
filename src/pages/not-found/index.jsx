@@ -1,5 +1,7 @@
 import './not-found.css';
 
+import { Link } from 'react-router-dom';
+
 import { NOT_FOUND_PAGE_INFO } from '../../constants';
 
 export const NotFound = () => {
@@ -12,10 +14,10 @@ export const NotFound = () => {
       <p className="not-found__text">{NOT_FOUND_PAGE_INFO}</p>
       <ul className="not-found__links">
         <li>
-          🔹Go back to <a href="/">Home</a>
+          🔹Go back to <Link to="/">Home</Link>
         </li>
         <li>
-          🔹Get in touch <a href="/contact-me">Contact Me</a>
+          🔹Get in touch <Link to="/contact-me">Contact Me</Link>
         </li>
       </ul>
     </div>
