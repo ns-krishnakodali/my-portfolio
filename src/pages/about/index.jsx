@@ -13,11 +13,11 @@ export const About = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handle = requestIdleCallback(() => {
+    const handle = setTimeout(() => {
       setIsLoading(false);
-    });
+    }, 10);
 
-    return () => cancelIdleCallback(handle);
+    return () => clearTimeout(handle);
   }, []);
 
   return (
