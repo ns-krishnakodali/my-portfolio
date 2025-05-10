@@ -1,5 +1,5 @@
 export const MY_EXPERIENCE =
-  "I have 3.5 years of professional experience as a Software Engineer in both fast-paced startups and established companies. My work spans designing scalable backends, developing responsive web apps, and building robust infrastructure. I've modernized legacy systems into fault-tolerant services, optimized data workflows, and enhanced system performance to align solutions with customer needs and business goals.";
+  "With 3.5 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spanned designing scalable backend systems, developing responsive web apps, and building robust infrastructure. I transformed legacy systems into fault-tolerant microservices, optimized data workflows, and enhanced system performance to align solutions with customer needs and business goals.";
 
 export const EXPERIENCE_DETAILS = [
   {
@@ -26,7 +26,7 @@ export const EXPERIENCE_DETAILS = [
         company: 'Publicis Sapient',
         companyURL: 'https://www.publicissapient.com/',
         summary:
-          'As an ASDE-2, collaborated with Albertsons to build scalable backend systems and responsive UIs for Albertsons platforms, aligned with Web Accessibility standards. Engineered a Redis-based querying framework using Spring Boot, reducing API latency by 80%, and built a custom charting library that lowered bundle size by 45%. Contributed to core platform components, enhancing system performance, reliability, and delivering measurable business outcomes.',
+          'As an ASDE-2, I collaborated with Albertsons to develop scalable backend systems and responsive, accessible UIs for their digital platforms. Some of my key contributions included developing a Redis-based querying framework using Spring Boot, reducing API latency by 80%, and building a custom charting library from ground up lowering bundle size by 45%. I also improved core platform components, enhancing system performance, reliability, and delivering measurable business outcomes.',
         technologies: [
           'Java',
           'Javascript',
@@ -50,7 +50,7 @@ export const EXPERIENCE_DETAILS = [
         company: 'GEP Worldwide',
         companyURL: 'https://www.gep.com/',
         summary:
-          'My responsibilities as an intern included building Python modules for service outage forecasting using custom kernel-based models, achieving 95% accuracy. I also automated the extraction and classification of over 100,000 event logs per cycle using Python and Bash, improving operational efficiency by 30%. Additionally, I developed a secure Android app for QR code generation and scanning, which won an internal hackathon.',
+          'My responsibilities as an intern included building Python modules for service outage forecasting using custom kernel-based models, attaining 95% accuracy. I also automated the extraction and classification of over 100,000 event logs per cycle using Python and Bash, improving operational efficiency by 30%. Additionally, I developed a secure Android app for QR code generation and scanning, which won an internal hackathon.',
         technologies: ['Python', 'Bash', 'Scikit-Learn', 'Java', 'Android Studio'],
         date: '05/2020 - 07/2020',
         location: 'Navi Mumbai, India',
@@ -65,8 +65,8 @@ export const EXPERIENCE_DETAILS = [
         company: 'DSSRG, IIT Bhubaneswar',
         companyURL: 'https://ieeexplore.ieee.org/document/10538564',
         summary:
-          "I co-developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar. Also, co-authored the research paper detailing this work and published at IEEE TrustCom 2023. Additionally, I optimized LiPI's performance by implementing advanced data segmentation and de-segmentation methods in C++, achieving a 51% performance improvement.",
-        technologies: ['C++', 'Contiki OS', 'Minicast', 'Python'],
+          "I co-developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar. Also, co-authored the research paper detailing this work and published at IEEE TrustCom 2023. Additionally, I optimized LiPI's performance by implementing advanced data segmentation and de-segmentation methods, resulting in a 51% performance improvement.",
+        technologies: ['C++', 'Python', 'Contiki OS', 'IoT/WSN'],
         date: '01/2021 - 08/2023',
         location: 'Bhubaneswar, India',
       },

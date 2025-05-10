@@ -1,5 +1,5 @@
 export const EDUCATION_SUMMARY =
-  "I hold a strong academic foundation in Computer Science (CS), with a Master's degree from the University of Florida focused on Applied Machine Learning, and a Bachelor's in CSE from IIT Bhubaneswar. My education covered core CS fundamentals like Data Structures, OS, and DBMS, along with advanced topics such as ML, Optimization, and high-performance systems. This background has equipped me with the skills to solve complex, real-world challenges.";
+  "I have a strong academic foundation in Computer Science (CS), with a Master's in CS from the University of Florida, and a Bachelor's in CSE from IIT Bhubaneswar. I was exposed to core CS fundamentals along as well as advanced topics such as ML, Optimization, and high-performance systems. I actively participated in research, projects, and open-source initiatives, which instilled a passion for continuous learning and innovation to solve real-world challenges.";
 
 export const DEGREES_DETAILS = [
   {

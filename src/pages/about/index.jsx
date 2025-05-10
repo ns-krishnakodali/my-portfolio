@@ -13,11 +13,9 @@ export const About = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handle = setTimeout(() => {
+    requestAnimationFrame(() => {
       setIsLoading(false);
-    }, 10);
-
-    return () => clearTimeout(handle);
+    });
   }, []);
 
   return (
