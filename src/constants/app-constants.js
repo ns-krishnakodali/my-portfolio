@@ -1,7 +1,7 @@
 export const MY_EMAIL = 'nskrishnakodali@gmail.com';
 
 export const HOME_ABOUT_ME =
-  'I design systems, train models, and sometimes wonder if machines are judging me. Passionate about building scalable, intelligent solutions with a focus on core AI/ML applications.';
+  "I design systems, train models, code like the machines are watching, and sometimes wonder if they're judging me. Passionate about building intelligent and impactful solutions with a focus on AI/ML applications.";
 
 export const APP_SECTIONS = [
   {
@@ -42,6 +42,16 @@ export const LOGO_DETAILS = [
     alt: 'GitHub Logo',
   },
   {
+    href: 'https://leetcode.com/u/krishnakodali99/',
+    src: 'assets/logos/leetcode-logo.png',
+    alt: 'LeetCode Logo',
+  },
+  {
+    href: 'https://www.codechef.com/users/krishnakodali9',
+    src: 'assets/logos/codechef-logo.svg',
+    alt: 'Codechef Logo',
+  },
+  {
     href: 'https://medium.com/@krishnakodali9',
     src: 'assets/logos/medium-logo.png',
     alt: 'Medium Logo',
@@ -50,11 +60,6 @@ export const LOGO_DETAILS = [
     href: `mailto:${MY_EMAIL}`,
     src: 'assets/logos/gmail-logo.png',
     alt: 'Gmail Logo',
-  },
-  {
-    href: 'https://x.com/KodaliK9',
-    src: 'assets/logos/x-logo.png',
-    alt: 'X Logo',
   },
 ];
 

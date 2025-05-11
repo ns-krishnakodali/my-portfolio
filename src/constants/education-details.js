@@ -15,10 +15,10 @@ export const DEGREES_DETAILS = [
       'Machine Learning',
       'Convex Optimization',
       'NLP',
-      'Advanced Data Structures',
+      'Distributed Operating Systems',
     ],
     dPoints: [
-      "Pursuing a Master's in Computer Science at UF, specializing in Machine Learning with a focus on practical and theoretical aspects.",
+      "Pursuing Master's in Computer Science at UF, specializing in Machine Learning with a focus on practical and theoretical aspects.",
       'Exploring financial engineering fundamentals, with ML and quantitative modeling.',
       'Active member of the UF Open Source Club, contributing to collaborative tech projects.',
     ],
