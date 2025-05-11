@@ -118,6 +118,10 @@
     text-align: left;
   }
 
+  .home__details {
+    width: 40vw;
+  }
+
   .home__divider {
     display: none;
   }

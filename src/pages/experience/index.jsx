@@ -3,7 +3,7 @@ import './experience.css';
 import { ExperienceCard } from './experience-card';
 
 import { EXPERIENCE_DETAILS, MY_EXPERIENCE } from '../../constants';
-import { IntroSection } from '../../shared-ui';
+import { IntroSection, SectionLink } from '../../shared-ui';
 
 export const Experience = () => {
   return (
@@ -21,6 +21,9 @@ export const Experience = () => {
             <ExperienceCard key={index} title={title} details={details} />
           ))
         )}
+      </div>
+      <div className="next-section-link no-print">
+        <SectionLink path="/projects" text="My Projects" showArrow />
       </div>
     </div>
   );

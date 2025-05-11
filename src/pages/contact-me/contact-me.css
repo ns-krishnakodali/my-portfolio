@@ -88,6 +88,12 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact-me {
+    height: 60vh;
+  }
+}
+
 @media screen and (max-width: 768px) and (max-height: 720px) {
   .contact-me {
     height: 100vh;

@@ -54,6 +54,9 @@ export const About = () => {
             <SectionHeading className="about__heading" heading="Technical Skills" />
             <TechnicalSkills />
           </div>
+          <div className="next-section-link no-print">
+            <SectionLink path="/experience" text="My Experience" showArrow />
+          </div>
         </>
       )}
     </div>

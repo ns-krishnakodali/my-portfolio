@@ -6,7 +6,6 @@ export const removeNonAlphabets = (str) => {
   if (typeof str !== 'string') {
     return '';
   }
-
   return str.replace(/[^a-zA-Z-]/g, '').toLowerCase();
 };
 

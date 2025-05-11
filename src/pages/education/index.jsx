@@ -3,7 +3,7 @@ import './education.css';
 import { DegreeCard } from './degree-card';
 
 import { DEGREES_DETAILS, EDUCATION_SUMMARY } from '../../constants';
-import { IntroSection, SectionHeading } from '../../shared-ui';
+import { IntroSection, SectionHeading, SectionLink } from '../../shared-ui';
 
 export const Education = () => {
   return (
@@ -22,6 +22,9 @@ export const Education = () => {
             <DegreeCard key={index} details={degreeDetails} />
           ))}
         </div>
+      </div>
+      <div className="next-section-link no-print">
+        <SectionLink path="/contact-me" text="Contact Me" showArrow />
       </div>
     </div>
   );

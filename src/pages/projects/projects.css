@@ -83,7 +83,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem;
   width: 90%;
 }
 
@@ -129,7 +129,7 @@
 .more-projects {
   display: flex;
   justify-content: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -158,6 +158,12 @@
 
   .project__card-description {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .more-projects {
+    margin: 1rem 0 1.5rem;
   }
 }
 

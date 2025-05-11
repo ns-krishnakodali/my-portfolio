@@ -58,6 +58,10 @@ body {
   background-color: var(--color-background);
 }
 
+.next-section-link {
+  display: none;
+}
+
 *::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.5rem;
@@ -135,6 +139,15 @@ body {
 @media screen and (max-width: 768px) {
   body {
     min-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .next-section-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
   }
 }
 

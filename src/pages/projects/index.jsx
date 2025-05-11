@@ -10,7 +10,7 @@ import {
   MY_PROJECT_DESCRIPTION,
   PROJECT_CATEGORIES,
 } from '../../constants/';
-import { IntroSection, ButtonLink } from '../../shared-ui';
+import { IntroSection, ButtonLink, SectionLink } from '../../shared-ui';
 import { removeNonAlphabets } from '../../utils';
 
 export const Projects = () => {
@@ -60,6 +60,9 @@ export const Projects = () => {
           text="More Projects"
           displayGithub={false}
         />
+      </div>
+      <div className="next-section-link no-print">
+        <SectionLink path="/education" text="My Education" showArrow />
       </div>
     </div>
   );

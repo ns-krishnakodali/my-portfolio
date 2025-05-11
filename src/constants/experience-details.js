@@ -1,5 +1,5 @@
 export const MY_EXPERIENCE =
-  "With 3.5 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spanned designing scalable backend systems, developing responsive web apps, and building robust infrastructure. I transformed legacy systems into fault-tolerant microservices, optimized data workflows, and enhanced system performance to align solutions with customer needs and business goals.";
+  "With 3.5 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spanned designing scalable backend systems, developing responsive web apps, and building robust infrastructure. I've led complex projects, transformed legacy systems into fault-tolerant microservices, and improved system performance, consistently aligning solutions with customer needs and business goals.";
 
 export const EXPERIENCE_DETAILS = [
   {
