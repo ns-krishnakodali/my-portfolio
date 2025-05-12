@@ -36,8 +36,8 @@ export const ContactMeForm = ({ displayNotification }) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        userName: values.name,
-        userEmail: values.email,
+        name: values.name,
+        email: values.email,
         mobile: values.number,
         message: values.message,
       }),
