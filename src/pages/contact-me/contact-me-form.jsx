@@ -38,7 +38,7 @@ export const ContactMeForm = ({ displayNotification }) => {
       body: JSON.stringify({
         name: values.name,
         email: values.email,
-        mobile: values.number,
+        mobile: values.mobile,
         message: values.message,
       }),
     })
