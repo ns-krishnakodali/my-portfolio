@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I'm a curious and results-driven engineer who thrives on solving complex problems and building systems that create real-world impact. I am driven by a mindset of continuous growth, always looking to push boundaries and deliver practical, innovative solutions. My journey in tech has been shaped by continuous hands-on <Experience> as a Software Engineer, complemented by a strong <Education> background in Computer Science, and applied AI/ML. Currently, I'm exploring the intersection of finance, software, and AI/ML, while actively learning new tools and technologies to stay ahead in these ever-evolving fields. My <Projects> reflect this mindset, blending core engineering principles with intelligent systems to solve practical, real-world challenges.";
+  "I'm a curious and results-driven engineer who thrives on solving complex problems and building systems that have meaningful, real-world impact. I am driven by a mindset of continuous growth, always looking to push boundaries and deliver practical, innovative solutions. My journey in tech has been shaped by continuous hands-on <Experience> as a Software Engineer, complemented by a strong <Education> background in Computer Science, and applied ML. Currently, I'm exploring the intersection of finance, software, and AI/ML, while actively learning new tools and technologies to stay ahead in these ever-evolving fields. My <Projects> reflect this mindset, blending core engineering principles with intelligent systems to solve practical, real-world challenges.";
 
 export const SKILLS_OVERVIEW = [
   {
@@ -14,7 +14,7 @@ export const SKILLS_OVERVIEW = [
     ],
     technologies: [
       'Java',
-      'Javascript',
+      'JavaScript',
       'Golang',
       'C',
       'Spring',
@@ -65,18 +65,7 @@ export const TECHNICAL_SKILLS = [
   },
   {
     category: 'Development',
-    skills: [
-      'ReactJS',
-      'HTML',
-      'CSS',
-      'jQuery',
-      'Bash',
-      'SQL',
-      'Redis',
-      'Redux',
-      'REST',
-      'GraphQL',
-    ],
+    skills: ['ReactJS', 'HTML', 'CSS', 'jQuery', 'Bash', 'SQL', 'Redux', 'REST', 'GraphQL'],
   },
   {
     category: 'Frameworks',
@@ -108,5 +97,9 @@ export const TECHNICAL_SKILLS = [
   {
     category: 'Cloud Technologies',
     skills: ['AWS (EC2, S3, RDS)', 'GCP', 'Azure', 'Terraform', 'Docker', 'Kubernetes'],
+  },
+  {
+    category: 'Databases',
+    skills: ['PostgreSQL', 'MySQL', 'Redis', 'SQLite', 'MongoDB', 'Cassandra'],
   },
 ];

@@ -15,6 +15,13 @@ export const PROJECTS_DETAILS = [
     categories: ['se', 'aiml', 'finance'],
   },
   {
+    title: 'Trading Simulator',
+    description: 'A trading simulator for testing trading strategies and analysis.',
+    techstack: ['Next.js', 'Python'],
+    githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
+    categories: ['se', 'finance'],
+  },
+  {
     title: 'Risk Optimization',
     description: 'A risk assessment application for evaluating and predicting financial risks.',
     techstack: ['Python', 'Tensorflow'],
@@ -24,7 +31,7 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Veritas AI',
     description: 'A personal RAG-based AI assistant that answers questions about me.',
-    techstack: ['Typescript', 'NextJS', 'Python'],
+    techstack: ['Typescript', 'Next.js', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/veritas-ai',
     categories: ['se', 'aiml'],
   },
@@ -39,7 +46,7 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Q File Share',
     description: 'Secure file sharing application using Post-Quantum Cryptography protocols',
-    techstack: ['Typescript', 'NextJS', 'Python'],
+    techstack: ['Typescript', 'Next.js', 'Python'],
     githubLink: 'https://github.com/ns-krishnakodali/q-file-share',
     categories: ['se'],
   },
@@ -63,13 +70,6 @@ export const PROJECTS_DETAILS = [
     description: 'A lightweight email server developed using Spark Java.',
     techstack: ['Java', 'Docker'],
     githubLink: 'https://github.com/ns-krishnakodali/email-server',
-    categories: '',
-  },
-  {
-    title: 'QRC Scanner',
-    description: 'QR code generator and scanner to create or read codes based on user input.',
-    techstack: ['Android Studio', 'Java'],
-    githubLink: 'https://github.com/ns-krishnakodali/qrc-generator-scanner',
     categories: '',
   },
 ];

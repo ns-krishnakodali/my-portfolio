@@ -29,7 +29,7 @@ export const EXPERIENCE_DETAILS = [
           'As an ASDE-2, I collaborated with Albertsons to develop scalable backend systems and responsive, accessible UIs for their digital platforms. Some of my key contributions included developing a Redis-based querying framework using Spring Boot, reducing API latency by 80%, and building a custom charting library from ground up lowering bundle size by 45%. I also improved core platform components, enhancing system performance, reliability, and delivering measurable business outcomes.',
         technologies: [
           'Java',
-          'Javascript',
+          'JavaScript',
           'Spring',
           'Next.js',
           'GraphQL',
@@ -65,7 +65,7 @@ export const EXPERIENCE_DETAILS = [
         company: 'DSSRG, IIT Bhubaneswar',
         companyURL: 'https://ieeexplore.ieee.org/document/10538564',
         summary:
-          "I co-developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar. Also, co-authored the research paper detailing this work and published at IEEE TrustCom 2023. Additionally, I optimized LiPI's performance by implementing advanced data segmentation and de-segmentation methods, resulting in a 51% performance improvement.",
+          "I developed and implemented LiPI, a privacy-preserving IoT/WSN data aggregation protocol, at DSSRG, IIT Bhubaneswar. Also, co-authored the research paper detailing this work and published at IEEE TrustCom 2023. Additionally, I optimized LiPI's performance by implementing advanced data segmentation and de-segmentation methods, resulting in a 51% performance improvement.",
         technologies: ['C++', 'Python', 'Contiki OS', 'IoT/WSN'],
         date: '01/2021 - 08/2023',
         location: 'Bhubaneswar, India',
