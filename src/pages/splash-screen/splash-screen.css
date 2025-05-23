@@ -33,14 +33,15 @@
 }
 
 .splash-screen__headline {
+  color: var(--color-primary);
+  text-shadow: var(--text-shadow);
   font-weight: 600;
   font-size: 2.5rem;
-  color: var(--color-primary);
   margin: 0 0 1rem 0;
+  padding: 0.5rem 0;
   letter-spacing: 1px;
   line-height: 1.1;
   overflow: hidden;
-  text-shadow: var(--text-shadow);
 }
 
 .splash-screen__name {
@@ -56,10 +57,10 @@
 }
 
 .splash-screen__accent-line {
-  height: 2px;
-  width: 0;
-  margin: 0 auto;
   background: var(--background-gradient-2);
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
 
   -webkit-animation: splash-screen__expand-line 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s
     forwards;
