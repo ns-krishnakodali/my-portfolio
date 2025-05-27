@@ -22,13 +22,6 @@ export const PROJECTS_DETAILS = [
     categories: ['se', 'finance'],
   },
   {
-    title: 'Risk Optimization',
-    description: 'A risk assessment application for evaluating and predicting financial risks.',
-    techstack: ['Python', 'Tensorflow'],
-    githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
-    categories: ['aiml', 'finance'],
-  },
-  {
     title: 'Veritas AI',
     description: 'A personal RAG-based AI assistant that answers questions about me.',
     techstack: ['Typescript', 'Next.js', 'Python'],
@@ -51,13 +44,6 @@ export const PROJECTS_DETAILS = [
     categories: ['se'],
   },
   {
-    title: 'Gator Ticket Master',
-    description: 'Multi-user reservation system for Gator Events using advanced data structures.',
-    techstack: ['Java', 'Docker'],
-    githubLink: 'https://github.com/ns-krishnakodali/gator-ticket-master',
-    categories: 'se',
-  },
-  {
     title: 'My Portfolio',
     description:
       'My personal portfolio web app showcasing my experience, skills, and ongoing projects.',
@@ -66,10 +52,24 @@ export const PROJECTS_DETAILS = [
     categories: '',
   },
   {
+    title: 'Gator Ticket Master',
+    description: 'Multi-user reservation system for Gator Events using advanced data structures.',
+    techstack: ['Java', 'Docker'],
+    githubLink: 'https://github.com/ns-krishnakodali/gator-ticket-master',
+    categories: 'se',
+  },
+  {
     title: 'Email Server',
     description: 'A lightweight email server developed using Spark Java.',
     techstack: ['Java', 'Docker'],
     githubLink: 'https://github.com/ns-krishnakodali/email-server',
+    categories: '',
+  },
+  {
+    title: 'QRC Scanner',
+    description: 'QR code generator and scanner to create or read codes based on user input.',
+    techstack: ['Android Studio', 'Java'],
+    githubLink: 'https://github.com/ns-krishnakodali/qrc-generator-scanner',
     categories: '',
   },
 ];
