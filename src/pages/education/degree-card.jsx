@@ -33,7 +33,7 @@ export const DegreeCard = ({ details }) => {
           </div>
           {details.dPoints?.map((detail, index) => (
             <p key={index} className="degree-detail">
-              🔹{detail}
+              🔹 {detail}
             </p>
           ))}
         </div>
