@@ -18,7 +18,7 @@ export const PROJECTS_DETAILS = [
     title: 'Trading Simulator',
     description: 'A trading simulator for testing trading strategies and analysis.',
     techstack: ['Next.js', 'Python'],
-    githubLink: 'https://github.com/ns-krishnakodali/fin-risk-optimization',
+    githubLink: 'https://github.com/ns-krishnakodali/trading-simulator',
     categories: ['se', 'finance'],
   },
   {

@@ -83,7 +83,7 @@ export const TECHNICAL_SKILLS = [
   {
     category: 'Software Tools',
     skills: [
-      'Linux',
+      'GNU/Linux',
       'Git',
       'MATLAB',
       'RabbitMQ',
