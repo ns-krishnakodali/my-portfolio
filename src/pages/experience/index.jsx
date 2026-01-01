@@ -16,11 +16,9 @@ export const Experience = () => {
         introContent={MY_EXPERIENCE}
       />
       <div className="experiences">
-        {EXPERIENCE_DETAILS.map((experience) =>
-          Object.entries(experience).map(([title, details], index) => (
-            <ExperienceCard key={index} title={title} details={details} />
-          ))
-        )}
+        {EXPERIENCE_DETAILS.map((details, index) => (
+          <ExperienceCard key={index} details={details} />
+        ))}
       </div>
       <div className="next-section-link no-print">
         <SectionLink path="/projects" text="My Projects" showArrow />

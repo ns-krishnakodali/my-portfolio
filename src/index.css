@@ -31,6 +31,7 @@
 
   --background-gradient-1: linear-gradient(to right, #037af2, #133f99);
   --background-gradient-2: linear-gradient(90deg, #3b82f6, #06b6d4);
+  --background-gradient-3: linear-gradient(135deg, #4a90e2, #5ba3f5);
 
   --text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 
