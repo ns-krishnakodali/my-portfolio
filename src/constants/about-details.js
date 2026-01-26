@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I'm a curious and results-driven engineer who thrives on solving complex problems and building systems that have meaningful, real-world impact. I am driven by a mindset of continuous growth, always looking to push boundaries and deliver practical, innovative solutions. My journey in tech has been shaped by continuous hands-on <Experience> as a Software Engineer, complemented by a strong <Education> background in Computer Science, and applied ML. Currently, I'm exploring the intersection of finance, software, and AI/ML, while actively learning new tools and technologies to stay ahead in these ever-evolving fields. My <Projects> reflect this mindset, blending core engineering principles with intelligent systems to solve practical, real-world challenges.";
+  'I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. My work is grounded in solid hands-on <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and modern. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.';
 
 export const SKILLS_OVERVIEW = [
   {
@@ -32,9 +32,9 @@ export const SKILLS_OVERVIEW = [
     skillDetails: [
       'Implementing optimization techniques and statistical modeling for machine learning tasks using Python',
       'Applying statistical methods and probabilistic models to financial data analysis',
-      'Developing scalable models for deep learning and large-scale data processing using TensorFlow and Keras',
+      'Developing scalable models for deep learning and large-scale data processing using TensorFlow',
     ],
-    technologies: ['Python', 'Julia', 'PyTorch', 'TensorFlow', 'Keras', 'Hugging Face'],
+    technologies: ['Python', 'Julia', 'LangChain', 'Hugging Face', 'PyTorch', 'TensorFlow'],
   },
   {
     imageSrc: 'assets/generic/cloud-infra-devops.svg',

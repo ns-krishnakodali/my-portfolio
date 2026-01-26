@@ -1,5 +1,5 @@
 export const EDUCATION_SUMMARY =
-  "I have a strong academic background in Computer Science (CS), with a Master's in CS from the University of Florida, and a Bachelor's in CSE from IIT Bhubaneswar. I gained a strong foundation in core CS fundamentals and studied key areas such as AI, ML, and Optimization. I've led and contributed to research, projects, and open-source initiatives, driven by a passion for continuous learning and for building innovative, impactful solutions to real-world problems.";
+  "My academic background is in Computer Science (CS), with a Master's degree in CS from the University of Florida and a Bachelor's degree in CSE from IIT Bhubaneswar. My coursework has built a strong foundation in core CS areas, including Operating Systems, Databases, Algorithms, and Machine Learning. I have led and contributed to research, academic projects, and open-source initiatives, with a focus on building well-structured and practical software systems.";
 
 export const DEGREES_DETAILS = [
   {
@@ -12,14 +12,15 @@ export const DEGREES_DETAILS = [
     websiteURL: 'https://www.ufl.edu/',
     courses: [
       'Applied Linear Algebra',
-      'Advanced Data Structures',
-      'Distributed Operating Systems',
       'Machine Learning & Optimization',
       'Natural Language Processing',
+      'Distributed Operating Systems',
+      'Advanced Data Structures',
+      'Software Engineering',
     ],
     dPoints: [
-      "Pursuing Master's in Computer Science at UF, specializing in Machine Learning with a focus on practical and theoretical aspects.",
-      'Exploring financial engineering fundamentals, with ML and quantitative modeling.',
+      "Pursuing a Master's in Computer Science at UF, with a strong focus on Machine Learning with a focus on practical and theoretical aspects.",
+      'Core coursework focused on the intersection of large-scale software systems and applied machine learning.',
       'Active member of the UF Open Source Club, contributing to collaborative tech projects.',
     ],
     date: '08/2024 - 05/2026',
@@ -41,7 +42,7 @@ export const DEGREES_DETAILS = [
       'Operating Systems',
     ],
     dPoints: [
-      "Graduated with a Bachelor's degree in Computer Science and Engineering from IIT Bhubaneswar, with a core focus con CS fundamentals.",
+      "Graduated with a Bachelor's degree in Computer Science and Engineering from IIT Bhubaneswar, with a core focus on CS fundamentals.",
       "Contributed to the Decentralized and Smart Systems Research Group (DSSRG), and published my work at IEEE TrustCom'23.",
       'As a core head in the Sponsorship Team for Entrepreneurship Summit, IIT Bhubaneswar, secured key partnerships and ensured its success.',
     ],

@@ -16,10 +16,30 @@ export const DegreeCard = ({ details }) => {
         <div className="education__degree-card-headings">
           <div className="education__degree-headings">
             <h3 className="university-name">{details.universityName}</h3>
-            <h4 className="degree-name">{details.degree}</h4>
+            <span className="education__card-icon">
+              <img
+                src="assets/icons/degree-icon.svg"
+                alt="Degree Icon"
+                fetchPriority="high"
+                width={16}
+                height={16}
+                loading="eager"
+              />
+              <h4 className="degree-name">{details.degree}</h4>
+            </span>
           </div>
           <div className="education__degree-date">
-            <p className="education__degree-date-details">{details.date}</p>
+            <span className="education__card-icon">
+              <img
+                src="assets/icons/date-icon.svg"
+                alt="Date Icon"
+                fetchPriority="high"
+                width={16}
+                height={16}
+                loading="eager"
+              />
+              <p className="education__degree-date-details">{details.date}</p>
+            </span>
           </div>
         </div>
         <div className="education__degree-details">

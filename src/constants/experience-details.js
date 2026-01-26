@@ -1,6 +1,5 @@
 export const MY_EXPERIENCE =
-  "With 3.5 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spanned designing scalable backend systems, developing responsive web apps, and building robust infrastructure. I've led complex projects, transformed legacy systems into fault-tolerant microservices, and improved system performance, consistently aligning solutions with customer needs and business goals.";
-
+  "With over 4 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spans designing scalable backend systems, developing responsive web applications, and building robust cloud-native infrastructure, including scalable Agentic AI Platforms for intelligent automation and agent orchestration. I've led complex projects, modernized legacy systems into fault-tolerant services, and improved system performance, all while aligning solutions with customer needs and business goals.";
 export const EXPERIENCE_DETAILS = [
   {
     imageSrc: 'assets/logos/hartree-partners-logo.svg',
