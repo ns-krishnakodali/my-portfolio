@@ -4,7 +4,7 @@ This is my little corner of the internet where you can get to know me, check out
 
 ## Setup
 
-To get started with the project locally:
+To get started with this project locally:
 
 ```sh
 git clone https://github.com/ns-krishnakodali/my-portfolio.git

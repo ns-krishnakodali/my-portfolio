@@ -1,7 +1,7 @@
 export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
 
 export const MY_PROJECT_DESCRIPTION =
-  'My projects are where I experiment with ideas and apply what I learn. They span software engineering, machine learning, and finance, often blending disciplines to solve real-world challenges. These projects showcase my ability to design and develop efficient applications using key technologies like Java, JavaScript, Python, and Go, employing modern frameworks, cloud-native architectures and DevOps practices for scalable deployments.';
+  'My projects are where I experiment with new ideas, break down how software works, and build useful tools for real-world problems. I focus on software engineering, machine learning, and personal finance, especially when it comes to building Agentic AI that can handle complex tasks on its own.I also like to explore how languages like Java, C++, and Python work under the hood to see how they manage resources at a basic level. I use cloud and DevOps practices to make sure my work is scalable and reliable.';
 
 export const PROJECT_CATEGORIES = ['All', 'SE', 'AI / ML', 'Finance'];
 
@@ -32,14 +32,14 @@ export const PROJECTS_DETAILS = [
     title: 'Gator Marketplace',
     description:
       'A UF community marketplace application for listing, buying, and exchanging products.',
-    techstack: ['Angular', 'Golang', 'PostgreSQL'],
+    techstack: ['Angular', 'Golang', 'Gin', 'PostgreSQL'],
     githubLink: 'https://github.com/ns-krishnakodali/gator-marketplace',
     categories: 'se',
   },
   {
     title: 'Q File Share',
-    description: 'Secure file sharing application using Post-Quantum Cryptography protocols',
-    techstack: ['Typescript', 'Next.js', 'Python'],
+    description: 'Secure file sharing platform using Post-Quantum Cryptography protocols',
+    techstack: ['Typescript', 'Next.js', 'Python', 'Fast API'],
     githubLink: 'https://github.com/ns-krishnakodali/q-file-share',
     categories: ['se'],
   },

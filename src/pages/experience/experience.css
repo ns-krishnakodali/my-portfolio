@@ -41,7 +41,7 @@
 
 .experience__card-container:hover {
   box-shadow: var(--box-shadow-1);
-  transform: translateY(-3px);
+  transform: translateY(-12px);
 }
 
 .experience__card-image {
@@ -183,7 +183,7 @@
   }
 
   .experience__card-details {
-    width: 80vw;
+    width: 75vw;
     padding: 1rem;
     animation: slide-up 0.5s ease-out forwards;
   }

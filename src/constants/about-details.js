@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  'I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. My work is grounded in solid hands-on <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and modern. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.';
+  "I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. I also have a soft spot for mathematics, it's where logic, elegance, and problem-solving converge. My work is grounded in solid hands-on <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and modern. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.";
 
 export const SKILLS_OVERVIEW = [
   {
@@ -7,10 +7,10 @@ export const SKILLS_OVERVIEW = [
     imageAlt: 'Software Development',
     techDomain: 'Software Development',
     skillDetails: [
-      'Proficient in developing end-to-end systems, specializing in scalable web apps',
-      'Designing scalable, high-performance distributed systems with a focus on reliability',
-      'Building scalable backend systems with Java, Spring Boot, and Golang',
-      'Developing responsive user interfaces with React, Next.js, and Angular',
+      'Develop end-to-end systems, specializing in scalable web applications',
+      'Design scalable, high-performance distributed systems with a focus on reliability',
+      'Build scalable backend systems with Java, Golang, and C++',
+      'Develop responsive user interfaces with React, Next.js, and Angular',
     ],
     technologies: [
       'Java',
@@ -30,20 +30,28 @@ export const SKILLS_OVERVIEW = [
     imageAlt: 'Machine Learning & AI',
     techDomain: 'Machine Learning & AI',
     skillDetails: [
-      'Implementing optimization techniques and statistical modeling for machine learning tasks using Python',
-      'Applying statistical methods and probabilistic models to financial data analysis',
-      'Developing scalable models for deep learning and large-scale data processing using TensorFlow',
+      'Design multi-agent orchestration systems to automate workflows efficiently',
+      'Implement RAG and vector memory systems to enhance agent context and reliability',
+      'Build scalable to handle high-concurrency agentic operations and real-time inference',
     ],
-    technologies: ['Python', 'Julia', 'LangChain', 'Hugging Face', 'PyTorch', 'TensorFlow'],
+    technologies: [
+      'Python',
+      'Fast API',
+      'Julia',
+      'LangChain',
+      'Hugging Face',
+      'PyTorch',
+      'TensorFlow',
+    ],
   },
   {
     imageSrc: 'assets/generic/cloud-infra-devops.svg',
     imageAlt: 'Cloud Infra & DevOps',
     techDomain: 'Cloud Infra & DevOps',
     skillDetails: [
-      'Experienced with multiple cloud platforms for deploying services and ML models',
-      'Designing and deploying scalable cloud infrastructure on AWS, GCP, and Azure',
-      'Automating CI/CD pipelines with Docker, Terraform, and Jenkins',
+      'Deploy services and ML models across multiple cloud platforms using Kubernetes',
+      'Design and deploy scalable cloud infrastructure using AWS, GCP, and Azure',
+      'Automate CI/CD pipelines using Docker, Terraform, Jenkins, and Kubernetes',
     ],
     technologies: ['AWS', 'Azure', 'GCP', 'Terraform', 'Docker', 'Jenkins'],
   },
@@ -64,19 +72,19 @@ export const TECHNICAL_SKILLS = [
     ],
   },
   {
-    category: 'Development',
-    skills: ['ReactJS', 'HTML', 'CSS', 'jQuery', 'Bash', 'SQL', 'Redux', 'REST', 'GraphQL'],
-  },
-  {
-    category: 'Frameworks',
+    category: 'Development & Frameworks',
     skills: [
       'Spring',
       'Next.js',
+      'ReactJS',
       'Angular',
+      'Django',
       'FastAPI',
       'Gin',
-      'Flask',
-      'Bootstrap',
+      'Bash',
+      'SQL',
+      'GraphQL',
+      'HTML5',
       'Tailwind CSS',
     ],
   },
@@ -95,11 +103,24 @@ export const TECHNICAL_SKILLS = [
     ],
   },
   {
+    category: 'AI & Machine Learning',
+    skills: [
+      'PyTorch',
+      'LangChain',
+      'Hugging Face',
+      'FAISS',
+      'Pinecone',
+      'vLLM',
+      'Scikit-learn',
+      'TensorFlow',
+    ],
+  },
+  {
     category: 'Cloud Technologies',
     skills: ['AWS (EC2, S3, RDS)', 'GCP', 'Azure', 'Terraform', 'Docker', 'Kubernetes'],
   },
   {
     category: 'Databases',
-    skills: ['PostgreSQL', 'MySQL', 'Redis', 'SQLite', 'MongoDB', 'Cassandra'],
+    skills: ['PostgreSQL', 'MySQL', 'SQLite', 'Redis', 'MongoDB', 'Cassandra', 'DynamoDB', 'Neo4j'],
   },
 ];

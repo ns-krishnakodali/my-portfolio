@@ -1,5 +1,5 @@
 export const MY_EXPERIENCE =
-  "With over 4 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spans designing scalable backend systems, developing responsive web applications, and building robust cloud-native infrastructure, including scalable Agentic AI Platforms for intelligent automation and agent orchestration. I've led complex projects, modernized legacy systems into fault-tolerant services, and improved system performance, all while aligning solutions with customer needs and business goals.";
+  "With over 4 years of professional experience as a Software Engineer, I've worked across fast-paced startups and established companies. My work spans designing scalable backend systems, developing responsive web applications, and building robust cloud-native infrastructure. I also build scalable Agentic AI Platforms for intelligent automation and agent orchestration. I've led complex projects, modernized legacy systems into fault-tolerant services, and improved system performance, all while aligning solutions with customer needs and business goals.";
 export const EXPERIENCE_DETAILS = [
   {
     imageSrc: 'assets/logos/hartree-partners-logo.svg',
@@ -10,8 +10,8 @@ export const EXPERIENCE_DETAILS = [
     company: 'Hartree Partners',
     companyURL: 'https://www.hartreepartners.com/',
     summary:
-      'As an AI Engineer Intern, I worked on the development of an internal AI platform used by trading and middle-office teams to build custom AI agents, bots, and interactive panels aligned with desk-specific workflows. I contributed to integrating support for multiple large language models and implementing usage and cost tracking to improve visibility and operational efficiency. I also supported the automation of internal reporting and business workflows by consolidating data from multiple sources, reducing manual effort and improving process reliability.',
-    technologies: ['Python', 'Django', 'LLMs', 'Next.js', 'Celery', 'Kubernetes', 'AWS', 'VBA'],
+      'As an AI Engineer Intern, I contributed to the development of a centralized AI platform used by trading and middle-office teams to build custom AI agents, bots, and interactive panels aligned with desk-specific workflows. I focused on making the system model-agnostic and developed a shared knowledge base, enabling multiple teams to access fine-tuned models and AI entities across the organization. Beyond the AI layer, I developed analytics dashboards and ETL pipelines, significantly reducing manual latency and improving data reliability across the desks.',
+    technologies: ['Python', 'Django', 'Next.js', 'Kubernetes (K8s)', 'PostgreSQL', 'AWS', 'VBA'],
     position: 'Internship (Co-op)',
     date: '06/2025 - 12/2025',
     location: 'New York, NY, US',

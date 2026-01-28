@@ -47,9 +47,9 @@ export const LOGO_DETAILS = [
     alt: 'LeetCode Logo',
   },
   {
-    href: 'https://www.codechef.com/users/krishnakodali9',
-    src: 'assets/logos/codechef-logo.svg',
-    alt: 'Codechef Logo',
+    href: 'https://codeforces.com/profile/krishna_kodali',
+    src: 'assets/logos/codeforces-logo.svg',
+    alt: 'Codeforces Logo',
   },
   {
     href: 'https://medium.com/@krishnakodali9',

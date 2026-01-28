@@ -47,7 +47,7 @@ export const Home = () => {
           <h3 className="home__title">
             <span>Software Engineer</span>
             <span className="home__divider">|</span>
-            <span>AI/ML Enthusiast</span>
+            <span>AI/ML Platforms</span>
           </h3>
           <p className="about-me">{HOME_ABOUT_ME}</p>
           <SectionLink path="/about" text="Know More" showArrow />

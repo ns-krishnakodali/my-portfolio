@@ -104,17 +104,28 @@
   box-shadow: var(--box-shadow-1);
 }
 
+.project__card-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  width: 90%;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border-1);
+}
+
 .project__card-title {
   font: var(--font-style-heading-2);
   color: var(--color-primary);
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .project__card-description {
   text-align: center;
   color: var(--color-text);
   font: var(--font-style-2);
-  margin: 0 0 0.75rem;
+  margin: 0 0 1rem;
 }
 
 .project__logos-container {
@@ -155,7 +166,8 @@
   }
 
   .project__filter-categories {
-    gap: 0.25rem;
+    width: 80%;
+    gap: 0.5rem;
     padding: 0.75rem;
   }
 
@@ -167,8 +179,8 @@
   }
 
   .project__card-container {
-    width: 18rem;
-    padding: 1rem 1rem 1.5rem;
+    width: 85%;
+    padding: 1.5rem 1rem;
   }
 
   .project__card-description {

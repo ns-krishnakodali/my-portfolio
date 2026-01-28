@@ -26,21 +26,23 @@ export const About = () => {
         <>
           <div className="about__background-container">
             <SectionHeading heading="About Myself" />
-            <p className="about__background">
-              {formatText(ABOUT_MYSELF).map((text, index) => {
-                if (text.startsWith('<') && text.endsWith('>')) {
-                  const displayText = text.replace(/<|>/g, '');
-                  return (
-                    <SectionLink
-                      key={index}
-                      path={`/${displayText.toLowerCase()}`}
-                      text={displayText}
-                    />
-                  );
-                }
-                return text;
-              })}
-            </p>
+            <div className="about__background">
+              <p className="about__background-text">
+                {formatText(ABOUT_MYSELF).map((text, index) => {
+                  if (text.startsWith('<') && text.endsWith('>')) {
+                    const displayText = text.replace(/<|>/g, '');
+                    return (
+                      <SectionLink
+                        key={index}
+                        path={`/${displayText.toLowerCase()}`}
+                        text={displayText}
+                      />
+                    );
+                  }
+                  return text;
+                })}
+              </p>
+            </div>
           </div>
           <div>
             <SectionHeading className="about__heading" heading="What I Do" />
@@ -52,6 +54,9 @@ export const About = () => {
           </div>
           <div className="page-break technical__skills">
             <SectionHeading className="about__heading" heading="Technical Skills" />
+            <p className="technical__skills-description">
+              A comprehensive toolkit of technologies I am proficient in
+            </p>
             <TechnicalSkills />
           </div>
           <div className="next-section-link no-print">
