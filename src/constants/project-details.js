@@ -17,7 +17,7 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Trading Simulator',
     description: 'A trading simulator for testing trading strategies and analysis.',
-    techstack: ['Next.js', 'Python'],
+    techstack: ['Next.js', 'Python', 'FastAPI'],
     githubLink: 'https://github.com/ns-krishnakodali/trading-simulator',
     categories: ['se', 'finance'],
   },
@@ -39,7 +39,7 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Q File Share',
     description: 'Secure file sharing platform using Post-Quantum Cryptography protocols',
-    techstack: ['Typescript', 'Next.js', 'Python', 'Fast API'],
+    techstack: ['Typescript', 'Next.js', 'Python', 'FastAPI'],
     githubLink: 'https://github.com/ns-krishnakodali/q-file-share',
     categories: ['se'],
   },

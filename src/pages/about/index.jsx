@@ -55,7 +55,7 @@ export const About = () => {
           <div className="page-break technical__skills">
             <SectionHeading className="about__heading" heading="Technical Skills" />
             <p className="technical__skills-description">
-              A comprehensive toolkit of technologies I am proficient in
+              A comprehensive set of technologies I work with
             </p>
             <TechnicalSkills />
           </div>

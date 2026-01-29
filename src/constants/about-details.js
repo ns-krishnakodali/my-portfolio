@@ -36,7 +36,7 @@ export const SKILLS_OVERVIEW = [
     ],
     technologies: [
       'Python',
-      'Fast API',
+      'FastAPI',
       'Julia',
       'LangChain',
       'Hugging Face',

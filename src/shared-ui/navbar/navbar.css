@@ -79,8 +79,10 @@
   right: 1.5rem;
 }
 
-.redirect-icon {
+.navbar__icon.redirect-icon {
   margin-left: 4px;
+  width: 0.875rem;
+  height: 0.875rem;
 }
 
 @media screen and (max-width: 1024px) {
