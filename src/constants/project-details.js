@@ -32,7 +32,7 @@ export const PROJECTS_DETAILS = [
     title: 'Gator Marketplace',
     description:
       'A UF community marketplace application for listing, buying, and exchanging products.',
-    techstack: ['Angular', 'Golang', 'Gin', 'PostgreSQL'],
+    techstack: ['Angular', 'Go', 'Gin', 'PostgreSQL'],
     githubLink: 'https://github.com/ns-krishnakodali/gator-marketplace',
     categories: 'se',
   },

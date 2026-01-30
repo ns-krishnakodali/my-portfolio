@@ -9,13 +9,13 @@ export const SKILLS_OVERVIEW = [
     skillDetails: [
       'Develop end-to-end systems, specializing in scalable web applications',
       'Design scalable, high-performance distributed systems with a focus on reliability',
-      'Build scalable backend systems with Java, Golang, and C++',
+      'Build scalable backend systems with Java, Go, and C++',
       'Develop responsive user interfaces with React, Next.js, and Angular',
     ],
     technologies: [
       'Java',
       'JavaScript',
-      'Golang',
+      'Go',
       'C',
       'Spring',
       'Next.js',
@@ -60,16 +60,7 @@ export const SKILLS_OVERVIEW = [
 export const TECHNICAL_SKILLS = [
   {
     category: 'Programming Languages',
-    skills: [
-      'Java',
-      'JavaScript / TypeScript',
-      'Python',
-      'Golang',
-      'C / C++',
-      'Julia',
-      'Perl',
-      'PHP',
-    ],
+    skills: ['Java', 'JavaScript / TypeScript', 'Python', 'Go', 'C / C++', 'Julia', 'Perl', 'PHP'],
   },
   {
     category: 'Development & Frameworks',
@@ -91,7 +82,7 @@ export const TECHNICAL_SKILLS = [
   {
     category: 'Software Tools',
     skills: [
-      'GNU/Linux',
+      'Linux',
       'Git',
       'MATLAB',
       'RabbitMQ',

@@ -19,7 +19,7 @@ export const DEGREES_DETAILS = [
       'Software Engineering',
     ],
     dPoints: [
-      "Pursuing a Master's in Computer Science at UF, with a strong focus on Machine Learning with a focus on practical and theoretical aspects.",
+      "Pursuing a Master's in Computer Science at UF, with a strong focus on Machine Learning combining both theoretical and practical aspects.",
       'Core coursework focused on the intersection of large-scale software systems and applied machine learning.',
       'Active member of the UF Open Source Club, contributing to collaborative tech projects.',
     ],
