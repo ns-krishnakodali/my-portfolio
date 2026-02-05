@@ -50,6 +50,9 @@ export const ContactMeForm = ({ displayNotification }) => {
       })
       .then(() => {
         displayNotification('success', CONTACT_SUCCESS_NOTIFICATION);
+
+        event.target.reset();
+        setPhone('');
       })
       .catch((error) => {
         console.error('Error:', error);
