@@ -28,10 +28,10 @@ export const ExperienceCard = ({ details }) => (
               <img
                 src="assets/icons/company-icon.svg"
                 alt="Company Icon"
-                fetchPriority="high"
                 width={16}
                 height={16}
                 loading="eager"
+                fetchPriority="high"
               />
               <h4 className="company">{details.company}</h4>
             </span>
@@ -41,10 +41,10 @@ export const ExperienceCard = ({ details }) => (
               <img
                 src="assets/icons/date-icon.svg"
                 alt="Company Icon"
-                fetchPriority="high"
                 width={16}
                 height={16}
                 loading="eager"
+                fetchPriority="high"
               />
               <p className="experience__geotime-point">{details.date}</p>
             </span>
@@ -52,10 +52,10 @@ export const ExperienceCard = ({ details }) => (
               <img
                 src="assets/icons/location-icon.svg"
                 alt="Company Icon"
-                fetchPriority="high"
                 width={16}
                 height={16}
                 loading="eager"
+                fetchPriority="high"
               />
               <p className="experience__geotime-point">{details.location}</p>
             </span>

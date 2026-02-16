@@ -9,10 +9,10 @@ export const TechnicalSkills = () => {
             <img
               src="assets/icons/stack-icon.svg"
               alt="Tech Stack Icon"
-              fetchPriority="high"
               width={20}
               height={20}
               loading="eager"
+              fetchPriority="high"
             />
             <h3 className="technical__skill-category-heading">{tSkills.category}</h3>
           </div>

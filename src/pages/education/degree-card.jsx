@@ -20,10 +20,10 @@ export const DegreeCard = ({ details }) => {
               <img
                 src="assets/icons/degree-icon.svg"
                 alt="Degree Icon"
-                fetchPriority="high"
                 width={16}
                 height={16}
                 loading="eager"
+                fetchPriority="high"
               />
               <h4 className="degree-name">{details.degree}</h4>
             </span>
@@ -33,10 +33,10 @@ export const DegreeCard = ({ details }) => {
               <img
                 src="assets/icons/date-icon.svg"
                 alt="Date Icon"
-                fetchPriority="high"
                 width={16}
                 height={16}
                 loading="eager"
+                fetchPriority="high"
               />
               <p className="education__degree-date-details">{details.date}</p>
             </span>

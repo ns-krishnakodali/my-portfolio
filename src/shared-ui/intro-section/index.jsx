@@ -10,8 +10,8 @@ export const IntroSection = ({ imageSrc, imageAlt, imageClass, introHeading, int
           src={imageSrc}
           alt={imageAlt}
           className={imageClass}
-          fetchPriority="high"
           loading="eager"
+          fetchPriority="high"
         />
       </div>
       <div className="intro-section__details">

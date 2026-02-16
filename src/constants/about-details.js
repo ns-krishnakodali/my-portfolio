@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. I also have a soft spot for mathematics, it's where logic, elegance, and problem-solving converge. My work is grounded in solid hands-on <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and modern. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.";
+  "I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. I also have a soft spot for mathematics. For me, it's where logic, elegance, and problem-solving converge. My work is grounded in solid hands-on Professional <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and reliable. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.";
 
 export const SKILLS_OVERVIEW = [
   {
@@ -7,9 +7,9 @@ export const SKILLS_OVERVIEW = [
     imageAlt: 'Software Development',
     techDomain: 'Software Development',
     skillDetails: [
-      'Develop end-to-end systems, specializing in scalable web applications',
       'Design scalable, high-performance distributed systems with a focus on reliability',
-      'Build scalable backend systems with Java, Go, and C++',
+      'Develop end-to-end systems, specializing in production-grade web applications',
+      'Build scalable & reliable backend systems with Java, Python, Go, and C++',
       'Develop responsive user interfaces with React, Next.js, and Angular',
     ],
     technologies: [
@@ -32,7 +32,7 @@ export const SKILLS_OVERVIEW = [
     skillDetails: [
       'Design multi-agent orchestration systems to automate workflows efficiently',
       'Implement RAG and vector memory systems to enhance agent context and reliability',
-      'Build scalable to handle high-concurrency agentic operations and real-time inference',
+      'Build systems to handle high-concurrency agentic operations and real-time inference',
     ],
     technologies: [
       'Python',
@@ -60,18 +60,28 @@ export const SKILLS_OVERVIEW = [
 export const TECHNICAL_SKILLS = [
   {
     category: 'Programming Languages',
-    skills: ['Java', 'JavaScript / TypeScript', 'Python', 'Go', 'C / C++', 'Julia', 'Perl', 'PHP'],
+    skills: [
+      'Java',
+      'Python',
+      'JavaScript / TypeScript',
+      'Go',
+      'C / C++',
+      'Rust',
+      'Julia',
+      'Perl',
+      'PHP',
+    ],
   },
   {
     category: 'Development & Frameworks',
     skills: [
       'Spring',
-      'Next.js',
-      'ReactJS',
-      'Angular',
       'Django',
       'FastAPI',
       'Gin',
+      'Next.js',
+      'ReactJS',
+      'Angular',
       'Bash',
       'SQL',
       'GraphQL',
@@ -83,12 +93,12 @@ export const TECHNICAL_SKILLS = [
     category: 'Software Tools',
     skills: [
       'Linux',
-      'Git',
-      'MATLAB',
       'RabbitMQ',
       'Kafka',
+      'Git',
       'Jenkins',
       'JMeter',
+      'MATLAB',
       'Gatling',
       'Datadog',
     ],

@@ -38,8 +38,8 @@ export const Home = () => {
             src="assets/generic/display-image.webp"
             alt="Display Image"
             className="display-image"
-            fetchPriority="high"
             loading="eager"
+            fetchPriority="high"
           />
         </div>
         <div className="home__details">

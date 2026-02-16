@@ -1,7 +1,7 @@
 export const MY_EMAIL = 'nskrishnakodali@gmail.com';
 
 export const HOME_ABOUT_ME =
-  "I design systems, train models, code like the machines are watching, and sometimes wonder if they're judging me. Passionate about building intelligent and impactful solutions with a focus on AI/ML applications.";
+  "I design systems, build intelligent platforms, and code like the machines are watching, and sometimes wondering if they're judging me. Most days, I'm building software at the intersection of AI and modern applications.";
 
 export const APP_SECTIONS = [
   {

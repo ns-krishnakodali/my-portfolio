@@ -7,10 +7,10 @@ export const ProjectCard = ({ details }) => {
         <img
           src="assets/icons/folder-icon.svg"
           alt="Project Icon"
-          fetchPriority="high"
           width={20}
           height={20}
           loading="eager"
+          fetchPriority="high"
         />
         <h3 className="project__card-title">{details.title}</h3>
       </div>

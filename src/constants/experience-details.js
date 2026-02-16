@@ -40,7 +40,7 @@ export const EXPERIENCE_DETAILS = [
     company: 'Publicis Sapient',
     companyURL: 'https://www.publicissapient.com/',
     summary:
-      'As an ASDE-2, I contributed to building scalable backend systems and responsive, accessible user interfaces aligned with business requirements. My notable contributions include developing a high-performance querying framework to improve API responsiveness and a custom charting library to optimize bundle size and significantly reduce page load times. This work strengthened application performance and reliability while delivering measurable impact to production systems.',
+      'As an ASDE-2, I contributed to building scalable backend systems and responsive, accessible user interfaces aligned with business requirements. My notable contributions include developing a high-performance querying framework to improve API responsiveness and a custom charting library to optimize bundle size and significantly reduce page load times. This work strengthened application performance and reliability while delivering measurable production impact and earning SDE Townhall recognitions.',
     technologies: ['Java', 'JavaScript', 'Spring', 'Next.js', 'Kafka', 'GraphQL', 'Kubernetes'],
     position: 'Full-Time',
     date: '06/2021 - 08/2022',
@@ -55,7 +55,7 @@ export const EXPERIENCE_DETAILS = [
     company: 'GEP Worldwide',
     companyURL: 'https://www.gep.com/',
     summary:
-      'My responsibilities as an intern included developing modules for internal service outage forecasting using custom kernel-based models with high predictive accuracy. I also automated the extraction and classification of large volumes of event logs per cycle, significantly improving operational efficiency. During an internal hackathon, I designed and built a secure Android application for QR code generation and scanning, which won the competition.',
+      'My responsibilities as an intern included developing modules for internal service outage forecasting using custom kernel-based models with high predictive accuracy. I also automated the extraction and classification of large volumes of event logs per cycle, significantly improving operational efficiency. Additionally, I designed and developed a secure Android application for QR code generation and scanning, which won the internal hackathon.',
     technologies: ['Python', 'Bash', 'Scikit-Learn', 'Java', 'Android Studio', 'Firebase'],
     position: 'Internship',
     date: '05/2020 - 07/2020',
