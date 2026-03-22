@@ -7,11 +7,11 @@ export const EXPERIENCE_DETAILS = [
     imageAlt: 'Hartree Partners Logo',
     imageWidth: 90,
     imageHeight: 30,
-    title: 'AI Engineer',
+    title: 'Software Engineer, AI Platform',
     company: 'Hartree Partners',
     companyURL: 'https://www.hartreepartners.com/',
     summary:
-      'As an AI Engineer, I contributed to the development of a centralized AI platform used by trading and middle-office teams to build custom AI agents, bots, and interactive panels aligned with desk-specific workflows. I focused on making the system model-agnostic and developed a shared knowledge base, enabling multiple teams to access fine-tuned models and AI entities across the organization. Beyond the AI layer, I developed analytics dashboards and ETL pipelines, significantly reducing manual latency and improving data reliability across the desks.',
+      'As a Software Engineer on the AI Platform team, I developed model-agnostic systems for agentic workflows, enabling internal trading and analytics teams to build custom AI agents, bots, and interactive tools aligned with desk-specific workflows. I also built a shared knowledge base to provide organization-wide access to fine-tuned models and reusable AI entities. Beyond the AI layer, I developed analytics dashboards and ETL pipelines to reduce manual latency and improve data reliability across teams.',
     technologies: ['Python', 'Django', 'Next.js', 'Kubernetes (K8s)', 'PostgreSQL', 'AWS', 'VBA'],
     position: 'Internship & Co-op',
     date: '06/2025 - 12/2025',

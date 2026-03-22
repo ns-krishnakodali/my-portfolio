@@ -16,14 +16,14 @@ export const PROJECTS_DETAILS = [
   {
     title: 'Veritas AI',
     description: 'A personal RAG-based AI assistant that answers questions about me.',
-    techstack: ['Typescript', 'Next.js', 'Python'],
+    techstack: ['Next.js', 'FastAPI', 'LangChain'],
     githubLink: 'https://github.com/ns-krishnakodali/veritas-ai',
     categories: ['se', 'aiml'],
   },
   {
     title: 'Trading Simulator',
     description: 'A trading simulator for testing trading strategies and analysis.',
-    techstack: ['Next.js', 'Python', 'FastAPI'],
+    techstack: ['Typescript', 'Python', 'FastAPI'],
     githubLink: 'https://github.com/ns-krishnakodali/trading-simulator',
     categories: ['se', 'finance'],
   },
