@@ -1,5 +1,5 @@
 export const EDUCATION_SUMMARY =
-  "My academic background is in Computer Science (CS), with a Master's degree in CS from the University of Florida and a Bachelor's degree in CSE from IIT Bhubaneswar. My coursework has built a strong foundation in core CS areas, including Operating Systems, Databases, Algorithms, and Machine Learning. I have led and contributed to research, academic projects, and open-source initiatives, with a focus on building well-structured and practical software systems.";
+  "My academic background is in Computer Science (CS), with a Master's degree in CS from the University of Florida and a Bachelor's degree in CSE from IIT Bhubaneswar. My coursework built a strong foundation in core CS areas, including Operating Systems, Databases, Algorithms, and Machine Learning. I have led and contributed to research, academic projects, and open-source initiatives, with a focus on building well-structured and practical software systems.";
 
 export const DEGREES_DETAILS = [
   {
@@ -8,7 +8,7 @@ export const DEGREES_DETAILS = [
     imageWidth: 71,
     imageHeight: 70,
     universityName: 'University of Florida',
-    degree: ' M.S. in Computer Science',
+    degree: 'M.S. in Computer Science',
     websiteURL: 'https://www.ufl.edu/',
     courses: [
       'Applied Linear Algebra',
@@ -19,7 +19,7 @@ export const DEGREES_DETAILS = [
       'Software Engineering',
     ],
     dPoints: [
-      "Pursuing a Master's in Computer Science at UF, with a strong focus on Machine Learning combining both theoretical and practical aspects.",
+      'Graduated with an M.S. in Computer Science from the University of Florida, focusing on machine learning, NLP, and distributed systems.',
       'Core coursework focused on the intersection of large-scale software systems and applied machine learning.',
       'Active member of the UF Open Source Club, contributing to collaborative tech projects.',
     ],
