@@ -21,10 +21,11 @@ export const ContactMe = () => {
     <>
       {notification?.text && <Notification {...notification} />}
       <div className="contact-me">
-        <SectionHeading heading="Let's get in touch" />
-        <h3 className="contact-me__message">Drop a message here</h3>
-        <ContactMeForm displayNotification={displayNotification} />
-        <LogoDetails />
+        <div className="contact-me__content">
+          <SectionHeading heading="Let's get in touch" />
+          <ContactMeForm displayNotification={displayNotification} />
+          <LogoDetails />
+        </div>
       </div>
     </>
   );

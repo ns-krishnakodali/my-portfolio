@@ -1,14 +1,20 @@
 import './button-link.css';
 
 export const ButtonLink = (props) => {
-  const { id, type = 'button', link, text, displayGithub = true } = props;
+  const { id, link, text, displayGithub = true, className = '' } = props;
 
   return (
-    <button id={id} type={type} className="link-button">
-      <a href={link} target="_blank" className={`app__link ${displayGithub ? 'with-github' : ''}`}>
-        {displayGithub && <img src="assets/logos/github-white-logo.svg" width={20} height={20} />}
-        {text}
-      </a>
-    </button>
+    <a
+      id={id}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`link-button ${displayGithub ? 'with-github' : ''} ${className}`.trim()}
+    >
+      {displayGithub && (
+        <img src="assets/logos/github-white-logo.svg" alt="" width={20} height={20} />
+      )}
+      <span className="link-button__text">{text}</span>
+    </a>
   );
 };

@@ -57,7 +57,12 @@ const App = () => {
           <Navbar />
           <AppRoutes />
           {showScroll && (
-            <button className="scroll-to-top no-print" onClick={scrollToTop}>
+            <button
+              className="scroll-to-top no-print"
+              onClick={scrollToTop}
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
               <img src="assets/icons/up-arrow-icon.svg" className="scroll-up" alt="Scroll Up" />
             </button>
           )}

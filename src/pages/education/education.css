@@ -42,27 +42,42 @@
   align-items: center;
   border: 1px solid var(--color-border-1);
   border-radius: 50%;
-  box-shadow: 0px 4px 6px var(--color-border-1);
+  background: var(--color-card);
+  box-shadow: var(--box-shadow-2);
   animation: slide-right 0.5s ease-out forwards;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.education__degree-card-image:hover {
+  border-color: var(--color-border-2);
+  box-shadow: var(--box-shadow-glow);
+  transform: translateY(-3px);
 }
 
 .education__degree-card-details {
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 72vw;
   margin: 0 0 0 1rem;
   padding: 1rem 1.5rem;
   border: 1.5px solid var(--color-border-1);
   border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: var(--color-card);
+  box-shadow: var(--box-shadow-2);
+  backdrop-filter: blur(12px);
   transition:
-    transform 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
   animation: slide-left 0.5s ease-out forwards;
 }
 
 .education__degree-card-details:hover {
-  box-shadow: var(--box-shadow-1);
+  border-color: var(--color-border-2);
+  box-shadow: var(--box-shadow-glow);
   transform: translateY(-3px);
 }
 
@@ -102,6 +117,10 @@
   gap: 0.25rem;
 }
 
+.education__card-icon img {
+  filter: var(--color-icon-filter);
+}
+
 .education__degree-date-details {
   font: var(--font-style-2);
   margin: 0;
@@ -112,19 +131,31 @@
   margin: 0.375rem 0 0.75rem;
   color: var(--color-primary);
   font: var(--font-style-2);
+  line-height: 1.7;
 }
 
 .education__degree-course {
   background-color: var(--color-2-light);
+  color: var(--color-text);
+  border: 1px solid rgba(45, 212, 191, 0.18);
   font-family: 'Nunito', sans-serif;
   font-weight: 650;
   font-size: 15px;
-  letter-spacing: 0.3px;
   border-radius: 6px;
   margin: 0.375rem 0 0 0.5rem;
   padding: 0.375rem 0.5rem;
   display: inline-block;
   white-space: nowrap;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.education__degree-course:hover {
+  background: rgba(245, 158, 11, 0.14);
+  border-color: rgba(245, 158, 11, 0.42);
+  transform: translateY(-2px);
 }
 
 .degree-detail {
@@ -132,7 +163,7 @@
   color: var(--color-text);
   font: var(--font-style-2);
   font-weight: 600;
-  letter-spacing: 0.15px;
+  line-height: 1.75;
   margin: 0 0 0.5rem;
 }
 

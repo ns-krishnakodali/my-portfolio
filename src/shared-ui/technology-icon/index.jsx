@@ -4,7 +4,7 @@ import { cleanString } from '../../utils';
 
 export const TechnologyIcon = ({ technology, iconWidth = 32, iconHeight = 32 }) => {
   return (
-    <div className="technology-icon-container" data-technology={technology}>
+    <div className="technology-icon-container" data-technology={technology} tabIndex={0}>
       <img
         src={`assets/technology/${cleanString(technology)}-logo.svg`}
         alt={technology}

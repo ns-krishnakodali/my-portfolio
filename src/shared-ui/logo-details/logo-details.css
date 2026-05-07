@@ -5,16 +5,31 @@
 }
 
 .logo-link {
-  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--color-border-1);
+  border-radius: 50%;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
   cursor: pointer;
   position: relative;
   overflow: hidden;
 }
 
 .logo-link:hover {
-  opacity: 0.7;
+  background: var(--color-background-1);
+  border-color: var(--color-border-2);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+  opacity: 1;
+  transform: translateY(-3px);
 }
 
 .logo-link::after {
@@ -38,10 +53,29 @@
 .logo {
   width: 28px;
   height: 28px;
+  filter: var(--color-logo-filter);
+}
+
+.logo-link img[src*='github-logo.svg'],
+.logo-link img[src*='medium-logo.png'] {
+  filter: invert(1) var(--color-logo-filter);
 }
 
 @media screen and (max-width: 768px) {
   .logo-container {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    max-width: 100%;
+  }
+
+  .logo-link {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .logo {
+    width: 26px;
+    height: 26px;
   }
 }

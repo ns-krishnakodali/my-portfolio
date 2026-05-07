@@ -1,11 +1,4 @@
 .link-button {
-  background: none;
-  border: none;
-  font: inherit;
-  color: inherit;
-}
-
-.app__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,19 +6,24 @@
   text-decoration: none;
   cursor: pointer;
   font: var(--font-style-2);
-  color: var(--color-white);
-  background-color: var(--color-primary);
-  max-width: 8rem;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.2), rgba(245, 158, 11, 0.12));
+  max-width: 10rem;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   border: 1px solid var(--color-border-2);
-  box-shadow: var(--box-shadow-1);
+  box-shadow: var(--box-shadow-2);
   position: relative;
   overflow: hidden;
   z-index: 1;
+  transition:
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
 }
 
-.app__link::before {
+.link-button::before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -37,37 +35,34 @@
   transition: top 0.2s ease;
 }
 
-.app__link.with-github img {
-  transition: opacity 0.2s ease;
+.link-button img {
+  flex: 0 0 auto;
 }
 
-.app__link.with-github::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 1rem;
-  background-image: url('assets/logos/github-logo.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.link-button__text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
 }
 
-.app__link:hover {
-  color: var(--color-black);
-  border-color: var(--color-border-2);
+.link-button.with-github img {
+  transition: filter 0.2s ease;
 }
 
-.app__link:hover::before {
+.link-button:hover {
+  color: var(--color-background);
+  border-color: rgba(245, 158, 11, 0.8);
+  box-shadow: var(--box-shadow-glow);
+  transform: translateY(-2px);
+}
+
+.link-button:hover::before {
   top: 0;
-  background-color: var(--color-white);
+  background: var(--background-gradient-1);
 }
 
-.app__link.with-github:hover img {
-  opacity: 0;
-}
-
-.app__link.with-github:hover::after {
-  opacity: 1;
+.link-button.with-github:hover img {
+  filter: brightness(0) saturate(100%) invert(7%) sepia(12%) saturate(1311%) hue-rotate(177deg)
+    brightness(96%) contrast(97%);
 }

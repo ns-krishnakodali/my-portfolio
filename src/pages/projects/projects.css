@@ -21,7 +21,10 @@
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   border-radius: 12px;
+  border: 1px solid var(--color-border-1);
+  background: var(--color-card);
   box-shadow: var(--box-shadow-2);
+  backdrop-filter: blur(12px);
 }
 
 .project__filter-button {
@@ -48,13 +51,14 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: var(--color-primary);
+  background: var(--background-gradient-1);
   transform: translateX(-50%);
   transition: width 0.3s ease;
 }
 
 .project__filter-button:not(.project__filter-button--active):hover {
   color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .project__filter-button:not(.project__filter-button--active):hover::before {
@@ -63,8 +67,8 @@
 
 .project__filter-button--active {
   color: var(--color-primary);
-  background-color: var(--color-2-light);
-  box-shadow: inset 0 0 0 1px var(--color-2-light);
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.2), rgba(245, 158, 11, 0.14));
+  box-shadow: inset 0 0 0 1px var(--color-border-2);
 }
 
 .project__filter-button--active::before {
@@ -82,7 +86,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem 0 1rem;
   width: 90%;
 }
@@ -90,18 +94,36 @@
 .project__card-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: flex-start;
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
-  width: 22.5rem;
-  height: 13rem;
+  width: 24rem;
+  min-height: 14.5rem;
+  height: auto;
   background-color: var(--color-background-project-card);
+  border: 1px solid var(--color-border-1);
+  box-shadow: var(--box-shadow-2);
+  backdrop-filter: blur(12px);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
   animation: slide-up 0.65s ease-out forwards;
 }
 
+.project__card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  min-height: 0;
+}
+
 .project__card-container:hover {
-  box-shadow: var(--box-shadow-1);
+  border-color: var(--color-border-2);
+  box-shadow: var(--box-shadow-glow);
+  transform: translateY(-6px);
 }
 
 .project__card-title-container {
@@ -109,16 +131,24 @@
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  width: 90%;
+  width: 100%;
+  min-height: 3.25rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.75rem;
   border-bottom: 1px solid var(--color-border-1);
+}
+
+.project__card-title-container img {
+  filter: var(--color-icon-filter);
+  flex: 0 0 auto;
 }
 
 .project__card-title {
   font: var(--font-style-heading-2);
   color: var(--color-primary);
   margin: 0;
+  line-height: 1.35;
+  text-align: center;
 }
 
 .project__card-description {
@@ -126,6 +156,7 @@
   color: var(--color-text);
   font: var(--font-style-2);
   margin: 0 0 1rem;
+  line-height: 1.6;
 }
 
 .project__logos-container {
@@ -134,14 +165,26 @@
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .project__card-footer {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.project__card-link {
+  width: 100%;
+  max-width: 100%;
+  min-height: 2.75rem;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0.625rem 1rem;
+  box-shadow: none;
 }
 
 .project__right-arrow {
@@ -169,6 +212,7 @@
     width: 80%;
     gap: 0.5rem;
     padding: 0.75rem;
+    flex-wrap: wrap;
   }
 
   .project__filter-button {
@@ -180,11 +224,25 @@
 
   .project__card-container {
     width: 85%;
+    min-height: 14rem;
+    height: auto;
     padding: 1.5rem 1rem;
   }
 
   .project__card-description {
+    text-align: center;
     margin-bottom: 1rem;
+  }
+
+  .project__card-title-container,
+  .project__logos-container,
+  .project__card-footer {
+    justify-content: center;
+  }
+
+  .project__card-link {
+    width: auto;
+    min-width: 9.5rem;
   }
 }
 

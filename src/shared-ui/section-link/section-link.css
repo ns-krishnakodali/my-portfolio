@@ -5,16 +5,32 @@
   font: var(--font-style-1);
   color: var(--color-2);
   text-decoration: none;
+  position: relative;
+  gap: 0.25rem;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 
 .section-link:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
+  transform: translateY(-1px);
 }
 
 .section-link:visited {
   color: var(--color-2);
 }
 
+.section-link:visited:hover {
+  color: var(--color-accent);
+}
+
 .section-link__right-arrow-icon {
-  margin-left: 0.25rem;
+  margin-left: 0;
+  filter: var(--color-icon-filter);
+  transition: transform 0.25s ease;
+}
+
+.section-link:hover .section-link__right-arrow-icon {
+  transform: translateX(4px);
 }

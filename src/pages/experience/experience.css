@@ -28,20 +28,25 @@
 .experience__card-container {
   display: flex;
   align-items: center;
+  gap: 0.25rem;
   margin-top: 2rem;
   padding: 1.5rem 1.5rem 1.5rem 0;
   border: 1px solid var(--color-border-1);
   border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: var(--color-card);
+  box-shadow: var(--box-shadow-2);
+  backdrop-filter: blur(12px);
   transition:
-    transform 0.2s ease-in-out,
-    box-shadow 0.2s ease-in-out;
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
   animation: slide-left 0.5s ease-out forwards;
 }
 
 .experience__card-container:hover {
-  box-shadow: var(--box-shadow-1);
-  transform: translateY(-12px);
+  border-color: var(--color-border-2);
+  box-shadow: var(--box-shadow-glow);
+  transform: translateY(-8px);
 }
 
 .experience__card-image {
@@ -56,16 +61,28 @@
   display: flex;
   justify-content: start;
   gap: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.experience__card-image a:hover {
+  background: var(--color-background-1);
+  transform: translateY(-2px);
 }
 
 .website-redirect {
   width: 0.625rem;
   height: 0.625rem;
   cursor: pointer;
+  filter: var(--color-icon-filter);
 }
 
 .experience__card-details {
-  width: 66vw;
+  width: 67vw;
 }
 
 .experience__card-headings {
@@ -89,6 +106,10 @@
   gap: 0.25rem;
 }
 
+.experience__card-icon img {
+  filter: var(--color-icon-filter);
+}
+
 .experience__card-title {
   display: flex;
   align-items: center;
@@ -109,7 +130,7 @@
   padding: 0.25rem 0.5rem;
   border-radius: 9999px;
   font: var(--font-style-3);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.22);
   white-space: nowrap;
 }
 
@@ -136,7 +157,7 @@
   color: var(--color-text);
   font: var(--font-style-2);
   font-weight: 600;
-  letter-spacing: 0.15px;
+  line-height: 1.7;
 }
 
 .experience__card-summary {
@@ -145,6 +166,7 @@
   margin: 0 0 0.75rem;
   border-bottom: 1px solid var(--color-border-1);
   border-top: 1px solid var(--color-border-1);
+  line-height: 1.7;
 }
 
 .experience__card-techologies {
@@ -159,9 +181,21 @@
   display: flex;
   width: fit-content;
   background-color: var(--color-2-light);
+  color: var(--color-text);
+  border: 1px solid rgba(45, 212, 191, 0.18);
   font-weight: 600;
   padding: 0.375rem 0.5rem;
   border-radius: 6px;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.experience__card-skill-box:hover {
+  background: rgba(245, 158, 11, 0.14);
+  border-color: rgba(245, 158, 11, 0.42);
+  transform: translateY(-2px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -173,7 +207,8 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem 0;
-    padding-bottom: 0.5rem;
+    padding: 1rem 0.5rem 0.5rem;
+    width: 88vw;
   }
 
   .experience__card-image {
@@ -198,7 +233,9 @@
   }
 
   .experience__card-title {
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .title {
@@ -208,6 +245,9 @@
   .experience__card-geotime {
     flex-direction: row;
     width: 100%;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex-wrap: wrap;
   }
 
   .experience__geotime-point {
@@ -229,7 +269,7 @@
   }
 
   .experience__card-details {
-    width: 45vw;
+    width: 48vw;
   }
 }
 

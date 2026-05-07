@@ -12,7 +12,8 @@ export const SkillsOverview = ({ imageSrc, imageAlt, techDomain, skillDetails, t
           <div className="skills-overview__description-container">
             {skillDetails.map((detail, index) => (
               <p key={index} className="skills-overview__description">
-                🔹 {detail}
+                <span className="detail-bullet" aria-hidden="true" />
+                {detail}
               </p>
             ))}
           </div>

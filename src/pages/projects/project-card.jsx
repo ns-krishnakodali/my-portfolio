@@ -3,24 +3,33 @@ import { ButtonLink, TechnologyIcon } from '../../shared-ui';
 export const ProjectCard = ({ details }) => {
   return (
     <div className="project__card-container no-break">
-      <div className="project__card-title-container">
-        <img
-          src="assets/icons/folder-icon.svg"
-          alt="Project Icon"
-          width={20}
-          height={20}
-          loading="eager"
-          fetchPriority="high"
+      <div className="project__card-body">
+        <div className="project__card-title-container">
+          <img
+            src="assets/icons/folder-icon.svg"
+            alt="Project Icon"
+            width={20}
+            height={20}
+            loading="eager"
+            fetchPriority="high"
+          />
+          <h3 className="project__card-title">{details.title}</h3>
+        </div>
+        <p className="project__card-description">{details.description}</p>
+        <div className="project__logos-container">
+          {details.techstack.map((technology, index) => (
+            <TechnologyIcon key={index} technology={technology} />
+          ))}
+        </div>
+      </div>
+      <div className="project__card-footer">
+        <ButtonLink
+          id="project-link"
+          link={details.githubLink}
+          text="View Project"
+          className="project__card-link"
         />
-        <h3 className="project__card-title">{details.title}</h3>
       </div>
-      <p className="project__card-description">{details.description}</p>
-      <div className="project__logos-container">
-        {details.techstack.map((technology, index) => (
-          <TechnologyIcon key={index} technology={technology} />
-        ))}
-      </div>
-      <ButtonLink id="project-link" link={details.githubLink} text="View Project" />
     </div>
   );
 };

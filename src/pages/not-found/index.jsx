@@ -14,10 +14,12 @@ export const NotFound = () => {
       <p className="not-found__text">{NOT_FOUND_PAGE_INFO}</p>
       <ul className="not-found__links">
         <li>
-          🔹 Go back to <Link to="/">Home</Link>
+          <span className="detail-bullet" aria-hidden="true" />
+          Go back to <Link to="/">Home</Link>
         </li>
         <li>
-          🔹 Get in touch <Link to="/contact-me">Contact Me</Link>
+          <span className="detail-bullet" aria-hidden="true" />
+          Get in touch <Link to="/contact-me">Contact Me</Link>
         </li>
       </ul>
     </div>

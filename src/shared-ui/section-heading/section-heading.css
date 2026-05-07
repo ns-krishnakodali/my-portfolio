@@ -3,7 +3,18 @@
   font: var(--font-style-heading);
   text-align: center;
   margin: 0;
-  letter-spacing: 0.75px;
+  letter-spacing: 0;
+  text-shadow: var(--text-shadow);
+}
+
+.section__heading::after {
+  content: '';
+  display: block;
+  width: 8rem;
+  height: 3px;
+  margin: 0.55rem auto 0;
+  border-radius: 999px;
+  background: var(--background-gradient-1);
 }
 
 @media screen and (max-width: 1024px) {

@@ -53,7 +53,8 @@ export const DegreeCard = ({ details }) => {
           </div>
           {details.dPoints?.map((detail, index) => (
             <p key={index} className="degree-detail">
-              🔹 {detail}
+              <span className="detail-bullet" aria-hidden="true" />
+              {detail}
             </p>
           ))}
         </div>
