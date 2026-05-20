@@ -1,7 +1,7 @@
 export const PROJECTS_REPO_LINK = 'https://github.com/ns-krishnakodali?tab=repositories';
 
 export const MY_PROJECT_DESCRIPTION =
-  'My projects are where I experiment with new ideas, break down how software works, and build useful tools for real-world problems. I focus on software engineering, machine learning, and personal finance, especially when it comes to building Agentic AI that can handle complex tasks on its own.I also like to explore how languages like Java, Python, C++, and Javascript work under the hood to see how they manage resources at a basic level. I use cloud and DevOps practices to make sure my work is scalable and reliable.';
+  'My projects are where I experiment with new ideas, break down how software works, and build useful tools for real-world problems. I focus on software engineering, machine learning, and personal finance, especially when it comes to building Agentic AI that can handle complex tasks on its own. I also like to explore how languages like Java, Python, C++, and Javascript work under the hood to see how they manage resources at a basic level. I use cloud and DevOps practices to make sure my work is scalable and reliable.';
 
 export const PROJECT_CATEGORIES = ['All', 'SE', 'AI / ML', 'Finance'];
 

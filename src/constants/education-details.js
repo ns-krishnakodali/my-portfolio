@@ -1,5 +1,5 @@
 export const EDUCATION_SUMMARY =
-  "My academic background is in Computer Science (CS), with a Master's degree in CS from the University of Florida and a Bachelor's degree in CSE from IIT Bhubaneswar. My coursework built a strong foundation in core CS areas, including Operating Systems, Databases, Algorithms, and Machine Learning. I have led and contributed to research, academic projects, and open-source initiatives, with a focus on building well-structured and practical software systems.";
+  "My academic journey has been shaped by a strong foundation in Computer Science (CS), with a Master's degree in CS from the University of Florida and a Bachelor's degree in Computer Science and Engineering from IIT Bhubaneswar. This background strengthened the way I think about software, from systems and algorithms to data management, machine learning, and practical problem-solving. Beyond academics, I have put these ideas into practice through research, projects, and open-source work, with a focus on building systems that are practical, well-structured, and guided by clear engineering judgment.";
 
 export const DEGREES_DETAILS = [
   {

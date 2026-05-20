@@ -1,5 +1,5 @@
 export const ABOUT_MYSELF =
-  "I am a results-driven Software Engineer focused on building reliable, scalable systems that create real-world impact. I bring a strong problem-solving mindset and a practical approach to delivering high-quality, production-ready solutions. I also have a soft spot for mathematics. For me, it's where logic, elegance, and problem-solving converge. My work is grounded in solid hands-on Professional <Experience>, complemented by a strong <Education> background in Computer Science and Applied Machine Learning. I specialize in the intersection of software engineering and AI/ML, building intelligent systems that are both efficient and reliable. My <Projects> reflect this mindset, combining core engineering principles with intelligent systems to solve practical, real-world challenges.";
+  'I build software at the point where systems, data, and AI meet. My work is grounded in strong Computer Science fundamentals, hands-on Professional <Experience>, and a solid <Education> background. I enjoy problems that require depth, judgment, and clear execution, whether that means designing reliable backend systems, building intelligent workflows, improving performance, or turning unclear ideas into practical products. Mathematics has always been close to how I think, and my <Math> section is where I share what I am learning, revisiting, and connecting back to software, AI, and problem-solving. Across my <Projects>, I focus on building things that are clean, scalable, and useful, with the goal of creating software that holds up beyond the first version.';
 
 export const SKILLS_OVERVIEW = [
   {
@@ -31,7 +31,7 @@ export const SKILLS_OVERVIEW = [
     techDomain: 'Machine Learning & AI',
     skillDetails: [
       'Design multi-agent orchestration systems to automate workflows efficiently',
-      'Implement RAG and vector memory systems to enhance agent context and reliability',
+      'Develop RAG and vector memory systems to enhance agent context and reliability',
       'Build systems to handle high-concurrency agentic operations and real-time inference',
     ],
     technologies: [

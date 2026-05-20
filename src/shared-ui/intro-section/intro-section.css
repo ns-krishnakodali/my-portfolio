@@ -14,7 +14,6 @@
 }
 
 .intro-section__image-container img {
-  filter: drop-shadow(0 24px 52px rgba(0, 0, 0, 0.34));
   transition:
     transform 0.3s ease,
     filter 0.3s ease;

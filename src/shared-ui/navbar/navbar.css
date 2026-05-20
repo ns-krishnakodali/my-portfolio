@@ -128,10 +128,10 @@
     inset: 0;
     z-index: -1;
     background-image:
-      linear-gradient(rgba(255, 255, 255, 0.026) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.026) 1px, transparent 1px);
-    background-size: 44px 44px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.72), transparent 80%);
+      linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.58), transparent 86%);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.28s ease;
@@ -169,7 +169,7 @@
     left: 0;
     width: 95vw;
     height: calc(100vh + 1.5rem);
-    background: rgba(11, 15, 20, 0.82);
+    background: linear-gradient(180deg, rgba(16, 22, 31, 0.94), rgba(13, 18, 24, 0.9));
     border-right: 1px solid var(--color-border-1);
     z-index: 2000;
     flex-direction: column;

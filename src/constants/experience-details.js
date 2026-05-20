@@ -7,7 +7,7 @@ export const EXPERIENCE_DETAILS = [
     imageAlt: 'Hartree Partners Logo',
     imageWidth: 90,
     imageHeight: 30,
-    title: 'Software Engineer, AI Platform',
+    title: 'Software Engineer Intern',
     company: 'Hartree Partners',
     companyURL: 'https://www.hartreepartners.com/',
     summary:
